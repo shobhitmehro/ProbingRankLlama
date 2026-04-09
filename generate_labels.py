@@ -165,7 +165,7 @@ def compute_metrics(query_set):
                 # "combo11":(a+b+d)*(a+b+d),
                 # "combo12":(a+b+d)*(a+b+d)*(a+b+d)
                 "tfidf_cosine_scores": np.array(tfidf_cosine_scores[i]),
-                "manhattan_scores": np.array(manhattan_scores[i]),
+                #"manhattan_scores": np.array(manhattan_scores[i]),
                 "kl_divergence_scores": np.array(kl_divergence_scores[i]),
                 "js_divergence_scores": np.array(js_divergence_scores[i]),
                 # "BERT_cosine_scores": np.array(embedding_cosine_scores[i]),
