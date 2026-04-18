@@ -1,126 +1,158 @@
-import numpy as np
 import os
-import torch
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import mean_squared_error, r2_score
-from sklearn.linear_model import Ridge, ElasticNet
-from sklearn.preprocessing import StandardScaler
-from sklearn.decomposition import PCA
-
+import json
+import numpy as np
+import matplotlib.pyplot as plt
 from generate_labels import compute_metrics
 from sequences import load_ms_marco_data
+from context_neurons_utils import (
+    build_labels_matrix,
+    evaluate_model,
+    get_feature_names,
+    get_models,
+    load_cache,
+    load_layer_activations,
+    plot_all_features_for_model,
+    plot_average_model_comparison,
+    save_cache,
+    split_and_scale,
+)
 
 
 n_queries = 98
 n_docs = 50
 n_layers = 32
 n_dim = 4096
+cache_path = 'new_plots/r2_cache.json'
+excluded_features = {
+    'min_of_term_frequency',
+    'min_of_stream_length_normalized_tf',
+    'min_of_tf_idf',
+}
 
-USE_PCA = False
-PCA_COMPONENTS = 256
+os.makedirs('new_plots', exist_ok=True)
 
-NORMALIZE_LABELS = False
-
+r2_cache = load_cache(cache_path)
 
 query_set = load_ms_marco_data(n_queries, n_docs)
 feature_set = compute_metrics(query_set)
+feature_names = get_feature_names(feature_set, excluded_features)
+models = get_models()
 
 context_neurons = []
+r2_scores_by_layer = {
+    layer: {model_name: {} for model_name in models}
+    for layer in range(n_layers)
+}
 
-for layer in range(n_layers - 1, n_layers):
+for layer in range(n_layers):
+    print(f"\n{'='*60}")
+    print(f"Processing Layer {layer}")
+    print(f"{'='*60}")
 
-    print(f"\nProcessing Layer {layer}")
+    activations = load_layer_activations(layer, n_queries, n_docs, n_dim)
+    labels_matrix = build_labels_matrix(feature_set, feature_names, n_queries, n_docs)
 
-    feature_names = list(next(iter(feature_set.values()))[0].keys())
+    print(f"  Loaded activations for layer {layer} ({activations.shape[0]} samples)")
 
-    for feature in feature_names:
+    X_train, X_test, train_idx, test_idx = split_and_scale(activations)
 
-        print(f"\nFeature: {feature}")
+    if False:
+        y_train_mean = labels_matrix[train_idx].mean(axis=0)
+        y_train_std = labels_matrix[train_idx].std(axis=0) + 1e-8
+        labels_matrix[train_idx] = (labels_matrix[train_idx] - y_train_mean) / y_train_std
+        labels_matrix[test_idx] = (labels_matrix[test_idx] - y_train_mean) / y_train_std
 
-        
-        activations = np.zeros((n_queries * n_docs, n_dim), dtype=float)
-        labels = np.zeros(n_queries * n_docs, dtype=float)
+    layer_str = str(layer)
+    layer_cache = r2_cache.get(layer_str, {})
 
-        for i in range(n_queries):
-            for j in range(n_docs):
-                idx = i * n_docs + j
-                path = f'91activations/q{i}/d{j}layer_{layer}_activations.pt'
+    # initialize cached scores so the plot data is complete even if we skip some models
+    for feature_index, feature in enumerate(feature_names):
+        cached_values = layer_cache.get(feature, {})
+        for model_name, r2_value in cached_values.items():
+            r2_scores_by_layer[layer][model_name][feature] = r2_value
 
-                if os.path.exists(path):
-                    act = torch.load(path).cpu().numpy()
-                    activations[idx] = act
-                else:
-                    print(f"Missing: {path}")
-                    continue
+    for model_name, model in models.items():
+        feature_cache_missing = [
+            feature
+            for feature in feature_names
+            if model_name not in layer_cache.get(feature, {})
+        ]
 
-       
-        for i, query in enumerate(query_set):
-            metrics = feature_set[query]
-            for j in range(n_docs):
-                labels[i * n_docs + j] = metrics[j][feature]
+        if not feature_cache_missing:
+            print(f"\n  Model: {model_name} (all cached)")
+            continue
 
-        X_train, X_test, y_train, y_test = train_test_split(
-            activations, labels, test_size=0.25, random_state=42
-        )
+        print(f"\n  Model: {model_name} (training on {len(feature_cache_missing)} features)")
+        for feature_index, feature in enumerate(feature_names):
+            if feature not in feature_cache_missing:
+                continue
 
-       
-        scaler = StandardScaler()
-        X_train = scaler.fit_transform(X_train)
-        X_test = scaler.transform(X_test)
+            print(f"    Feature: {feature}")
+            y_train = labels_matrix[train_idx, feature_index]
+            y_test = labels_matrix[test_idx, feature_index]
 
-       
-        if USE_PCA:
-            pca = PCA(n_components=PCA_COMPONENTS)
-            X_train = pca.fit_transform(X_train)
-            X_test = pca.transform(X_test)
+            stats = evaluate_model(X_train, X_test, y_train, y_test, model)
+            print(f"      {model_name.capitalize()} R²: {stats['r2']:.4f}")
+            r2_scores_by_layer[layer][model_name][feature] = stats['r2']
+            if stats['r2'] > -10:
+                context_neurons.append({
+                    'model': model_name,
+                    'layer': layer,
+                    'feature': feature,
+                    'score': stats['r2'],
+                    'mse': stats['mse'],
+                    'weights': stats['coef'],
+                })
 
-        
-        if NORMALIZE_LABELS:
-            y_mean = y_train.mean()
-            y_std = y_train.std() + 1e-8
-            y_train = (y_train - y_mean) / y_std
-            y_test = (y_test - y_mean) / y_std
+            if feature not in layer_cache:
+                layer_cache[feature] = {}
+            layer_cache[feature][model_name] = stats['r2']
+            r2_cache[layer_str] = layer_cache
+            save_cache(r2_cache, cache_path)
 
-        # =============================
-        # 🔹 RIDGE REGRESSION
-        # =============================
-        ridge = Ridge(alpha=10.0)
-        ridge.fit(X_train, y_train)
+print(f"\n{'='*60}")
+print(f"Total context neurons found: {len(context_neurons)}")
+print(f"{'='*60}")
 
-        y_pred = ridge.predict(X_test)
-        mse = mean_squared_error(y_test, y_pred)
-        r2 = r2_score(y_test, y_pred)
+print(f"\nGenerating plots...")
 
-        print("Ridge R2:", r2)
+layers = list(range(n_layers))
 
-        if r2 > -10:
-            context_neurons.append({
-                "model": "ridge",
-                "layer": layer,
-                "feature": feature,
-                "score": r2,
-                "mse": mse,
-                "weights": ridge.coef_
-            })
+plot_all_features_for_model(
+    r2_scores_by_layer,
+    feature_names,
+    layers,
+    'ridge',
+    'new_plots/all_features_ridge.png',
+)
+print('    Saved: new_plots/all_features_ridge.png')
 
-       
-        elastic = ElasticNet(alpha=0.01, l1_ratio=0.5, max_iter=10000)
-        elastic.fit(X_train, y_train)
+plot_all_features_for_model(
+    r2_scores_by_layer,
+    feature_names,
+    layers,
+    'elasticnet',
+    'new_plots/all_features_elasticnet.png',
+)
+print('    Saved: new_plots/all_features_elasticnet.png')
 
-        y_pred = elastic.predict(X_test)
-        mse = mean_squared_error(y_test, y_pred)
-        r2 = r2_score(y_test, y_pred)
+plot_all_features_for_model(
+    r2_scores_by_layer,
+    feature_names,
+    layers,
+    'randomforest',
+    'new_plots/all_features_randomforest.png',
+)
+print('    Saved: new_plots/all_features_randomforest.png')
 
-        print("ElasticNet R2:", r2)
+plot_average_model_comparison(
+    r2_scores_by_layer,
+    feature_names,
+    layers,
+    'new_plots/average_model_comparison.png',
+)
+print('    Saved: new_plots/average_model_comparison.png')
 
-        if r2 > -10:
-            context_neurons.append({
-                "model": "elastic",
-                "layer": layer,
-                "feature": feature,
-                "score": r2,
-                "mse": mse,
-                "weights": elastic.coef_
-            })
-
-print(f"\nTotal context neurons found: {len(context_neurons)}")
+print(f"\n{'='*60}")
+print(f"All plots saved to 'new_plots' folder!")
+print(f"{'='*60}\n")

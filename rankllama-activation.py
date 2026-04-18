@@ -8,7 +8,6 @@ from tqdm import tqdm
 
 
 
-# Update following parameters as per model requirements
 
 n_layers = 32
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu") 

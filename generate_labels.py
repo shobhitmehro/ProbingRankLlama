@@ -129,50 +129,33 @@ def compute_metrics(query_set):
         # Compute metrics for each document
         doc_metrics = []
         for i, doc in enumerate(documents):
-            # a = covered_query_term_ratio
-            # b = np.mean(norm_tf[i])
-            # c = np.sum(tf_query > 0) #covered query term number
-            # d= np.var(doc_tfidf[i])
+            a = covered_query_term_ratio
+            b = np.mean(norm_tf[i])
+            c = np.sum(tf_query > 0)  # covered query term number
+            d = np.var(doc_tfidf[i])
             metrics = {
-                # "covered query term number": np.sum(tf_query > 0),
-                # "covered query term ratio": covered_query_term_ratio,
-                # "stream length": doc_lengths[i],
-                # "sum of term frequency": np.sum(tf_docs[i]),
-                # "min of term frequency": np.min(tf_docs[i]),
-                # "max of term frequency": np.max(tf_docs[i]),
-                # "mean of term frequency": np.mean(tf_docs[i]),
-                # "variance of term frequency": np.var(tf_docs[i]),
-                # "sum of stream length normalized term frequency": np.sum(norm_tf[i]),
-                # "min of stream length normalized term frequency": np.min(norm_tf[i]),
-                # "max of stream length normalized term frequency": np.max(norm_tf[i]),
-                # "mean of stream length normalized term frequency": np.mean(norm_tf[i]),
-                # "variance of stream length normalized term frequency": np.var(norm_tf[i]),
-                # "sum of tf*idf": np.sum(doc_tfidf[i]),
-                # "min of tf*idf": np.min(doc_tfidf[i]),
-                # "max of tf*idf": np.max(doc_tfidf[i]),
-                # "mean of tf*idf": np.mean(doc_tfidf[i]),
-                # "variance of tf*idf": np.var(doc_tfidf[i])
-                # "combo1":a+b, 
-                # "combo2":(a+b)*(a+b), 
-                # "combo3":(a+b)*(a+b)*(a+b), 
-                # "combo4":(d+a),
-                # "combo5":(a+d)*(a+d),
-                # "combo6":(a+d)*(a+d)*(a+d),
-                # "combo7":a+b+c,
-                # "combo8":b+c+d,
-                # "combo9":a+c+d,
-                # "combo10":(a+b+d),
-                # "combo11":(a+b+d)*(a+b+d),
-                # "combo12":(a+b+d)*(a+b+d)*(a+b+d)
+                "covered_query_term_number": np.sum(tf_query > 0),
+                "covered_query_term_ratio": covered_query_term_ratio,
+                "stream_length": doc_lengths[i],
+                "sum_of_term_frequency": np.sum(tf_docs[i]),
+                "min_of_term_frequency": np.min(tf_docs[i]),
+                "max_of_term_frequency": np.max(tf_docs[i]),
+                "mean_of_term_frequency": np.mean(tf_docs[i]),
+                "variance_of_term_frequency": np.var(tf_docs[i]),
+                "sum_of_stream_length_normalized_tf": np.sum(norm_tf[i]),
+                "min_of_stream_length_normalized_tf": np.min(norm_tf[i]),
+                "max_of_stream_length_normalized_tf": np.max(norm_tf[i]),
+                "mean_of_stream_length_normalized_tf": np.mean(norm_tf[i]),
+                "variance_of_stream_length_normalized_tf": np.var(norm_tf[i]),
+                "sum_of_tf_idf": np.sum(doc_tfidf[i]),
+                "min_of_tf_idf": np.min(doc_tfidf[i]),
+                "max_of_tf_idf": np.max(doc_tfidf[i]),
+                "mean_of_tf_idf": np.mean(doc_tfidf[i]),
+                "variance_of_tf_idf": np.var(doc_tfidf[i]),
                 "tfidf_cosine_scores": np.array(tfidf_cosine_scores[i]),
-                #"manhattan_scores": np.array(manhattan_scores[i]),
                 "kl_divergence_scores": np.array(kl_divergence_scores[i]),
                 "js_divergence_scores": np.array(js_divergence_scores[i]),
-                # "BERT_cosine_scores": np.array(embedding_cosine_scores[i]),
-                # "t5_cosine_scores": np.array(t5_cosine_scores[i])
-
             }
-            #print(metrics)
             doc_metrics.append(metrics)
         
         # Compute BM25

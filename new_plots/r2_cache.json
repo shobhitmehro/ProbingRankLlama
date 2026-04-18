@@ -1,0 +1,2618 @@
+{
+  "0": {
+    "covered_query_term_number": {
+      "ridge": 0.718199659390305,
+      "elasticnet": 0.8268580716026949,
+      "randomforest": 0.4819391372402295
+    },
+    "covered_query_term_ratio": {
+      "ridge": 0.7142421159069356,
+      "elasticnet": -0.0018210225098933552,
+      "randomforest": 0.5165701316589947
+    },
+    "stream_length": {
+      "ridge": 0.9373493913964026,
+      "elasticnet": 0.9563659553048527,
+      "randomforest": 0.9060904571050755
+    },
+    "sum_of_term_frequency": {
+      "ridge": 0.9373493913964026,
+      "elasticnet": 0.9563659553048527,
+      "randomforest": 0.9060904571050755
+    },
+    "max_of_term_frequency": {
+      "ridge": 0.5628129195609131,
+      "elasticnet": 0.774660279302481,
+      "randomforest": 0.7033255571225947
+    },
+    "mean_of_term_frequency": {
+      "ridge": 0.859897479625123,
+      "elasticnet": 0.6705849836876334,
+      "randomforest": 0.8388406749821206
+    },
+    "variance_of_term_frequency": {
+      "ridge": 0.6557898768462681,
+      "elasticnet": 0.6486021567964644,
+      "randomforest": 0.762309622976207
+    },
+    "sum_of_stream_length_normalized_tf": {
+      "ridge": -2.0,
+      "elasticnet": 0.0,
+      "randomforest": 0.0
+    },
+    "max_of_stream_length_normalized_tf": {
+      "ridge": 0.10312407593622752,
+      "elasticnet": 0.26323008788837143,
+      "randomforest": 0.5084812012842145
+    },
+    "mean_of_stream_length_normalized_tf": {
+      "ridge": 0.7173833510387033,
+      "elasticnet": -0.001262549861270168,
+      "randomforest": 0.5309425860526663
+    },
+    "variance_of_stream_length_normalized_tf": {
+      "ridge": 0.40676964507118263,
+      "elasticnet": -9.300590046312784e-05,
+      "randomforest": 0.5373282322962609
+    },
+    "sum_of_tf_idf": {
+      "ridge": 0.12653314025588458,
+      "elasticnet": 0.6246722309239012,
+      "randomforest": 0.564597193486947
+    },
+    "max_of_tf_idf": {
+      "ridge": -1.031518805723521,
+      "elasticnet": 0.12511340956980221,
+      "randomforest": 0.17614801562490034
+    },
+    "mean_of_tf_idf": {
+      "ridge": 0.3111931263676406,
+      "elasticnet": -0.00020546374258678668,
+      "randomforest": 0.5189975482545638
+    },
+    "variance_of_tf_idf": {
+      "ridge": 0.7279790299326525,
+      "elasticnet": -0.001341608280618578,
+      "randomforest": 0.5212498331698934
+    },
+    "tfidf_cosine_scores": {
+      "ridge": -0.39461418649699986,
+      "elasticnet": 0.11360954547192292,
+      "randomforest": 0.2420696597644847
+    },
+    "kl_divergence_scores": {
+      "ridge": -0.197937794748144,
+      "elasticnet": 0.38992911227975036,
+      "randomforest": 0.23818180539378242
+    },
+    "js_divergence_scores": {
+      "ridge": 0.01870594346777832,
+      "elasticnet": 0.21663822217339868,
+      "randomforest": 0.36495664641036496
+    },
+    "BM25": {
+      "ridge": -0.2074985537045968,
+      "elasticnet": 0.4547603852686537,
+      "randomforest": 0.24925192379000438
+    }
+  },
+  "1": {
+    "covered_query_term_number": {
+      "ridge": 0.6947641783056758,
+      "elasticnet": 0.8277554340740838,
+      "randomforest": 0.45405839851605134
+    },
+    "covered_query_term_ratio": {
+      "ridge": 0.7081565489883408,
+      "elasticnet": -0.0018210225098933552,
+      "randomforest": 0.5022164179598161
+    },
+    "stream_length": {
+      "ridge": 0.7974580619441407,
+      "elasticnet": 0.8651715024671605,
+      "randomforest": 0.9152388845123866
+    },
+    "sum_of_term_frequency": {
+      "ridge": 0.7974580619441407,
+      "elasticnet": 0.8651715024671605,
+      "randomforest": 0.9152388845123866
+    },
+    "max_of_term_frequency": {
+      "ridge": 0.4341970242289612,
+      "elasticnet": 0.742579049063318,
+      "randomforest": 0.6946575231728673
+    },
+    "mean_of_term_frequency": {
+      "ridge": 0.7285137298832711,
+      "elasticnet": 0.6474967707876707,
+      "randomforest": 0.8580266665956604
+    },
+    "variance_of_term_frequency": {
+      "ridge": 0.5852941758134764,
+      "elasticnet": 0.6475641120883465,
+      "randomforest": 0.8133848453102478
+    },
+    "sum_of_stream_length_normalized_tf": {
+      "ridge": -1.8036363636363637,
+      "elasticnet": 0.0,
+      "randomforest": 0.0
+    },
+    "max_of_stream_length_normalized_tf": {
+      "ridge": 0.07124235917806165,
+      "elasticnet": 0.129080929611172,
+      "randomforest": 0.36570253268931086
+    },
+    "mean_of_stream_length_normalized_tf": {
+      "ridge": 0.6643762512462261,
+      "elasticnet": -0.001262549861270168,
+      "randomforest": 0.5266994632129198
+    },
+    "variance_of_stream_length_normalized_tf": {
+      "ridge": 0.6306143006744929,
+      "elasticnet": -9.300590046312784e-05,
+      "randomforest": 0.5220617581347292
+    },
+    "sum_of_tf_idf": {
+      "ridge": 0.6230358687497968,
+      "elasticnet": 0.8157304804630301,
+      "randomforest": 0.5924918155747103
+    },
+    "max_of_tf_idf": {
+      "ridge": -0.7348376958240039,
+      "elasticnet": 0.17276184757520097,
+      "randomforest": 0.19917760658065176
+    },
+    "mean_of_tf_idf": {
+      "ridge": 0.5080864091227018,
+      "elasticnet": -0.00020546374258678668,
+      "randomforest": 0.5226499934818657
+    },
+    "variance_of_tf_idf": {
+      "ridge": 0.6807304676117711,
+      "elasticnet": -0.001341608280618578,
+      "randomforest": 0.5097310975344351
+    },
+    "tfidf_cosine_scores": {
+      "ridge": -0.5536820229789663,
+      "elasticnet": 0.08305856508789822,
+      "randomforest": 0.20264447441127853
+    },
+    "kl_divergence_scores": {
+      "ridge": -0.20037836935383635,
+      "elasticnet": 0.3871538574736315,
+      "randomforest": 0.2618015781425149
+    },
+    "js_divergence_scores": {
+      "ridge": 0.05777078783305767,
+      "elasticnet": 0.2621926817427017,
+      "randomforest": 0.37751680587288405
+    },
+    "BM25": {
+      "ridge": -0.18865394938652424,
+      "elasticnet": 0.43009879415613406,
+      "randomforest": 0.25822649813008547
+    }
+  },
+  "2": {
+    "covered_query_term_number": {
+      "ridge": 0.49488718382238284,
+      "elasticnet": 0.8268034959757709,
+      "randomforest": 0.4978363580549535
+    },
+    "covered_query_term_ratio": {
+      "ridge": 0.5442588718983943,
+      "elasticnet": -0.0018210225098933552,
+      "randomforest": 0.5850639808291819
+    },
+    "stream_length": {
+      "ridge": 0.7469962211849484,
+      "elasticnet": 0.8610545006289976,
+      "randomforest": 0.9282422331977079
+    },
+    "sum_of_term_frequency": {
+      "ridge": 0.7469962211849484,
+      "elasticnet": 0.8610545006289976,
+      "randomforest": 0.9282422331977079
+    },
+    "max_of_term_frequency": {
+      "ridge": 0.2417881040778278,
+      "elasticnet": 0.7155660427250261,
+      "randomforest": 0.633555030930753
+    },
+    "mean_of_term_frequency": {
+      "ridge": 0.6259493761193915,
+      "elasticnet": 0.6071655572063488,
+      "randomforest": 0.8778349723099804
+    },
+    "variance_of_term_frequency": {
+      "ridge": 0.47038317045184574,
+      "elasticnet": 0.6676256661803379,
+      "randomforest": 0.77886674400795
+    },
+    "sum_of_stream_length_normalized_tf": {
+      "ridge": -3.203636363636364,
+      "elasticnet": 0.0,
+      "randomforest": 0.0
+    },
+    "max_of_stream_length_normalized_tf": {
+      "ridge": -0.2191550125782864,
+      "elasticnet": 0.16290528555874728,
+      "randomforest": 0.39815048758216043
+    },
+    "mean_of_stream_length_normalized_tf": {
+      "ridge": 0.63691094389552,
+      "elasticnet": -0.001262549861270168,
+      "randomforest": 0.6364389986490999
+    },
+    "variance_of_stream_length_normalized_tf": {
+      "ridge": 0.5442043949562928,
+      "elasticnet": -9.300590046312784e-05,
+      "randomforest": 0.5665559835675436
+    },
+    "sum_of_tf_idf": {
+      "ridge": 0.5375286258383403,
+      "elasticnet": 0.823425805717692,
+      "randomforest": 0.6321218013602155
+    },
+    "max_of_tf_idf": {
+      "ridge": -1.2621209363260575,
+      "elasticnet": 0.20091128079515097,
+      "randomforest": 0.21208118618252336
+    },
+    "mean_of_tf_idf": {
+      "ridge": 0.3891010036679544,
+      "elasticnet": -0.00020546374258678668,
+      "randomforest": 0.5557008402987318
+    },
+    "variance_of_tf_idf": {
+      "ridge": 0.665555849475101,
+      "elasticnet": -0.001341608280618578,
+      "randomforest": 0.6272653595975155
+    },
+    "tfidf_cosine_scores": {
+      "ridge": -1.0876780642490687,
+      "elasticnet": 0.15451853627112255,
+      "randomforest": 0.2511605794103019
+    },
+    "kl_divergence_scores": {
+      "ridge": -0.881420537545746,
+      "elasticnet": 0.29450810552281637,
+      "randomforest": 0.26492326575721903
+    },
+    "js_divergence_scores": {
+      "ridge": -0.38412683271043924,
+      "elasticnet": 0.2956167779292552,
+      "randomforest": 0.38157845051039596
+    },
+    "BM25": {
+      "ridge": -0.5526164158330216,
+      "elasticnet": 0.4564449785287251,
+      "randomforest": 0.30620321079073143
+    }
+  },
+  "3": {
+    "covered_query_term_number": {
+      "ridge": 0.6200301123942191,
+      "elasticnet": 0.8418344189382965,
+      "randomforest": 0.5704821478089668
+    },
+    "covered_query_term_ratio": {
+      "ridge": 0.6670124236429493,
+      "elasticnet": -0.0018210225098933552,
+      "randomforest": 0.616288544619539
+    },
+    "stream_length": {
+      "ridge": 0.8357755586053057,
+      "elasticnet": 0.9048873588334321,
+      "randomforest": 0.6613177181805452
+    },
+    "sum_of_term_frequency": {
+      "ridge": 0.8357755586053057,
+      "elasticnet": 0.9048873588334321,
+      "randomforest": 0.6613177181805452
+    },
+    "max_of_term_frequency": {
+      "ridge": 0.3851498609300247,
+      "elasticnet": 0.7515066661567864,
+      "randomforest": 0.5758368961477491
+    },
+    "mean_of_term_frequency": {
+      "ridge": 0.7324909166985398,
+      "elasticnet": 0.49978754092957567,
+      "randomforest": 0.6610806613423708
+    },
+    "variance_of_term_frequency": {
+      "ridge": 0.5931085101662282,
+      "elasticnet": 0.7470042052947523,
+      "randomforest": 0.6868395617709846
+    },
+    "sum_of_stream_length_normalized_tf": {
+      "ridge": -3.2218181818181817,
+      "elasticnet": 0.0,
+      "randomforest": 0.0
+    },
+    "max_of_stream_length_normalized_tf": {
+      "ridge": 0.04190240606101525,
+      "elasticnet": 0.19441276476340008,
+      "randomforest": 0.41309638850411523
+    },
+    "mean_of_stream_length_normalized_tf": {
+      "ridge": 0.7175072399506952,
+      "elasticnet": -0.001262549861270168,
+      "randomforest": 0.6427951849171589
+    },
+    "variance_of_stream_length_normalized_tf": {
+      "ridge": 0.6456517956009548,
+      "elasticnet": -9.300590046312784e-05,
+      "randomforest": 0.598422246510348
+    },
+    "sum_of_tf_idf": {
+      "ridge": 0.6470165748440434,
+      "elasticnet": 0.8472800004086932,
+      "randomforest": 0.5524309979271032
+    },
+    "max_of_tf_idf": {
+      "ridge": -1.0794937234631239,
+      "elasticnet": 0.2625830750596967,
+      "randomforest": 0.24839501102558315
+    },
+    "mean_of_tf_idf": {
+      "ridge": 0.5259214692125042,
+      "elasticnet": -0.00020546374258678668,
+      "randomforest": 0.5289447638826311
+    },
+    "variance_of_tf_idf": {
+      "ridge": 0.738489159964272,
+      "elasticnet": -0.001341608280618578,
+      "randomforest": 0.6544890419447569
+    },
+    "tfidf_cosine_scores": {
+      "ridge": -0.439266680554115,
+      "elasticnet": 0.21425749444103737,
+      "randomforest": 0.285219543925017
+    },
+    "kl_divergence_scores": {
+      "ridge": -0.444129541839557,
+      "elasticnet": 0.37891476781469213,
+      "randomforest": 0.2773889233914958
+    },
+    "js_divergence_scores": {
+      "ridge": 0.03302748200130101,
+      "elasticnet": 0.3576965214906991,
+      "randomforest": 0.4151265094614185
+    },
+    "BM25": {
+      "ridge": -0.2711347632382919,
+      "elasticnet": 0.528885880015548,
+      "randomforest": 0.3364470250036766
+    }
+  },
+  "4": {
+    "covered_query_term_number": {
+      "ridge": 0.6757416156352474,
+      "elasticnet": 0.8613684425204278,
+      "randomforest": 0.5669704884977719
+    },
+    "covered_query_term_ratio": {
+      "ridge": 0.7361076908168678,
+      "elasticnet": -0.0018210225098933552,
+      "randomforest": 0.6688119035322098
+    },
+    "stream_length": {
+      "ridge": 0.8099366954319727,
+      "elasticnet": 0.8890949022477107,
+      "randomforest": 0.9158525673105061
+    },
+    "sum_of_term_frequency": {
+      "ridge": 0.8099366954319727,
+      "elasticnet": 0.8890949022477107,
+      "randomforest": 0.9158525673105061
+    },
+    "max_of_term_frequency": {
+      "ridge": 0.3594520560192479,
+      "elasticnet": 0.7318693403250904,
+      "randomforest": 0.6222574111544099
+    },
+    "mean_of_term_frequency": {
+      "ridge": 0.7435711514184685,
+      "elasticnet": 0.663969377433993,
+      "randomforest": 0.8648247092393773
+    },
+    "variance_of_term_frequency": {
+      "ridge": 0.59112446027845,
+      "elasticnet": 0.7117681955031734,
+      "randomforest": 0.8134857855958104
+    },
+    "sum_of_stream_length_normalized_tf": {
+      "ridge": -2.7054545454545456,
+      "elasticnet": 0.0,
+      "randomforest": 0.0
+    },
+    "max_of_stream_length_normalized_tf": {
+      "ridge": -0.05915220180254699,
+      "elasticnet": 0.20253723399977686,
+      "randomforest": 0.3810846934196356
+    },
+    "mean_of_stream_length_normalized_tf": {
+      "ridge": 0.7770119064578855,
+      "elasticnet": -0.001262549861270168,
+      "randomforest": 0.6987064057539172
+    },
+    "variance_of_stream_length_normalized_tf": {
+      "ridge": 0.5906795205385884,
+      "elasticnet": -9.300590046312784e-05,
+      "randomforest": 0.5891820932835641
+    },
+    "sum_of_tf_idf": {
+      "ridge": 0.6697936562018942,
+      "elasticnet": 0.8495307248345036,
+      "randomforest": 0.674764646217787
+    },
+    "max_of_tf_idf": {
+      "ridge": -0.8610799880820945,
+      "elasticnet": 0.23296996931185432,
+      "randomforest": 0.23493352082654428
+    },
+    "mean_of_tf_idf": {
+      "ridge": 0.6217935007492253,
+      "elasticnet": -0.00020546374258678668,
+      "randomforest": 0.6197909766405543
+    },
+    "variance_of_tf_idf": {
+      "ridge": 0.7875661922750703,
+      "elasticnet": -0.001341608280618578,
+      "randomforest": 0.700829242162557
+    },
+    "tfidf_cosine_scores": {
+      "ridge": -0.4360472463215044,
+      "elasticnet": 0.2301606610077429,
+      "randomforest": 0.32491000103786705
+    },
+    "kl_divergence_scores": {
+      "ridge": -0.18267530792282116,
+      "elasticnet": 0.4657156073885481,
+      "randomforest": 0.2708930097675435
+    },
+    "js_divergence_scores": {
+      "ridge": 0.15787280491272604,
+      "elasticnet": 0.38100636987951875,
+      "randomforest": 0.4510161267593299
+    },
+    "BM25": {
+      "ridge": -0.22682010509717587,
+      "elasticnet": 0.5422418284292414,
+      "randomforest": 0.37759290679400825
+    }
+  },
+  "5": {
+    "covered_query_term_number": {
+      "ridge": 0.7593153449068064,
+      "elasticnet": 0.8701858514254646,
+      "randomforest": 0.5733783385322901
+    },
+    "covered_query_term_ratio": {
+      "ridge": 0.7895110948308082,
+      "elasticnet": -0.0018210225098933552,
+      "randomforest": 0.6689053208739291
+    },
+    "stream_length": {
+      "ridge": 0.8338587704006046,
+      "elasticnet": 0.8994036909134475,
+      "randomforest": 0.6827955581555187
+    },
+    "sum_of_term_frequency": {
+      "ridge": 0.8338587704006046,
+      "elasticnet": 0.8994036909134475,
+      "randomforest": 0.6827955581555187
+    },
+    "max_of_term_frequency": {
+      "ridge": 0.36889500225586713,
+      "elasticnet": 0.7282467333230245,
+      "randomforest": 0.5350412690307187
+    },
+    "mean_of_term_frequency": {
+      "ridge": 0.7700106539128351,
+      "elasticnet": 0.5523205977684033,
+      "randomforest": 0.710138853714846
+    },
+    "variance_of_term_frequency": {
+      "ridge": 0.6431618019426096,
+      "elasticnet": 0.7252709022200551,
+      "randomforest": 0.7022771001262225
+    },
+    "sum_of_stream_length_normalized_tf": {
+      "ridge": -2.709090909090909,
+      "elasticnet": 0.0,
+      "randomforest": 0.0
+    },
+    "max_of_stream_length_normalized_tf": {
+      "ridge": -0.008031058081190867,
+      "elasticnet": 0.136266417084544,
+      "randomforest": 0.39369986441254157
+    },
+    "mean_of_stream_length_normalized_tf": {
+      "ridge": 0.782337357940887,
+      "elasticnet": -0.001262549861270168,
+      "randomforest": 0.7093212674158784
+    },
+    "variance_of_stream_length_normalized_tf": {
+      "ridge": 0.598384528406276,
+      "elasticnet": -9.300590046312784e-05,
+      "randomforest": 0.5489447613617267
+    },
+    "sum_of_tf_idf": {
+      "ridge": 0.6098359301087392,
+      "elasticnet": 0.8272963976266747,
+      "randomforest": 0.5285600541507454
+    },
+    "max_of_tf_idf": {
+      "ridge": -0.9688149768039143,
+      "elasticnet": 0.2310852773074369,
+      "randomforest": 0.20417781044694772
+    },
+    "mean_of_tf_idf": {
+      "ridge": 0.5869402515657776,
+      "elasticnet": -0.00020546374258678668,
+      "randomforest": 0.5549146141203805
+    },
+    "variance_of_tf_idf": {
+      "ridge": 0.7894220350738228,
+      "elasticnet": -0.001341608280618578,
+      "randomforest": 0.7106219140772039
+    },
+    "tfidf_cosine_scores": {
+      "ridge": -0.3582421857420628,
+      "elasticnet": 0.19435432574205536,
+      "randomforest": 0.2869921140419811
+    },
+    "kl_divergence_scores": {
+      "ridge": -0.14574855780426588,
+      "elasticnet": 0.4736201937242299,
+      "randomforest": 0.2926913760997525
+    },
+    "js_divergence_scores": {
+      "ridge": 0.11466400264703414,
+      "elasticnet": 0.34085812044700936,
+      "randomforest": 0.4218181150051036
+    },
+    "BM25": {
+      "ridge": -0.08483788048946805,
+      "elasticnet": 0.5363072244288454,
+      "randomforest": 0.35188196600094246
+    }
+  },
+  "6": {
+    "covered_query_term_number": {
+      "ridge": 0.7710844061810056,
+      "elasticnet": 0.8771561074260075,
+      "randomforest": 0.5746067988553842
+    },
+    "covered_query_term_ratio": {
+      "ridge": 0.8050962491690317,
+      "elasticnet": -0.0018210225098933552,
+      "randomforest": 0.6710585504011565
+    },
+    "stream_length": {
+      "ridge": 0.8690102354860574,
+      "elasticnet": 0.9204971974381604,
+      "randomforest": 0.6424209507737098
+    },
+    "sum_of_term_frequency": {
+      "ridge": 0.8690102354860574,
+      "elasticnet": 0.9204971974381604,
+      "randomforest": 0.6424209507737098
+    },
+    "max_of_term_frequency": {
+      "ridge": 0.4028577550702922,
+      "elasticnet": 0.7487717040733903,
+      "randomforest": 0.5026231338314844
+    },
+    "mean_of_term_frequency": {
+      "ridge": 0.802548602251524,
+      "elasticnet": 0.4957251150831332,
+      "randomforest": 0.6327203228612506
+    },
+    "variance_of_term_frequency": {
+      "ridge": 0.6737571289756987,
+      "elasticnet": 0.7188848205590117
+    },
+    "sum_of_stream_length_normalized_tf": {
+      "ridge": -2.752727272727273,
+      "elasticnet": 0.0
+    },
+    "max_of_stream_length_normalized_tf": {
+      "ridge": 0.04077745223069984,
+      "elasticnet": 0.21134684670381199
+    },
+    "mean_of_stream_length_normalized_tf": {
+      "ridge": 0.8155359594482411,
+      "elasticnet": -0.001262549861270168
+    },
+    "variance_of_stream_length_normalized_tf": {
+      "ridge": 0.5802251054043002,
+      "elasticnet": -9.300590046312784e-05
+    },
+    "sum_of_tf_idf": {
+      "ridge": 0.682246846926163,
+      "elasticnet": 0.8433523051157631
+    },
+    "max_of_tf_idf": {
+      "ridge": -0.9252522563767438,
+      "elasticnet": 0.2601224075727767
+    },
+    "mean_of_tf_idf": {
+      "ridge": 0.6726300064217708,
+      "elasticnet": -0.00020546374258678668
+    },
+    "variance_of_tf_idf": {
+      "ridge": 0.8197830025961015,
+      "elasticnet": -0.001341608280618578
+    },
+    "tfidf_cosine_scores": {
+      "ridge": -0.3211240474668966,
+      "elasticnet": 0.22014446805654786
+    },
+    "kl_divergence_scores": {
+      "ridge": 0.0201517172411666,
+      "elasticnet": 0.545200323046083
+    },
+    "js_divergence_scores": {
+      "ridge": 0.20254344711450023,
+      "elasticnet": 0.38775032694220224
+    },
+    "BM25": {
+      "ridge": -0.10446879779202067,
+      "elasticnet": 0.5359732260095054
+    }
+  },
+  "7": {
+    "covered_query_term_number": {
+      "ridge": 0.7828395313133847,
+      "elasticnet": 0.8904626705391794
+    },
+    "covered_query_term_ratio": {
+      "ridge": 0.8178730855903118,
+      "elasticnet": -0.0018210225098933552
+    },
+    "stream_length": {
+      "ridge": 0.886193471976051,
+      "elasticnet": 0.9306429178181495
+    },
+    "sum_of_term_frequency": {
+      "ridge": 0.886193471976051,
+      "elasticnet": 0.9306429178181495
+    },
+    "max_of_term_frequency": {
+      "ridge": 0.3715466013497779,
+      "elasticnet": 0.7533872701473306
+    },
+    "mean_of_term_frequency": {
+      "ridge": 0.8311604682680915,
+      "elasticnet": 0.5675321948238452
+    },
+    "variance_of_term_frequency": {
+      "ridge": 0.6740668368001466,
+      "elasticnet": 0.7349735647300863
+    },
+    "sum_of_stream_length_normalized_tf": {
+      "ridge": -2.498181818181818,
+      "elasticnet": 0.0
+    },
+    "max_of_stream_length_normalized_tf": {
+      "ridge": -0.017043881839131858,
+      "elasticnet": 0.1879949100034204
+    },
+    "mean_of_stream_length_normalized_tf": {
+      "ridge": 0.822293698558033,
+      "elasticnet": -0.001262549861270168
+    },
+    "variance_of_stream_length_normalized_tf": {
+      "ridge": 0.6166767666904742,
+      "elasticnet": -9.300590046312784e-05
+    },
+    "sum_of_tf_idf": {
+      "ridge": 0.7227823856132808,
+      "elasticnet": 0.8591020793576748
+    },
+    "max_of_tf_idf": {
+      "ridge": -0.6366311636021442,
+      "elasticnet": 0.3133791865337352
+    },
+    "mean_of_tf_idf": {
+      "ridge": 0.7130828904663441,
+      "elasticnet": -0.00020546374258678668
+    },
+    "variance_of_tf_idf": {
+      "ridge": 0.8244524008842848,
+      "elasticnet": -0.001341608280618578
+    },
+    "tfidf_cosine_scores": {
+      "ridge": -0.27315655108325787,
+      "elasticnet": 0.2550082069351042
+    },
+    "kl_divergence_scores": {
+      "ridge": 0.05261341329630087,
+      "elasticnet": 0.5715112507360479
+    },
+    "js_divergence_scores": {
+      "ridge": 0.30419298335197553,
+      "elasticnet": 0.4459581140366645
+    },
+    "BM25": {
+      "ridge": -0.03203373049090663,
+      "elasticnet": 0.5415797968717787
+    }
+  },
+  "8": {
+    "covered_query_term_number": {
+      "ridge": 0.8341724474645732,
+      "elasticnet": 0.9044143924874105
+    },
+    "covered_query_term_ratio": {
+      "ridge": 0.8624228817253348,
+      "elasticnet": -0.0018210225098933552
+    },
+    "stream_length": {
+      "ridge": 0.8932915772555693,
+      "elasticnet": 0.9318890412708568
+    },
+    "sum_of_term_frequency": {
+      "ridge": 0.8932915772555693,
+      "elasticnet": 0.9318890412708568
+    },
+    "max_of_term_frequency": {
+      "ridge": 0.42240381173406516,
+      "elasticnet": 0.74499326238731
+    },
+    "mean_of_term_frequency": {
+      "ridge": 0.8358309580504314,
+      "elasticnet": 0.5776095815425359
+    },
+    "variance_of_term_frequency": {
+      "ridge": 0.7054443377953926,
+      "elasticnet": 0.7561156856111445
+    },
+    "sum_of_stream_length_normalized_tf": {
+      "ridge": -2.68,
+      "elasticnet": 0.0
+    },
+    "max_of_stream_length_normalized_tf": {
+      "ridge": -0.008703908535869331,
+      "elasticnet": 0.18411441665937922
+    },
+    "mean_of_stream_length_normalized_tf": {
+      "ridge": 0.8172173151527172,
+      "elasticnet": -0.001262549861270168
+    },
+    "variance_of_stream_length_normalized_tf": {
+      "ridge": 0.6000571270193941,
+      "elasticnet": -9.300590046312784e-05
+    },
+    "sum_of_tf_idf": {
+      "ridge": 0.7150860656271921,
+      "elasticnet": 0.8486572683689282
+    },
+    "max_of_tf_idf": {
+      "ridge": -0.6243053762965944,
+      "elasticnet": 0.3175839095158567
+    },
+    "mean_of_tf_idf": {
+      "ridge": 0.6715225820263901,
+      "elasticnet": -0.00020546374258678668
+    },
+    "variance_of_tf_idf": {
+      "ridge": 0.8252464033928797,
+      "elasticnet": -0.001341608280618578
+    },
+    "tfidf_cosine_scores": {
+      "ridge": -0.11044673492141643,
+      "elasticnet": 0.2695452986927036
+    },
+    "kl_divergence_scores": {
+      "ridge": 0.058745751325378626,
+      "elasticnet": 0.5899324762455822
+    },
+    "js_divergence_scores": {
+      "ridge": 0.3026116981386444,
+      "elasticnet": 0.4367045235371013
+    },
+    "BM25": {
+      "ridge": -0.11233587965184566,
+      "elasticnet": 0.5540731152131507
+    }
+  },
+  "9": {
+    "covered_query_term_number": {
+      "ridge": 0.8069704116280311,
+      "elasticnet": 0.897092329791709
+    },
+    "covered_query_term_ratio": {
+      "ridge": 0.8464579671289025,
+      "elasticnet": -0.0018210225098933552
+    },
+    "stream_length": {
+      "ridge": 0.9021373730689983,
+      "elasticnet": 0.9392528278335834
+    },
+    "sum_of_term_frequency": {
+      "ridge": 0.9021373730689983,
+      "elasticnet": 0.9392528278335834
+    },
+    "max_of_term_frequency": {
+      "ridge": 0.4077692193074576,
+      "elasticnet": 0.742271257099021
+    },
+    "mean_of_term_frequency": {
+      "ridge": 0.8438624292996029,
+      "elasticnet": 0.5877055115691682
+    },
+    "variance_of_term_frequency": {
+      "ridge": 0.7360443430795869,
+      "elasticnet": 0.7524847785782298
+    },
+    "sum_of_stream_length_normalized_tf": {
+      "ridge": -2.7418181818181817,
+      "elasticnet": 0.0
+    },
+    "max_of_stream_length_normalized_tf": {
+      "ridge": 0.00702182634584847,
+      "elasticnet": 0.1789612881165219
+    },
+    "mean_of_stream_length_normalized_tf": {
+      "ridge": 0.8223277768587214,
+      "elasticnet": -0.001262549861270168
+    },
+    "variance_of_stream_length_normalized_tf": {
+      "ridge": 0.6195048207788649,
+      "elasticnet": -9.300590046312784e-05
+    },
+    "sum_of_tf_idf": {
+      "ridge": 0.7047692933012193,
+      "elasticnet": 0.8480655189518184
+    },
+    "max_of_tf_idf": {
+      "ridge": -0.6420811657999732,
+      "elasticnet": 0.3142279414824042
+    },
+    "mean_of_tf_idf": {
+      "ridge": 0.6965707575693241,
+      "elasticnet": -0.00020546374258678668
+    },
+    "variance_of_tf_idf": {
+      "ridge": 0.8274066159231068,
+      "elasticnet": -0.001341608280618578
+    },
+    "tfidf_cosine_scores": {
+      "ridge": 0.10140353793966161,
+      "elasticnet": 0.2871707238150175
+    },
+    "kl_divergence_scores": {
+      "ridge": 0.09800852445839758,
+      "elasticnet": 0.6045029908103378
+    },
+    "js_divergence_scores": {
+      "ridge": 0.3912533479652236,
+      "elasticnet": 0.4434839178350152
+    },
+    "BM25": {
+      "ridge": 0.08621755890284022,
+      "elasticnet": 0.5943080285902553
+    }
+  },
+  "10": {
+    "covered_query_term_number": {
+      "ridge": 0.8080901081558635,
+      "elasticnet": 0.8939554558198901
+    },
+    "covered_query_term_ratio": {
+      "ridge": 0.8355220430189478,
+      "elasticnet": -0.0018210225098933552
+    },
+    "stream_length": {
+      "ridge": 0.8992658170311904,
+      "elasticnet": 0.9420240942579512
+    },
+    "sum_of_term_frequency": {
+      "ridge": 0.8992658170311904,
+      "elasticnet": 0.9420240942579512
+    },
+    "max_of_term_frequency": {
+      "ridge": 0.4068495700282707,
+      "elasticnet": 0.7417691014387016
+    },
+    "mean_of_term_frequency": {
+      "ridge": 0.8359637152768825,
+      "elasticnet": 0.6364200545317862
+    },
+    "variance_of_term_frequency": {
+      "ridge": 0.7151578890152317,
+      "elasticnet": 0.7539438468943946
+    },
+    "sum_of_stream_length_normalized_tf": {
+      "ridge": -3.1781818181818178,
+      "elasticnet": 0.0
+    },
+    "max_of_stream_length_normalized_tf": {
+      "ridge": -0.041186594708410684,
+      "elasticnet": 0.14031161128865888
+    },
+    "mean_of_stream_length_normalized_tf": {
+      "ridge": 0.7790866014074523,
+      "elasticnet": -0.001262549861270168
+    },
+    "variance_of_stream_length_normalized_tf": {
+      "ridge": 0.592984990760721,
+      "elasticnet": -9.300590046312784e-05
+    },
+    "sum_of_tf_idf": {
+      "ridge": 0.685359024416837,
+      "elasticnet": 0.8470580594074291
+    },
+    "max_of_tf_idf": {
+      "ridge": -0.6517739501859441,
+      "elasticnet": 0.3062537618891338
+    },
+    "mean_of_tf_idf": {
+      "ridge": 0.6514093423460966,
+      "elasticnet": -0.00020546374258678668
+    },
+    "variance_of_tf_idf": {
+      "ridge": 0.7868716630725943,
+      "elasticnet": -0.001341608280618578
+    },
+    "tfidf_cosine_scores": {
+      "ridge": 0.0055916276836379675,
+      "elasticnet": 0.2706753050712003
+    },
+    "kl_divergence_scores": {
+      "ridge": 0.12417145104088845,
+      "elasticnet": 0.5849772731405928
+    },
+    "js_divergence_scores": {
+      "ridge": 0.3519391557726137,
+      "elasticnet": 0.4419068243474027
+    },
+    "BM25": {
+      "ridge": 0.11104314922765779,
+      "elasticnet": 0.5855326254762492
+    }
+  },
+  "11": {
+    "covered_query_term_number": {
+      "ridge": 0.8418719845644814,
+      "elasticnet": 0.897135850956902
+    },
+    "covered_query_term_ratio": {
+      "ridge": 0.8723102136210998,
+      "elasticnet": -0.0018210225098933552
+    },
+    "stream_length": {
+      "ridge": 0.9038157672534912,
+      "elasticnet": 0.9433227183985062
+    },
+    "sum_of_term_frequency": {
+      "ridge": 0.9038157672534912,
+      "elasticnet": 0.9433227183985062
+    },
+    "max_of_term_frequency": {
+      "ridge": 0.39274494196898213,
+      "elasticnet": 0.7222193712752022
+    },
+    "mean_of_term_frequency": {
+      "ridge": 0.855744550560692,
+      "elasticnet": 0.5828312212212622
+    },
+    "variance_of_term_frequency": {
+      "ridge": 0.7163462994363776,
+      "elasticnet": 0.7429305552585571
+    },
+    "sum_of_stream_length_normalized_tf": {
+      "ridge": -2.3963636363636365,
+      "elasticnet": 0.0
+    },
+    "max_of_stream_length_normalized_tf": {
+      "ridge": -0.016784083965788232,
+      "elasticnet": 0.10489546070569844
+    },
+    "mean_of_stream_length_normalized_tf": {
+      "ridge": 0.8275246177642522,
+      "elasticnet": -0.001262549861270168
+    },
+    "variance_of_stream_length_normalized_tf": {
+      "ridge": 0.56579309717279,
+      "elasticnet": -9.300590046312784e-05
+    },
+    "sum_of_tf_idf": {
+      "ridge": 0.6782663351148004,
+      "elasticnet": 0.8353863706661563
+    },
+    "max_of_tf_idf": {
+      "ridge": -0.6562877370901774,
+      "elasticnet": 0.289381069148294
+    },
+    "mean_of_tf_idf": {
+      "ridge": 0.6718418741560136,
+      "elasticnet": -0.00020546374258678668
+    },
+    "variance_of_tf_idf": {
+      "ridge": 0.8323883422090308,
+      "elasticnet": -0.001341608280618578
+    },
+    "tfidf_cosine_scores": {
+      "ridge": -0.005365368382197477,
+      "elasticnet": 0.2631813867109021
+    },
+    "kl_divergence_scores": {
+      "ridge": 0.2418667133303637,
+      "elasticnet": 0.6331234981073641
+    },
+    "js_divergence_scores": {
+      "ridge": 0.3470471722676306,
+      "elasticnet": 0.42135164771996514
+    },
+    "BM25": {
+      "ridge": 0.09433727911921508,
+      "elasticnet": 0.5852816983965611
+    }
+  },
+  "12": {
+    "covered_query_term_number": {
+      "ridge": 0.8504265493666449,
+      "elasticnet": 0.9156677874149259
+    },
+    "covered_query_term_ratio": {
+      "ridge": 0.8691908681145617,
+      "elasticnet": -0.0018210225098933552
+    },
+    "stream_length": {
+      "ridge": 0.8811385268961582,
+      "elasticnet": 0.9269817312670185
+    },
+    "sum_of_term_frequency": {
+      "ridge": 0.8811385268961582,
+      "elasticnet": 0.9269817312670185
+    },
+    "max_of_term_frequency": {
+      "ridge": 0.39285115354089395,
+      "elasticnet": 0.7257867335862656
+    },
+    "mean_of_term_frequency": {
+      "ridge": 0.8387424968482564,
+      "elasticnet": 0.5215713139911758
+    },
+    "variance_of_term_frequency": {
+      "ridge": 0.6899463623296009,
+      "elasticnet": 0.7133062929193376
+    },
+    "sum_of_stream_length_normalized_tf": {
+      "ridge": -2.8581818181818184,
+      "elasticnet": 0.0
+    },
+    "max_of_stream_length_normalized_tf": {
+      "ridge": -0.04226998749565114,
+      "elasticnet": 0.08470876228384683
+    },
+    "mean_of_stream_length_normalized_tf": {
+      "ridge": 0.8309004687370705,
+      "elasticnet": -0.001262549861270168
+    },
+    "variance_of_stream_length_normalized_tf": {
+      "ridge": 0.5627258566134485,
+      "elasticnet": -9.300590046312784e-05
+    },
+    "sum_of_tf_idf": {
+      "ridge": 0.6847163236733684,
+      "elasticnet": 0.8261796296203356
+    },
+    "max_of_tf_idf": {
+      "ridge": -0.6356124403582168,
+      "elasticnet": 0.29054341694171915
+    },
+    "mean_of_tf_idf": {
+      "ridge": 0.6914858124742804,
+      "elasticnet": -0.00020546374258678668
+    },
+    "variance_of_tf_idf": {
+      "ridge": 0.833671384957219,
+      "elasticnet": -0.001341608280618578
+    },
+    "tfidf_cosine_scores": {
+      "ridge": 0.024239935371634047,
+      "elasticnet": 0.27829326987066194
+    },
+    "kl_divergence_scores": {
+      "ridge": 0.28726332215892125,
+      "elasticnet": 0.6530799864434271
+    },
+    "js_divergence_scores": {
+      "ridge": 0.3730080459796289,
+      "elasticnet": 0.43486987878273753
+    },
+    "BM25": {
+      "ridge": 0.168183442494233,
+      "elasticnet": 0.6129681712173043
+    }
+  },
+  "13": {
+    "covered_query_term_number": {
+      "ridge": 0.8693983929072002,
+      "elasticnet": 0.9112108872897777
+    },
+    "covered_query_term_ratio": {
+      "ridge": 0.8856478679954993,
+      "elasticnet": -0.0018210225098933552
+    },
+    "stream_length": {
+      "ridge": 0.900001313731828,
+      "elasticnet": 0.9408970935796509
+    },
+    "sum_of_term_frequency": {
+      "ridge": 0.900001313731828,
+      "elasticnet": 0.9408970935796509
+    },
+    "max_of_term_frequency": {
+      "ridge": 0.29483317720371305,
+      "elasticnet": 0.7138786997201207
+    },
+    "mean_of_term_frequency": {
+      "ridge": 0.8561235111405001,
+      "elasticnet": 0.6297265883486542
+    },
+    "variance_of_term_frequency": {
+      "ridge": 0.6665235226291917,
+      "elasticnet": 0.7353254449747293
+    },
+    "sum_of_stream_length_normalized_tf": {
+      "ridge": -2.247272727272727,
+      "elasticnet": 0.0
+    },
+    "max_of_stream_length_normalized_tf": {
+      "ridge": -0.17345394680705062,
+      "elasticnet": 0.09538956789403974
+    },
+    "mean_of_stream_length_normalized_tf": {
+      "ridge": 0.8548390268256926,
+      "elasticnet": -0.001262549861270168
+    },
+    "variance_of_stream_length_normalized_tf": {
+      "ridge": 0.5171392557223716,
+      "elasticnet": -9.300590046312784e-05
+    },
+    "sum_of_tf_idf": {
+      "ridge": 0.6548501414023611,
+      "elasticnet": 0.8258464816893012
+    },
+    "max_of_tf_idf": {
+      "ridge": -0.8736004206269123,
+      "elasticnet": 0.27263419912347797
+    },
+    "mean_of_tf_idf": {
+      "ridge": 0.7036647067282799,
+      "elasticnet": -0.00020546374258678668
+    },
+    "variance_of_tf_idf": {
+      "ridge": 0.8535184015985253,
+      "elasticnet": -0.001341608280618578
+    },
+    "tfidf_cosine_scores": {
+      "ridge": 0.08747113356202596,
+      "elasticnet": 0.29464984333470257
+    },
+    "kl_divergence_scores": {
+      "ridge": 0.22321093045239526,
+      "elasticnet": 0.6431767772802313
+    },
+    "js_divergence_scores": {
+      "ridge": 0.3292209853231505,
+      "elasticnet": 0.434975528236091
+    },
+    "BM25": {
+      "ridge": 0.10791718606539069,
+      "elasticnet": 0.5847912016738878
+    }
+  },
+  "14": {
+    "covered_query_term_number": {
+      "ridge": 0.8413147041938938,
+      "elasticnet": 0.9123638685915609
+    },
+    "covered_query_term_ratio": {
+      "ridge": 0.8661937930108359,
+      "elasticnet": -0.0018210225098933552
+    },
+    "stream_length": {
+      "ridge": 0.8590264880913803,
+      "elasticnet": 0.9116510151859739
+    },
+    "sum_of_term_frequency": {
+      "ridge": 0.8590264880913803,
+      "elasticnet": 0.9116510151859739
+    },
+    "max_of_term_frequency": {
+      "ridge": 0.368715420038625,
+      "elasticnet": 0.729613531250127
+    },
+    "mean_of_term_frequency": {
+      "ridge": 0.8272621817719351,
+      "elasticnet": 0.5616486183090063
+    },
+    "variance_of_term_frequency": {
+      "ridge": 0.6538647620961832,
+      "elasticnet": 0.7205943278164857
+    },
+    "sum_of_stream_length_normalized_tf": {
+      "ridge": -2.890909090909091,
+      "elasticnet": 0.0
+    },
+    "max_of_stream_length_normalized_tf": {
+      "ridge": -0.051222364580486346,
+      "elasticnet": 0.08121132175761736
+    },
+    "mean_of_stream_length_normalized_tf": {
+      "ridge": 0.8473001348666842,
+      "elasticnet": -0.001262549861270168
+    },
+    "variance_of_stream_length_normalized_tf": {
+      "ridge": 0.5010409608415376,
+      "elasticnet": -9.300590046312784e-05
+    },
+    "sum_of_tf_idf": {
+      "ridge": 0.6314810581861,
+      "elasticnet": 0.8177495591738946
+    },
+    "max_of_tf_idf": {
+      "ridge": -0.8114532307216087,
+      "elasticnet": 0.2558095037170155
+    },
+    "mean_of_tf_idf": {
+      "ridge": 0.6700741476931822,
+      "elasticnet": -0.00020546374258678668
+    },
+    "variance_of_tf_idf": {
+      "ridge": 0.8503842815573912,
+      "elasticnet": -0.001341608280618578
+    },
+    "tfidf_cosine_scores": {
+      "ridge": 0.011072992311974339,
+      "elasticnet": 0.27120140953825844
+    },
+    "kl_divergence_scores": {
+      "ridge": 0.24424749308525284,
+      "elasticnet": 0.628713254947362
+    },
+    "js_divergence_scores": {
+      "ridge": 0.3932837778997864,
+      "elasticnet": 0.42472445491259203
+    },
+    "BM25": {
+      "ridge": 0.1433269688472385,
+      "elasticnet": 0.6049671565646673
+    }
+  },
+  "15": {
+    "covered_query_term_number": {
+      "ridge": 0.843898924689687,
+      "elasticnet": 0.9142429269734648
+    },
+    "covered_query_term_ratio": {
+      "ridge": 0.8742870780858031,
+      "elasticnet": -0.0018210225098933552
+    },
+    "stream_length": {
+      "ridge": 0.8810691298497529,
+      "elasticnet": 0.9287001142849424
+    },
+    "sum_of_term_frequency": {
+      "ridge": 0.8810691298497529,
+      "elasticnet": 0.9287001142849424
+    },
+    "max_of_term_frequency": {
+      "ridge": 0.3706179613719661,
+      "elasticnet": 0.733723788621737
+    },
+    "mean_of_term_frequency": {
+      "ridge": 0.8440291187023263,
+      "elasticnet": 0.5955525386938922
+    },
+    "variance_of_term_frequency": {
+      "ridge": 0.6563112509371833,
+      "elasticnet": 0.7261555299502597
+    },
+    "sum_of_stream_length_normalized_tf": {
+      "ridge": -2.44,
+      "elasticnet": 0.0
+    },
+    "max_of_stream_length_normalized_tf": {
+      "ridge": -0.020675852611901524,
+      "elasticnet": 0.0983751416786588
+    },
+    "mean_of_stream_length_normalized_tf": {
+      "ridge": 0.8556570979769963,
+      "elasticnet": -0.001262549861270168
+    },
+    "variance_of_stream_length_normalized_tf": {
+      "ridge": 0.565587319624095,
+      "elasticnet": -9.300590046312784e-05
+    },
+    "sum_of_tf_idf": {
+      "ridge": 0.6013535992001187,
+      "elasticnet": 0.798085141928723
+    },
+    "max_of_tf_idf": {
+      "ridge": -0.8112218349572433,
+      "elasticnet": 0.2252569341558226
+    },
+    "mean_of_tf_idf": {
+      "ridge": 0.653729850761966,
+      "elasticnet": -0.00020546374258678668
+    },
+    "variance_of_tf_idf": {
+      "ridge": 0.8583520208155265,
+      "elasticnet": -0.001341608280618578
+    },
+    "tfidf_cosine_scores": {
+      "ridge": 0.03832292426619599,
+      "elasticnet": 0.28872110043714283
+    },
+    "kl_divergence_scores": {
+      "ridge": 0.25068318256231026,
+      "elasticnet": 0.6497246430174148
+    },
+    "js_divergence_scores": {
+      "ridge": 0.36293106882166537,
+      "elasticnet": 0.4162143792082508
+    },
+    "BM25": {
+      "ridge": 0.18836100545739143,
+      "elasticnet": 0.5904299423124677
+    }
+  },
+  "16": {
+    "covered_query_term_number": {
+      "ridge": 0.8813002217477544,
+      "elasticnet": 0.9295004479971326
+    },
+    "covered_query_term_ratio": {
+      "ridge": 0.9053310952186742,
+      "elasticnet": -0.0018210225098933552
+    },
+    "stream_length": {
+      "ridge": 0.8649391017118041,
+      "elasticnet": 0.9240443436502422
+    },
+    "sum_of_term_frequency": {
+      "ridge": 0.8649391017118041,
+      "elasticnet": 0.9240443436502422
+    },
+    "max_of_term_frequency": {
+      "ridge": 0.3570932903684616,
+      "elasticnet": 0.7287899397405515
+    },
+    "mean_of_term_frequency": {
+      "ridge": 0.8319513826423828,
+      "elasticnet": 0.5909199969164061
+    },
+    "variance_of_term_frequency": {
+      "ridge": 0.6450507362356157,
+      "elasticnet": 0.7242260776241585
+    },
+    "sum_of_stream_length_normalized_tf": {
+      "ridge": -2.4545454545454546,
+      "elasticnet": 0.0
+    },
+    "max_of_stream_length_normalized_tf": {
+      "ridge": -0.06290518448054283,
+      "elasticnet": 0.08798607860970242
+    },
+    "mean_of_stream_length_normalized_tf": {
+      "ridge": 0.876926384117423,
+      "elasticnet": -0.001262549861270168
+    },
+    "variance_of_stream_length_normalized_tf": {
+      "ridge": 0.546684593799467,
+      "elasticnet": -9.300590046312784e-05
+    },
+    "sum_of_tf_idf": {
+      "ridge": 0.6038151703215524,
+      "elasticnet": 0.8248701499227199
+    },
+    "max_of_tf_idf": {
+      "ridge": -0.8339726004354913,
+      "elasticnet": 0.22258565297357535
+    },
+    "mean_of_tf_idf": {
+      "ridge": 0.695444391583131,
+      "elasticnet": -0.00020546374258678668
+    },
+    "variance_of_tf_idf": {
+      "ridge": 0.8754458955681421,
+      "elasticnet": -0.001341608280618578
+    },
+    "tfidf_cosine_scores": {
+      "ridge": 0.07589429990203089,
+      "elasticnet": 0.28200231009584154
+    },
+    "kl_divergence_scores": {
+      "ridge": 0.2861606804265615,
+      "elasticnet": 0.6563650050605718
+    },
+    "js_divergence_scores": {
+      "ridge": 0.3606725604563411,
+      "elasticnet": 0.4293979155923152
+    },
+    "BM25": {
+      "ridge": 0.17464712932426119,
+      "elasticnet": 0.6324922946375688
+    }
+  },
+  "17": {
+    "covered_query_term_number": {
+      "ridge": 0.8825590294489984,
+      "elasticnet": 0.9352521144082739
+    },
+    "covered_query_term_ratio": {
+      "ridge": 0.8989389356292008,
+      "elasticnet": -0.0018210225098933552
+    },
+    "stream_length": {
+      "ridge": 0.8489529702082994,
+      "elasticnet": 0.9055260574736804
+    },
+    "sum_of_term_frequency": {
+      "ridge": 0.8489529702082994,
+      "elasticnet": 0.9055260574736804
+    },
+    "max_of_term_frequency": {
+      "ridge": 0.37733935128138063,
+      "elasticnet": 0.72913153681663
+    },
+    "mean_of_term_frequency": {
+      "ridge": 0.8179239175700956,
+      "elasticnet": 0.5275491077648593
+    },
+    "variance_of_term_frequency": {
+      "ridge": 0.6186271780015327,
+      "elasticnet": 0.699209422036843
+    },
+    "sum_of_stream_length_normalized_tf": {
+      "ridge": -2.5054545454545454,
+      "elasticnet": 0.0
+    },
+    "max_of_stream_length_normalized_tf": {
+      "ridge": -0.099448458672307,
+      "elasticnet": 0.04826391915999373
+    },
+    "mean_of_stream_length_normalized_tf": {
+      "ridge": 0.8968807228758762,
+      "elasticnet": -0.001262549861270168
+    },
+    "variance_of_stream_length_normalized_tf": {
+      "ridge": 0.45045641073204556,
+      "elasticnet": -9.300590046312784e-05
+    },
+    "sum_of_tf_idf": {
+      "ridge": 0.56509330035863,
+      "elasticnet": 0.7756464467626821
+    },
+    "max_of_tf_idf": {
+      "ridge": -0.9070318381636016,
+      "elasticnet": 0.20655643275620228
+    },
+    "mean_of_tf_idf": {
+      "ridge": 0.6599514163260685,
+      "elasticnet": -0.00020546374258678668
+    },
+    "variance_of_tf_idf": {
+      "ridge": 0.8961957189411451,
+      "elasticnet": -0.001341608280618578
+    },
+    "tfidf_cosine_scores": {
+      "ridge": 0.13827194192627845,
+      "elasticnet": 0.2675368808253843
+    },
+    "kl_divergence_scores": {
+      "ridge": 0.2586944869266846,
+      "elasticnet": 0.64358868145556
+    },
+    "js_divergence_scores": {
+      "ridge": 0.3980899504472982,
+      "elasticnet": 0.3952924547165776
+    },
+    "BM25": {
+      "ridge": 0.1726601718268811,
+      "elasticnet": 0.6161218437682054
+    }
+  },
+  "18": {
+    "covered_query_term_number": {
+      "ridge": 0.8752218728642633,
+      "elasticnet": 0.9298589602471089
+    },
+    "covered_query_term_ratio": {
+      "ridge": 0.898301696194276,
+      "elasticnet": -0.0018210225098933552
+    },
+    "stream_length": {
+      "ridge": 0.838601791692575,
+      "elasticnet": 0.905161872346916
+    },
+    "sum_of_term_frequency": {
+      "ridge": 0.838601791692575,
+      "elasticnet": 0.905161872346916
+    },
+    "max_of_term_frequency": {
+      "ridge": 0.33567816522222815,
+      "elasticnet": 0.7158281541041425
+    },
+    "mean_of_term_frequency": {
+      "ridge": 0.8300016504705247,
+      "elasticnet": 0.5862824174732434
+    },
+    "variance_of_term_frequency": {
+      "ridge": 0.6342940506727479,
+      "elasticnet": 0.6982593191008182
+    },
+    "sum_of_stream_length_normalized_tf": {
+      "ridge": -2.330909090909091,
+      "elasticnet": 0.0
+    },
+    "max_of_stream_length_normalized_tf": {
+      "ridge": -0.12770956493484875,
+      "elasticnet": 0.06785424591218381
+    },
+    "mean_of_stream_length_normalized_tf": {
+      "ridge": 0.9007473916348577,
+      "elasticnet": -0.001262549861270168
+    },
+    "variance_of_stream_length_normalized_tf": {
+      "ridge": 0.45848140173419616,
+      "elasticnet": -9.300590046312784e-05
+    },
+    "sum_of_tf_idf": {
+      "ridge": 0.562335146492025,
+      "elasticnet": 0.7641033869798655
+    },
+    "max_of_tf_idf": {
+      "ridge": -0.8984418404861723,
+      "elasticnet": 0.20520733793809998
+    },
+    "mean_of_tf_idf": {
+      "ridge": 0.6729252804059231,
+      "elasticnet": -0.00020546374258678668
+    },
+    "variance_of_tf_idf": {
+      "ridge": 0.9018992145396332,
+      "elasticnet": -0.001341608280618578
+    },
+    "tfidf_cosine_scores": {
+      "ridge": 0.039759499175683444,
+      "elasticnet": 0.2606366019501193
+    },
+    "kl_divergence_scores": {
+      "ridge": 0.3013546776793051,
+      "elasticnet": 0.6678995666859928
+    },
+    "js_divergence_scores": {
+      "ridge": 0.3997249069783594,
+      "elasticnet": 0.40938401304572913
+    },
+    "BM25": {
+      "ridge": 0.24843779026641033,
+      "elasticnet": 0.615005697689143
+    }
+  },
+  "19": {
+    "covered_query_term_number": {
+      "ridge": 0.8963068776267331,
+      "elasticnet": 0.9376336511574385
+    },
+    "covered_query_term_ratio": {
+      "ridge": 0.9155494577244034,
+      "elasticnet": -0.0018210225098933552
+    },
+    "stream_length": {
+      "ridge": 0.8467390425642376,
+      "elasticnet": 0.9061429618052579
+    },
+    "sum_of_term_frequency": {
+      "ridge": 0.8467390425642376,
+      "elasticnet": 0.9061429618052579
+    },
+    "max_of_term_frequency": {
+      "ridge": 0.29253378382655926,
+      "elasticnet": 0.7078335386837986
+    },
+    "mean_of_term_frequency": {
+      "ridge": 0.8308468793605909,
+      "elasticnet": 0.5732855733407485
+    },
+    "variance_of_term_frequency": {
+      "ridge": 0.6199662129615893,
+      "elasticnet": 0.6850076252706808
+    },
+    "sum_of_stream_length_normalized_tf": {
+      "ridge": -2.5272727272727273,
+      "elasticnet": 0.0
+    },
+    "max_of_stream_length_normalized_tf": {
+      "ridge": -0.15459837382609387,
+      "elasticnet": 0.07613428475336825
+    },
+    "mean_of_stream_length_normalized_tf": {
+      "ridge": 0.8986591559140811,
+      "elasticnet": -0.001262549861270168
+    },
+    "variance_of_stream_length_normalized_tf": {
+      "ridge": 0.47099369113160994,
+      "elasticnet": -9.300590046312784e-05
+    },
+    "sum_of_tf_idf": {
+      "ridge": 0.5513203664446065,
+      "elasticnet": 0.7910457006783891
+    },
+    "max_of_tf_idf": {
+      "ridge": -0.8259563218717896,
+      "elasticnet": 0.20116607893719796
+    },
+    "mean_of_tf_idf": {
+      "ridge": 0.6830248701354145,
+      "elasticnet": -0.00020546374258678668
+    },
+    "variance_of_tf_idf": {
+      "ridge": 0.896177892558019,
+      "elasticnet": -0.001341608280618578
+    },
+    "tfidf_cosine_scores": {
+      "ridge": -0.02664125834014075,
+      "elasticnet": 0.26698378853375937
+    },
+    "kl_divergence_scores": {
+      "ridge": 0.2502539419976375,
+      "elasticnet": 0.6733837995284295
+    },
+    "js_divergence_scores": {
+      "ridge": 0.347880452664887,
+      "elasticnet": 0.39992487517896824
+    },
+    "BM25": {
+      "ridge": 0.18883287325973996,
+      "elasticnet": 0.6103009624535178
+    }
+  },
+  "20": {
+    "covered_query_term_number": {
+      "ridge": 0.8952137334710795,
+      "elasticnet": 0.9358001404711117
+    },
+    "covered_query_term_ratio": {
+      "ridge": 0.920357341511934,
+      "elasticnet": -0.0018210225098933552
+    },
+    "stream_length": {
+      "ridge": 0.8162020752734053,
+      "elasticnet": 0.8882083010927676
+    },
+    "sum_of_term_frequency": {
+      "ridge": 0.8162020752734053,
+      "elasticnet": 0.8882083010927676
+    },
+    "max_of_term_frequency": {
+      "ridge": 0.30889571699197027,
+      "elasticnet": 0.7202469074504196
+    },
+    "mean_of_term_frequency": {
+      "ridge": 0.8055701472077952,
+      "elasticnet": 0.507803410511023
+    },
+    "variance_of_term_frequency": {
+      "ridge": 0.5738793869686756,
+      "elasticnet": 0.6772676274823739
+    },
+    "sum_of_stream_length_normalized_tf": {
+      "ridge": -2.5127272727272727,
+      "elasticnet": 0.0
+    },
+    "max_of_stream_length_normalized_tf": {
+      "ridge": -0.09594236404969592,
+      "elasticnet": 0.09066931473287687
+    },
+    "mean_of_stream_length_normalized_tf": {
+      "ridge": 0.9032691666806679,
+      "elasticnet": -0.001262549861270168
+    },
+    "variance_of_stream_length_normalized_tf": {
+      "ridge": 0.44968595928859556,
+      "elasticnet": -9.300590046312784e-05
+    },
+    "sum_of_tf_idf": {
+      "ridge": 0.5025803825019709,
+      "elasticnet": 0.7356129247026362
+    },
+    "max_of_tf_idf": {
+      "ridge": -0.9824950534263193,
+      "elasticnet": 0.17410128753383491
+    },
+    "mean_of_tf_idf": {
+      "ridge": 0.6605656821899759,
+      "elasticnet": -0.00020546374258678668
+    },
+    "variance_of_tf_idf": {
+      "ridge": 0.9006930941468356,
+      "elasticnet": -0.001341608280618578
+    },
+    "tfidf_cosine_scores": {
+      "ridge": -0.03637273513842021,
+      "elasticnet": 0.25172946735413504
+    },
+    "kl_divergence_scores": {
+      "ridge": 0.26679491252450693,
+      "elasticnet": 0.6534721844574478
+    },
+    "js_divergence_scores": {
+      "ridge": 0.35605954452945054,
+      "elasticnet": 0.3931336297976652
+    },
+    "BM25": {
+      "ridge": 0.23092867331243083,
+      "elasticnet": 0.60055140017512
+    }
+  },
+  "21": {
+    "covered_query_term_number": {
+      "ridge": 0.9152854568353378,
+      "elasticnet": 0.9413052251306538
+    },
+    "covered_query_term_ratio": {
+      "ridge": 0.9280145592863634,
+      "elasticnet": -0.0018210225098933552
+    },
+    "stream_length": {
+      "ridge": 0.8366606193099074,
+      "elasticnet": 0.8953697571166024
+    },
+    "sum_of_term_frequency": {
+      "ridge": 0.8366606193099074,
+      "elasticnet": 0.8953697571166024
+    },
+    "max_of_term_frequency": {
+      "ridge": 0.3218745804658162,
+      "elasticnet": 0.7158572143618012
+    },
+    "mean_of_term_frequency": {
+      "ridge": 0.835697863081873,
+      "elasticnet": 0.5462884393804313
+    },
+    "variance_of_term_frequency": {
+      "ridge": 0.5992647705638173,
+      "elasticnet": 0.6802307137324859
+    },
+    "sum_of_stream_length_normalized_tf": {
+      "ridge": -1.9672727272727273,
+      "elasticnet": 0.0
+    },
+    "max_of_stream_length_normalized_tf": {
+      "ridge": -0.11952588194694891,
+      "elasticnet": 0.08247698912526946
+    },
+    "mean_of_stream_length_normalized_tf": {
+      "ridge": 0.9173068000073549,
+      "elasticnet": -0.001262549861270168
+    },
+    "variance_of_stream_length_normalized_tf": {
+      "ridge": 0.4971041222598842,
+      "elasticnet": -9.300590046312784e-05
+    },
+    "sum_of_tf_idf": {
+      "ridge": 0.5956234005413561,
+      "elasticnet": 0.7466664874285078
+    },
+    "max_of_tf_idf": {
+      "ridge": -0.9721468545704464,
+      "elasticnet": 0.17527203572286942
+    },
+    "mean_of_tf_idf": {
+      "ridge": 0.7066609308243585,
+      "elasticnet": -0.00020546374258678668
+    },
+    "variance_of_tf_idf": {
+      "ridge": 0.9165246623570992,
+      "elasticnet": -0.001341608280618578
+    },
+    "tfidf_cosine_scores": {
+      "ridge": 0.06371411526111626,
+      "elasticnet": 0.2462276828654596
+    },
+    "kl_divergence_scores": {
+      "ridge": 0.31315253446827696,
+      "elasticnet": 0.6785844606206288
+    },
+    "js_divergence_scores": {
+      "ridge": 0.3522873878454248,
+      "elasticnet": 0.4242157554476035
+    },
+    "BM25": {
+      "ridge": 0.2041352865214483,
+      "elasticnet": 0.612814707672238
+    }
+  },
+  "22": {
+    "covered_query_term_number": {
+      "ridge": 0.923196474876705,
+      "elasticnet": 0.945791870098289
+    },
+    "covered_query_term_ratio": {
+      "ridge": 0.929233254884345,
+      "elasticnet": -0.0018210225098933552
+    },
+    "stream_length": {
+      "ridge": 0.8277941194991921,
+      "elasticnet": 0.8930245864936436
+    },
+    "sum_of_term_frequency": {
+      "ridge": 0.8277941194991921,
+      "elasticnet": 0.8930245864936436
+    },
+    "max_of_term_frequency": {
+      "ridge": 0.3212497425232721,
+      "elasticnet": 0.7124514341552775
+    },
+    "mean_of_term_frequency": {
+      "ridge": 0.8208190994503921,
+      "elasticnet": 0.5546265620840807
+    },
+    "variance_of_term_frequency": {
+      "ridge": 0.6046179972807944,
+      "elasticnet": 0.6548392702844026
+    },
+    "sum_of_stream_length_normalized_tf": {
+      "ridge": -2.058181818181818,
+      "elasticnet": 0.0
+    },
+    "max_of_stream_length_normalized_tf": {
+      "ridge": -0.1510512113785294,
+      "elasticnet": 0.05764231596128566
+    },
+    "mean_of_stream_length_normalized_tf": {
+      "ridge": 0.9258982113576104,
+      "elasticnet": -0.001262549861270168
+    },
+    "variance_of_stream_length_normalized_tf": {
+      "ridge": 0.46814901202185133,
+      "elasticnet": -9.300590046312784e-05
+    },
+    "sum_of_tf_idf": {
+      "ridge": 0.4967663223427843,
+      "elasticnet": 0.7350856701623552
+    },
+    "max_of_tf_idf": {
+      "ridge": -1.0544435121166145,
+      "elasticnet": 0.1690896944255884
+    },
+    "mean_of_tf_idf": {
+      "ridge": 0.6617015494252159,
+      "elasticnet": -0.00020546374258678668
+    },
+    "variance_of_tf_idf": {
+      "ridge": 0.924786094815402,
+      "elasticnet": -0.001341608280618578
+    },
+    "tfidf_cosine_scores": {
+      "ridge": 0.0019536882776506337,
+      "elasticnet": 0.2410151839605772
+    },
+    "kl_divergence_scores": {
+      "ridge": 0.31399689560637345,
+      "elasticnet": 0.6777406952342484
+    },
+    "js_divergence_scores": {
+      "ridge": 0.33270127946133377,
+      "elasticnet": 0.38248092357300656
+    },
+    "BM25": {
+      "ridge": 0.1751102271726639,
+      "elasticnet": 0.6273610328312647
+    }
+  },
+  "23": {
+    "covered_query_term_number": {
+      "ridge": 0.9212272073602348,
+      "elasticnet": 0.9476944556136179
+    },
+    "covered_query_term_ratio": {
+      "ridge": 0.930390895308783,
+      "elasticnet": -0.0018210225098933552
+    },
+    "stream_length": {
+      "ridge": 0.8239229173606517,
+      "elasticnet": 0.8848530957622697
+    },
+    "sum_of_term_frequency": {
+      "ridge": 0.8239229173606517,
+      "elasticnet": 0.8848530957622697
+    },
+    "max_of_term_frequency": {
+      "ridge": 0.39571739037997844,
+      "elasticnet": 0.7142628746311446
+    },
+    "mean_of_term_frequency": {
+      "ridge": 0.8214675439001626,
+      "elasticnet": 0.5517635199185623
+    },
+    "variance_of_term_frequency": {
+      "ridge": 0.6019946729495163,
+      "elasticnet": 0.6624189479647141
+    },
+    "sum_of_stream_length_normalized_tf": {
+      "ridge": -2.1963636363636363,
+      "elasticnet": 0.0
+    },
+    "max_of_stream_length_normalized_tf": {
+      "ridge": 0.021992130479873695,
+      "elasticnet": 0.042764136429626065
+    },
+    "mean_of_stream_length_normalized_tf": {
+      "ridge": 0.9278707736049576,
+      "elasticnet": -0.001262549861270168
+    },
+    "variance_of_stream_length_normalized_tf": {
+      "ridge": 0.4789655572048681,
+      "elasticnet": -9.300590046312784e-05
+    },
+    "sum_of_tf_idf": {
+      "ridge": 0.5009657789455233,
+      "elasticnet": 0.7269885821151258
+    },
+    "max_of_tf_idf": {
+      "ridge": -0.9031582452993583,
+      "elasticnet": 0.17291022658612765
+    },
+    "mean_of_tf_idf": {
+      "ridge": 0.6445939693719931,
+      "elasticnet": -0.00020546374258678668
+    },
+    "variance_of_tf_idf": {
+      "ridge": 0.926376616457804,
+      "elasticnet": -0.001341608280618578
+    },
+    "tfidf_cosine_scores": {
+      "ridge": 0.06423208805789371,
+      "elasticnet": 0.2567361811300104
+    },
+    "kl_divergence_scores": {
+      "ridge": 0.30302746059827124,
+      "elasticnet": 0.6620106809721447
+    },
+    "js_divergence_scores": {
+      "ridge": 0.36642965271491046,
+      "elasticnet": 0.39509483536304635
+    },
+    "BM25": {
+      "ridge": 0.15461275812448017,
+      "elasticnet": 0.6153344895151125
+    }
+  },
+  "24": {
+    "covered_query_term_number": {
+      "ridge": 0.9407037639643668,
+      "elasticnet": 0.9548680680034306
+    },
+    "covered_query_term_ratio": {
+      "ridge": 0.948146312914998,
+      "elasticnet": -0.0018210225098933552
+    },
+    "stream_length": {
+      "ridge": 0.8250764060382021,
+      "elasticnet": 0.8924801707727325
+    },
+    "sum_of_term_frequency": {
+      "ridge": 0.8250764060382021,
+      "elasticnet": 0.8924801707727325
+    },
+    "max_of_term_frequency": {
+      "ridge": 0.3461506139136118,
+      "elasticnet": 0.6931930995860678
+    },
+    "mean_of_term_frequency": {
+      "ridge": 0.8222861866022602,
+      "elasticnet": 0.5422321201470583
+    },
+    "variance_of_term_frequency": {
+      "ridge": 0.6029625329804689,
+      "elasticnet": 0.6545023279853542
+    },
+    "sum_of_stream_length_normalized_tf": {
+      "ridge": -2.2436363636363637,
+      "elasticnet": 0.0
+    },
+    "max_of_stream_length_normalized_tf": {
+      "ridge": -0.10520437313248876,
+      "elasticnet": 0.07579784584151683
+    },
+    "mean_of_stream_length_normalized_tf": {
+      "ridge": 0.9403983190092927,
+      "elasticnet": -0.001262549861270168
+    },
+    "variance_of_stream_length_normalized_tf": {
+      "ridge": 0.4721841451748242,
+      "elasticnet": -9.300590046312784e-05
+    },
+    "sum_of_tf_idf": {
+      "ridge": 0.42986329914786403,
+      "elasticnet": 0.740471719845055
+    },
+    "max_of_tf_idf": {
+      "ridge": -0.9745359733406813,
+      "elasticnet": 0.17155150042830802
+    },
+    "mean_of_tf_idf": {
+      "ridge": 0.6167432476188749,
+      "elasticnet": -0.00020546374258678668
+    },
+    "variance_of_tf_idf": {
+      "ridge": 0.9394529299810201,
+      "elasticnet": -0.001341608280618578
+    },
+    "tfidf_cosine_scores": {
+      "ridge": -0.029178751244802292,
+      "elasticnet": 0.25139581054623505
+    },
+    "kl_divergence_scores": {
+      "ridge": 0.30069177587623774,
+      "elasticnet": 0.6521688328913517
+    },
+    "js_divergence_scores": {
+      "ridge": 0.308568209943879,
+      "elasticnet": 0.42582114871206556
+    },
+    "BM25": {
+      "ridge": 0.19782182944484017,
+      "elasticnet": 0.5956533796425111
+    }
+  },
+  "25": {
+    "covered_query_term_number": {
+      "ridge": 0.9400814138698227,
+      "elasticnet": 0.9572900981815761
+    },
+    "covered_query_term_ratio": {
+      "ridge": 0.9466387934312381,
+      "elasticnet": -0.0018210225098933552
+    },
+    "stream_length": {
+      "ridge": 0.8201065059468022,
+      "elasticnet": 0.8920863430950606
+    },
+    "sum_of_term_frequency": {
+      "ridge": 0.8201065059468022,
+      "elasticnet": 0.8920863430950606
+    },
+    "max_of_term_frequency": {
+      "ridge": 0.32251720474748236,
+      "elasticnet": 0.7036861317560975
+    },
+    "mean_of_term_frequency": {
+      "ridge": 0.8172957187724135,
+      "elasticnet": 0.5427869809267339
+    },
+    "variance_of_term_frequency": {
+      "ridge": 0.5790342158756348,
+      "elasticnet": 0.6848719319092204
+    },
+    "sum_of_stream_length_normalized_tf": {
+      "ridge": -2.2836363636363637,
+      "elasticnet": 0.0
+    },
+    "max_of_stream_length_normalized_tf": {
+      "ridge": -0.048507729031005864,
+      "elasticnet": 0.0593798637695242
+    },
+    "mean_of_stream_length_normalized_tf": {
+      "ridge": 0.939263563558902,
+      "elasticnet": -0.001262549861270168
+    },
+    "variance_of_stream_length_normalized_tf": {
+      "ridge": 0.4919395765184955,
+      "elasticnet": -9.300590046312784e-05
+    },
+    "sum_of_tf_idf": {
+      "ridge": 0.511991707715522,
+      "elasticnet": 0.742532452837205
+    },
+    "max_of_tf_idf": {
+      "ridge": -0.9793095648618324,
+      "elasticnet": 0.1795788047812048
+    },
+    "mean_of_tf_idf": {
+      "ridge": 0.6544454722621855,
+      "elasticnet": -0.00020546374258678668
+    },
+    "variance_of_tf_idf": {
+      "ridge": 0.9385068766356265,
+      "elasticnet": -0.001341608280618578
+    },
+    "tfidf_cosine_scores": {
+      "ridge": -0.11072261345061185,
+      "elasticnet": 0.2652473230457598
+    },
+    "kl_divergence_scores": {
+      "ridge": 0.36835064498147485,
+      "elasticnet": 0.691980419629352
+    },
+    "js_divergence_scores": {
+      "ridge": 0.4036774124702476,
+      "elasticnet": 0.4160547117086102
+    },
+    "BM25": {
+      "ridge": 0.26261037909693996,
+      "elasticnet": 0.6085382069945573
+    }
+  },
+  "26": {
+    "covered_query_term_number": {
+      "ridge": 0.9493708924227969,
+      "elasticnet": 0.9598691223715556
+    },
+    "covered_query_term_ratio": {
+      "ridge": 0.9542258323606811,
+      "elasticnet": -0.0018210225098933552
+    },
+    "stream_length": {
+      "ridge": 0.83823560335917,
+      "elasticnet": 0.9003051665786753
+    },
+    "sum_of_term_frequency": {
+      "ridge": 0.83823560335917,
+      "elasticnet": 0.9003051665786753
+    },
+    "max_of_term_frequency": {
+      "ridge": 0.3871427304720274,
+      "elasticnet": 0.7090439722196571
+    },
+    "mean_of_term_frequency": {
+      "ridge": 0.8341484086174304,
+      "elasticnet": 0.5602027131350821
+    },
+    "variance_of_term_frequency": {
+      "ridge": 0.6433840942572336,
+      "elasticnet": 0.6570278132368956
+    },
+    "sum_of_stream_length_normalized_tf": {
+      "ridge": -2.0036363636363634,
+      "elasticnet": 0.0
+    },
+    "max_of_stream_length_normalized_tf": {
+      "ridge": -0.05413810226966276,
+      "elasticnet": 0.03173808307580461
+    },
+    "mean_of_stream_length_normalized_tf": {
+      "ridge": 0.9516973264398882,
+      "elasticnet": -0.001262549861270168
+    },
+    "variance_of_stream_length_normalized_tf": {
+      "ridge": 0.4945355955316608,
+      "elasticnet": -9.300590046312784e-05
+    },
+    "sum_of_tf_idf": {
+      "ridge": 0.5077333894119943,
+      "elasticnet": 0.7361957073604242
+    },
+    "max_of_tf_idf": {
+      "ridge": -0.842028923259015,
+      "elasticnet": 0.15198803951336715
+    },
+    "mean_of_tf_idf": {
+      "ridge": 0.6638626544485031,
+      "elasticnet": -0.00020546374258678668
+    },
+    "variance_of_tf_idf": {
+      "ridge": 0.949248571435602,
+      "elasticnet": -0.001341608280618578
+    },
+    "tfidf_cosine_scores": {
+      "ridge": 0.047717530367945904,
+      "elasticnet": 0.22727303008306254
+    },
+    "kl_divergence_scores": {
+      "ridge": 0.3822873938020891,
+      "elasticnet": 0.6929921899621898
+    },
+    "js_divergence_scores": {
+      "ridge": 0.3971282578345271,
+      "elasticnet": 0.3723159104840974
+    },
+    "BM25": {
+      "ridge": 0.2467156684953814,
+      "elasticnet": 0.6054962763857887
+    }
+  },
+  "27": {
+    "covered_query_term_number": {
+      "ridge": 0.9569018612972671,
+      "elasticnet": 0.9609917013893184
+    },
+    "covered_query_term_ratio": {
+      "ridge": 0.9603273922956467,
+      "elasticnet": -0.0018210225098933552
+    },
+    "stream_length": {
+      "ridge": 0.8526053534605704,
+      "elasticnet": 0.9081665633446281
+    },
+    "sum_of_term_frequency": {
+      "ridge": 0.8526053534605704,
+      "elasticnet": 0.9081665633446281
+    },
+    "max_of_term_frequency": {
+      "ridge": 0.3960110008438815,
+      "elasticnet": 0.7061881082275661
+    },
+    "mean_of_term_frequency": {
+      "ridge": 0.849636322155036,
+      "elasticnet": 0.5835327588607093
+    },
+    "variance_of_term_frequency": {
+      "ridge": 0.6605985962727844,
+      "elasticnet": 0.6780486558387528
+    },
+    "sum_of_stream_length_normalized_tf": {
+      "ridge": -1.9018181818181819,
+      "elasticnet": 0.0
+    },
+    "max_of_stream_length_normalized_tf": {
+      "ridge": -0.02780886956017392,
+      "elasticnet": 0.03594098355785902
+    },
+    "mean_of_stream_length_normalized_tf": {
+      "ridge": 0.954777272409192,
+      "elasticnet": -0.001262549861270168
+    },
+    "variance_of_stream_length_normalized_tf": {
+      "ridge": 0.5060869002757464,
+      "elasticnet": -9.300590046312784e-05
+    },
+    "sum_of_tf_idf": {
+      "ridge": 0.5024293889041627,
+      "elasticnet": 0.7404611869912965
+    },
+    "max_of_tf_idf": {
+      "ridge": -0.8458517459091359,
+      "elasticnet": 0.17098093049619312
+    },
+    "mean_of_tf_idf": {
+      "ridge": 0.6871222188398832,
+      "elasticnet": -0.00020546374258678668
+    },
+    "variance_of_tf_idf": {
+      "ridge": 0.9509184695554355,
+      "elasticnet": -0.001341608280618578
+    },
+    "tfidf_cosine_scores": {
+      "ridge": 0.019071148636092605,
+      "elasticnet": 0.2390918040716683
+    },
+    "kl_divergence_scores": {
+      "ridge": 0.40991837795242014,
+      "elasticnet": 0.6745665082969885
+    },
+    "js_divergence_scores": {
+      "ridge": 0.4144917898660886,
+      "elasticnet": 0.3900563104969088
+    },
+    "BM25": {
+      "ridge": 0.2922182866568155,
+      "elasticnet": 0.6027296055978868
+    }
+  },
+  "28": {
+    "covered_query_term_number": {
+      "ridge": 0.9577377633075845,
+      "elasticnet": 0.960320865404622
+    },
+    "covered_query_term_ratio": {
+      "ridge": 0.9618408655743308,
+      "elasticnet": -0.0018210225098933552
+    },
+    "stream_length": {
+      "ridge": 0.8738292559699037,
+      "elasticnet": 0.9152083836612696
+    },
+    "sum_of_term_frequency": {
+      "ridge": 0.8738292559699037,
+      "elasticnet": 0.9152083836612696
+    },
+    "max_of_term_frequency": {
+      "ridge": 0.44011974759881356,
+      "elasticnet": 0.7154957652011993
+    },
+    "mean_of_term_frequency": {
+      "ridge": 0.8757936853387795,
+      "elasticnet": 0.5801119538037094
+    },
+    "variance_of_term_frequency": {
+      "ridge": 0.7010228590805228,
+      "elasticnet": 0.6625269096855357
+    },
+    "sum_of_stream_length_normalized_tf": {
+      "ridge": -1.7999999999999998,
+      "elasticnet": 0.0
+    },
+    "max_of_stream_length_normalized_tf": {
+      "ridge": 0.12547815284910613,
+      "elasticnet": 0.035063689427947464
+    },
+    "mean_of_stream_length_normalized_tf": {
+      "ridge": 0.9608215457428183,
+      "elasticnet": -0.001262549861270168
+    },
+    "variance_of_stream_length_normalized_tf": {
+      "ridge": 0.5621772465923643,
+      "elasticnet": -9.300590046312784e-05
+    },
+    "sum_of_tf_idf": {
+      "ridge": 0.6146367376615911,
+      "elasticnet": 0.7358642853038543
+    },
+    "max_of_tf_idf": {
+      "ridge": -0.5283197131977317,
+      "elasticnet": 0.1638801184365617
+    },
+    "mean_of_tf_idf": {
+      "ridge": 0.741045899631612,
+      "elasticnet": -0.00020546374258678668
+    },
+    "variance_of_tf_idf": {
+      "ridge": 0.9596821075498579,
+      "elasticnet": -0.001341608280618578
+    },
+    "tfidf_cosine_scores": {
+      "ridge": 0.21089428744919858,
+      "elasticnet": 0.23793515112600383
+    },
+    "kl_divergence_scores": {
+      "ridge": 0.5208800394184858,
+      "elasticnet": 0.7121383568567587
+    },
+    "js_divergence_scores": {
+      "ridge": 0.4961129294339339,
+      "elasticnet": 0.380938486510878
+    },
+    "BM25": {
+      "ridge": 0.3940445164397436,
+      "elasticnet": 0.6253567758448193
+    }
+  },
+  "29": {
+    "covered_query_term_number": {
+      "ridge": 0.9657313878156661,
+      "elasticnet": 0.9633432208196795
+    },
+    "covered_query_term_ratio": {
+      "ridge": 0.9700551350831428,
+      "elasticnet": -0.0018210225098933552
+    },
+    "stream_length": {
+      "ridge": 0.8925343933432568,
+      "elasticnet": 0.921329694807393
+    },
+    "sum_of_term_frequency": {
+      "ridge": 0.8925343933432568,
+      "elasticnet": 0.921329694807393
+    },
+    "max_of_term_frequency": {
+      "ridge": 0.534243775614597,
+      "elasticnet": 0.7158247324507073
+    },
+    "mean_of_term_frequency": {
+      "ridge": 0.8934638850234546,
+      "elasticnet": 0.6776753484584805
+    },
+    "variance_of_term_frequency": {
+      "ridge": 0.7288357965831668,
+      "elasticnet": 0.6726893353957181
+    },
+    "sum_of_stream_length_normalized_tf": {
+      "ridge": -1.3236363636363637,
+      "elasticnet": 0.0
+    },
+    "max_of_stream_length_normalized_tf": {
+      "ridge": 0.19644352823778433,
+      "elasticnet": 0.07210765825318433
+    },
+    "mean_of_stream_length_normalized_tf": {
+      "ridge": 0.9646481510956458,
+      "elasticnet": -0.001262549861270168
+    },
+    "variance_of_stream_length_normalized_tf": {
+      "ridge": 0.6179500554553996,
+      "elasticnet": -9.300590046312784e-05
+    },
+    "sum_of_tf_idf": {
+      "ridge": 0.6567978812912502,
+      "elasticnet": 0.7636372170751005
+    },
+    "max_of_tf_idf": {
+      "ridge": -0.3858417029178802,
+      "elasticnet": 0.19247412688361354
+    },
+    "mean_of_tf_idf": {
+      "ridge": 0.7615992111588806,
+      "elasticnet": -0.00020546374258678668
+    },
+    "variance_of_tf_idf": {
+      "ridge": 0.9643970812369894,
+      "elasticnet": -0.001341608280618578
+    },
+    "tfidf_cosine_scores": {
+      "ridge": 0.292027263154244,
+      "elasticnet": 0.24166262969882468
+    },
+    "kl_divergence_scores": {
+      "ridge": 0.5228673412780962,
+      "elasticnet": 0.7036684320571988
+    },
+    "js_divergence_scores": {
+      "ridge": 0.5471482456577994,
+      "elasticnet": 0.4312081879949409
+    },
+    "BM25": {
+      "ridge": 0.43053911586559535,
+      "elasticnet": 0.617943574357976
+    }
+  },
+  "30": {
+    "covered_query_term_number": {
+      "ridge": 0.972201740574162,
+      "elasticnet": 0.9554344399554439
+    },
+    "covered_query_term_ratio": {
+      "ridge": 0.9750346342819107,
+      "elasticnet": -0.0018210225098933552
+    },
+    "stream_length": {
+      "ridge": 0.9110993846878369,
+      "elasticnet": 0.9290877612544218
+    },
+    "sum_of_term_frequency": {
+      "ridge": 0.9110993846878369,
+      "elasticnet": 0.9290877612544218
+    },
+    "max_of_term_frequency": {
+      "ridge": 0.5655351925849932,
+      "elasticnet": 0.7131011405301091
+    },
+    "mean_of_term_frequency": {
+      "ridge": 0.907751054877525,
+      "elasticnet": 0.6675348664483166
+    },
+    "variance_of_term_frequency": {
+      "ridge": 0.7584617844621677,
+      "elasticnet": 0.670877555525607
+    },
+    "sum_of_stream_length_normalized_tf": {
+      "ridge": -0.7527272727272727,
+      "elasticnet": 0.0
+    },
+    "max_of_stream_length_normalized_tf": {
+      "ridge": 0.2677448889356351,
+      "elasticnet": 0.06400274444209852
+    },
+    "mean_of_stream_length_normalized_tf": {
+      "ridge": 0.9706199095619273,
+      "elasticnet": -0.001262549861270168
+    },
+    "variance_of_stream_length_normalized_tf": {
+      "ridge": 0.6203966597027757,
+      "elasticnet": -9.300590046312784e-05
+    },
+    "sum_of_tf_idf": {
+      "ridge": 0.704003733783646,
+      "elasticnet": 0.751395899099192
+    },
+    "max_of_tf_idf": {
+      "ridge": -0.21352869536631047,
+      "elasticnet": 0.16822838362598724
+    },
+    "mean_of_tf_idf": {
+      "ridge": 0.8023274444833648,
+      "elasticnet": -0.00020546374258678668
+    },
+    "variance_of_tf_idf": {
+      "ridge": 0.9687566074216888,
+      "elasticnet": -0.001341608280618578
+    },
+    "tfidf_cosine_scores": {
+      "ridge": 0.3421556333152018,
+      "elasticnet": 0.2465049207525568
+    },
+    "kl_divergence_scores": {
+      "ridge": 0.5937237657888043,
+      "elasticnet": 0.7083221648562223
+    },
+    "js_divergence_scores": {
+      "ridge": 0.5352878579620872,
+      "elasticnet": 0.40259681987530305
+    },
+    "BM25": {
+      "ridge": 0.4559651169852931,
+      "elasticnet": 0.6048358605864391
+    }
+  },
+  "31": {
+    "covered_query_term_number": {
+      "ridge": 0.9742870657225624,
+      "elasticnet": 0.9302416238289556
+    },
+    "covered_query_term_ratio": {
+      "ridge": 0.9759312749590197,
+      "elasticnet": -0.0018210225098933552
+    },
+    "stream_length": {
+      "ridge": 0.9270112063658758,
+      "elasticnet": 0.9205775613997382
+    },
+    "sum_of_term_frequency": {
+      "ridge": 0.9270112063658758,
+      "elasticnet": 0.9205775613997382
+    },
+    "max_of_term_frequency": {
+      "ridge": 0.7070080512292877,
+      "elasticnet": 0.6958596489533553
+    },
+    "mean_of_term_frequency": {
+      "ridge": 0.9254822748067079,
+      "elasticnet": 0.500301416166884
+    },
+    "variance_of_term_frequency": {
+      "ridge": 0.8210231574572715,
+      "elasticnet": 0.5879062461480449
+    },
+    "sum_of_stream_length_normalized_tf": {
+      "ridge": -0.09818181818181815,
+      "elasticnet": 0.0
+    },
+    "max_of_stream_length_normalized_tf": {
+      "ridge": 0.4897873233187706,
+      "elasticnet": 0.058322028718092334
+    },
+    "mean_of_stream_length_normalized_tf": {
+      "ridge": 0.9741200152953563,
+      "elasticnet": -0.001262549861270168
+    },
+    "variance_of_stream_length_normalized_tf": {
+      "ridge": 0.7453448094870034,
+      "elasticnet": -9.300590046312784e-05
+    },
+    "sum_of_tf_idf": {
+      "ridge": 0.7823146439166162,
+      "elasticnet": 0.6801134026967302
+    },
+    "max_of_tf_idf": {
+      "ridge": 0.20516427388440295,
+      "elasticnet": 0.13853189326653315
+    },
+    "mean_of_tf_idf": {
+      "ridge": 0.8502390039884218,
+      "elasticnet": -0.00020546374258678668
+    },
+    "variance_of_tf_idf": {
+      "ridge": 0.9731017057378999,
+      "elasticnet": -0.001341608280618578
+    },
+    "tfidf_cosine_scores": {
+      "ridge": 0.5054707135629107,
+      "elasticnet": 0.18994523607745628
+    },
+    "kl_divergence_scores": {
+      "ridge": 0.7095927603390213,
+      "elasticnet": 0.6772389472454401
+    },
+    "js_divergence_scores": {
+      "ridge": 0.6904291604263373,
+      "elasticnet": 0.3234248944303505
+    },
+    "BM25": {
+      "ridge": 0.6267651824276039,
+      "elasticnet": 0.5389248756958742
+    }
+  }
+}
