@@ -2,12 +2,86 @@ import json
 import os
 import numpy as np
 import torch
+from torch import nn
 from sklearn.base import clone
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.linear_model import Ridge, ElasticNet
 from sklearn.metrics import mean_squared_error, r2_score
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
+
+
+class SparseAutoencoderRegressor:
+    def __init__(
+        self,
+        input_dim,
+        hidden_dim=256,
+        lr=1e-3,
+        epochs=200,
+        batch_size=128,
+        sparsity_lambda=1e-4,
+        device=None,
+    ):
+        self.input_dim = input_dim
+        self.hidden_dim = hidden_dim
+        self.lr = lr
+        self.epochs = epochs
+        self.batch_size = batch_size
+        self.sparsity_lambda = sparsity_lambda
+        self.device = device or ('cuda' if torch.cuda.is_available() else 'cpu')
+        self.model = None
+
+    def _build_model(self):
+        self.model = nn.Sequential(
+            nn.Linear(self.input_dim, self.hidden_dim),
+            nn.Sigmoid(),
+            nn.Linear(self.hidden_dim, 1),
+        ).to(self.device)
+
+    def fit(self, X, y):
+        self._build_model()
+
+        X_tensor = torch.tensor(X, dtype=torch.float32, device=self.device)
+        y_tensor = torch.tensor(y.reshape(-1, 1), dtype=torch.float32, device=self.device)
+
+        optimizer = torch.optim.Adam(self.model.parameters(), lr=self.lr)
+        loss_fn = nn.MSELoss()
+
+        dataset = torch.utils.data.TensorDataset(X_tensor, y_tensor)
+        loader = torch.utils.data.DataLoader(dataset, batch_size=self.batch_size, shuffle=True)
+
+        self.model.train()
+        for epoch in range(self.epochs):
+            epoch_loss = 0.0
+            for xb, yb in loader:
+                optimizer.zero_grad()
+                hidden = self.model[0](xb)
+                hidden_act = self.model[1](hidden)
+                out = self.model[2](hidden_act)
+                mse = loss_fn(out, yb)
+                sparsity = hidden_act.abs().mean()
+                loss = mse + self.sparsity_lambda * sparsity
+                loss.backward()
+                optimizer.step()
+                epoch_loss += loss.item() * xb.shape[0]
+
+        return self
+
+    def predict(self, X):
+        self.model.eval()
+        X_tensor = torch.tensor(X, dtype=torch.float32, device=self.device)
+        with torch.no_grad():
+            hidden = self.model[0](X_tensor)
+            hidden_act = self.model[1](hidden)
+            preds = self.model[2](hidden_act)
+        return preds.cpu().numpy().reshape(-1)
+
+
+def clone_model(model):
+    try:
+        return clone(model)
+    except Exception:
+        return model
 
 
 def load_cache(cache_path):
@@ -73,7 +147,7 @@ def split_and_scale(activations, train_size=0.75, random_state=42):
     return X_train, X_test, train_idx, test_idx
 
 
-def get_models():
+def get_models(input_dim=4096):
     return {
         'ridge': Ridge(alpha=10.0),
         'elasticnet': ElasticNet(
@@ -91,11 +165,19 @@ def get_models():
             n_jobs=1,
             random_state=42,
         ),
+        'sparseprobing': SparseAutoencoderRegressor(
+            input_dim=input_dim,
+            hidden_dim=256,
+            lr=1e-3,
+            epochs=200,
+            batch_size=128,
+            sparsity_lambda=1e-4,
+        ),
     }
 
 
 def evaluate_model(X_train, X_test, y_train, y_test, model):
-    model = clone(model)
+    model = clone_model(model)
     model.fit(X_train, y_train)
     y_pred = model.predict(X_test)
     return {
@@ -109,7 +191,7 @@ def evaluate_models(X_train, X_test, y_train, y_test, models):
     results = {}
     for model_name, model in models.items():
         print(f"      Training {model_name}...")
-        model_clone = clone(model)
+        model_clone = clone_model(model)
         model_clone.fit(X_train, y_train)
         print(f"      Predicting {model_name}...")
         y_pred = model_clone.predict(X_test)

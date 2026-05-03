@@ -614,2005 +614,2493 @@
     },
     "variance_of_term_frequency": {
       "ridge": 0.6737571289756987,
-      "elasticnet": 0.7188848205590117
+      "elasticnet": 0.7188848205590117,
+      "randomforest": 0.6233521888584621
     },
     "sum_of_stream_length_normalized_tf": {
       "ridge": -2.752727272727273,
-      "elasticnet": 0.0
+      "elasticnet": 0.0,
+      "randomforest": 0.0
     },
     "max_of_stream_length_normalized_tf": {
       "ridge": 0.04077745223069984,
-      "elasticnet": 0.21134684670381199
+      "elasticnet": 0.21134684670381199,
+      "randomforest": 0.37314099217798935
     },
     "mean_of_stream_length_normalized_tf": {
       "ridge": 0.8155359594482411,
-      "elasticnet": -0.001262549861270168
+      "elasticnet": -0.001262549861270168,
+      "randomforest": 0.7196737039844403
     },
     "variance_of_stream_length_normalized_tf": {
       "ridge": 0.5802251054043002,
-      "elasticnet": -9.300590046312784e-05
+      "elasticnet": -9.300590046312784e-05,
+      "randomforest": 0.5649135694695762
     },
     "sum_of_tf_idf": {
       "ridge": 0.682246846926163,
-      "elasticnet": 0.8433523051157631
+      "elasticnet": 0.8433523051157631,
+      "randomforest": 0.5761469400608811
     },
     "max_of_tf_idf": {
       "ridge": -0.9252522563767438,
-      "elasticnet": 0.2601224075727767
+      "elasticnet": 0.2601224075727767,
+      "randomforest": 0.2421982801526289
     },
     "mean_of_tf_idf": {
       "ridge": 0.6726300064217708,
-      "elasticnet": -0.00020546374258678668
+      "elasticnet": -0.00020546374258678668,
+      "randomforest": 0.58577998350523
     },
     "variance_of_tf_idf": {
       "ridge": 0.8197830025961015,
-      "elasticnet": -0.001341608280618578
+      "elasticnet": -0.001341608280618578,
+      "randomforest": 0.7062690256654196
     },
     "tfidf_cosine_scores": {
       "ridge": -0.3211240474668966,
-      "elasticnet": 0.22014446805654786
+      "elasticnet": 0.22014446805654786,
+      "randomforest": 0.31069721193748534
     },
     "kl_divergence_scores": {
       "ridge": 0.0201517172411666,
-      "elasticnet": 0.545200323046083
+      "elasticnet": 0.545200323046083,
+      "randomforest": 0.35649601498700145
     },
     "js_divergence_scores": {
       "ridge": 0.20254344711450023,
-      "elasticnet": 0.38775032694220224
+      "elasticnet": 0.38775032694220224,
+      "randomforest": 0.45182390745022927
     },
     "BM25": {
       "ridge": -0.10446879779202067,
-      "elasticnet": 0.5359732260095054
+      "elasticnet": 0.5359732260095054,
+      "randomforest": 0.37886326085594013
     }
   },
   "7": {
     "covered_query_term_number": {
       "ridge": 0.7828395313133847,
-      "elasticnet": 0.8904626705391794
+      "elasticnet": 0.8904626705391794,
+      "randomforest": 0.5646986431169847
     },
     "covered_query_term_ratio": {
       "ridge": 0.8178730855903118,
-      "elasticnet": -0.0018210225098933552
+      "elasticnet": -0.0018210225098933552,
+      "randomforest": 0.6575211353498347
     },
     "stream_length": {
       "ridge": 0.886193471976051,
-      "elasticnet": 0.9306429178181495
+      "elasticnet": 0.9306429178181495,
+      "randomforest": 0.6828624967707124
     },
     "sum_of_term_frequency": {
       "ridge": 0.886193471976051,
-      "elasticnet": 0.9306429178181495
+      "elasticnet": 0.9306429178181495,
+      "randomforest": 0.6828624967707124
     },
     "max_of_term_frequency": {
       "ridge": 0.3715466013497779,
-      "elasticnet": 0.7533872701473306
+      "elasticnet": 0.7533872701473306,
+      "randomforest": 0.5572833109901076
     },
     "mean_of_term_frequency": {
       "ridge": 0.8311604682680915,
-      "elasticnet": 0.5675321948238452
+      "elasticnet": 0.5675321948238452,
+      "randomforest": 0.7085237347414195
     },
     "variance_of_term_frequency": {
       "ridge": 0.6740668368001466,
-      "elasticnet": 0.7349735647300863
+      "elasticnet": 0.7349735647300863,
+      "randomforest": 0.6881946898726298
     },
     "sum_of_stream_length_normalized_tf": {
       "ridge": -2.498181818181818,
-      "elasticnet": 0.0
+      "elasticnet": 0.0,
+      "randomforest": 0.0
     },
     "max_of_stream_length_normalized_tf": {
       "ridge": -0.017043881839131858,
-      "elasticnet": 0.1879949100034204
+      "elasticnet": 0.1879949100034204,
+      "randomforest": 0.36043618249701936
     },
     "mean_of_stream_length_normalized_tf": {
       "ridge": 0.822293698558033,
-      "elasticnet": -0.001262549861270168
+      "elasticnet": -0.001262549861270168,
+      "randomforest": 0.7064162166639965
     },
     "variance_of_stream_length_normalized_tf": {
       "ridge": 0.6166767666904742,
-      "elasticnet": -9.300590046312784e-05
+      "elasticnet": -9.300590046312784e-05,
+      "randomforest": 0.5851801808868021
     },
     "sum_of_tf_idf": {
       "ridge": 0.7227823856132808,
-      "elasticnet": 0.8591020793576748
+      "elasticnet": 0.8591020793576748,
+      "randomforest": 0.5641757920613018
     },
     "max_of_tf_idf": {
       "ridge": -0.6366311636021442,
-      "elasticnet": 0.3133791865337352
+      "elasticnet": 0.3133791865337352,
+      "randomforest": 0.2906734579900233
     },
     "mean_of_tf_idf": {
       "ridge": 0.7130828904663441,
-      "elasticnet": -0.00020546374258678668
+      "elasticnet": -0.00020546374258678668,
+      "randomforest": 0.5829053894478908
     },
     "variance_of_tf_idf": {
       "ridge": 0.8244524008842848,
-      "elasticnet": -0.001341608280618578
+      "elasticnet": -0.001341608280618578,
+      "randomforest": 0.704254866493183
     },
     "tfidf_cosine_scores": {
       "ridge": -0.27315655108325787,
-      "elasticnet": 0.2550082069351042
+      "elasticnet": 0.2550082069351042,
+      "randomforest": 0.3366505438727261
     },
     "kl_divergence_scores": {
       "ridge": 0.05261341329630087,
-      "elasticnet": 0.5715112507360479
+      "elasticnet": 0.5715112507360479,
+      "randomforest": 0.35730971232613673
     },
     "js_divergence_scores": {
       "ridge": 0.30419298335197553,
-      "elasticnet": 0.4459581140366645
+      "elasticnet": 0.4459581140366645,
+      "randomforest": 0.4830405523390189
     },
     "BM25": {
       "ridge": -0.03203373049090663,
-      "elasticnet": 0.5415797968717787
+      "elasticnet": 0.5415797968717787,
+      "randomforest": 0.41210391940999713
     }
   },
   "8": {
     "covered_query_term_number": {
       "ridge": 0.8341724474645732,
-      "elasticnet": 0.9044143924874105
+      "elasticnet": 0.9044143924874105,
+      "randomforest": 0.5777398579367734
     },
     "covered_query_term_ratio": {
       "ridge": 0.8624228817253348,
-      "elasticnet": -0.0018210225098933552
+      "elasticnet": -0.0018210225098933552,
+      "randomforest": 0.6642988804247195
     },
     "stream_length": {
       "ridge": 0.8932915772555693,
-      "elasticnet": 0.9318890412708568
+      "elasticnet": 0.9318890412708568,
+      "randomforest": 0.675224087632348
     },
     "sum_of_term_frequency": {
       "ridge": 0.8932915772555693,
-      "elasticnet": 0.9318890412708568
+      "elasticnet": 0.9318890412708568,
+      "randomforest": 0.675224087632348
     },
     "max_of_term_frequency": {
       "ridge": 0.42240381173406516,
-      "elasticnet": 0.74499326238731
+      "elasticnet": 0.74499326238731,
+      "randomforest": 0.5411996309956644
     },
     "mean_of_term_frequency": {
       "ridge": 0.8358309580504314,
-      "elasticnet": 0.5776095815425359
+      "elasticnet": 0.5776095815425359,
+      "randomforest": 0.6904333952514222
     },
     "variance_of_term_frequency": {
       "ridge": 0.7054443377953926,
-      "elasticnet": 0.7561156856111445
+      "elasticnet": 0.7561156856111445,
+      "randomforest": 0.7203963707677035
     },
     "sum_of_stream_length_normalized_tf": {
       "ridge": -2.68,
-      "elasticnet": 0.0
+      "elasticnet": 0.0,
+      "randomforest": 0.0
     },
     "max_of_stream_length_normalized_tf": {
       "ridge": -0.008703908535869331,
-      "elasticnet": 0.18411441665937922
+      "elasticnet": 0.18411441665937922,
+      "randomforest": 0.33810022233633386
     },
     "mean_of_stream_length_normalized_tf": {
       "ridge": 0.8172173151527172,
-      "elasticnet": -0.001262549861270168
+      "elasticnet": -0.001262549861270168,
+      "randomforest": 0.6713563433743381
     },
     "variance_of_stream_length_normalized_tf": {
       "ridge": 0.6000571270193941,
-      "elasticnet": -9.300590046312784e-05
+      "elasticnet": -9.300590046312784e-05,
+      "randomforest": 0.5553052603662472
     },
     "sum_of_tf_idf": {
       "ridge": 0.7150860656271921,
-      "elasticnet": 0.8486572683689282
+      "elasticnet": 0.8486572683689282,
+      "randomforest": 0.5107420086451943
     },
     "max_of_tf_idf": {
       "ridge": -0.6243053762965944,
-      "elasticnet": 0.3175839095158567
+      "elasticnet": 0.3175839095158567,
+      "randomforest": 0.267669402759217
     },
     "mean_of_tf_idf": {
       "ridge": 0.6715225820263901,
-      "elasticnet": -0.00020546374258678668
+      "elasticnet": -0.00020546374258678668,
+      "randomforest": 0.5571277204053964
     },
     "variance_of_tf_idf": {
       "ridge": 0.8252464033928797,
-      "elasticnet": -0.001341608280618578
+      "elasticnet": -0.001341608280618578,
+      "randomforest": 0.6689630727808153
     },
     "tfidf_cosine_scores": {
       "ridge": -0.11044673492141643,
-      "elasticnet": 0.2695452986927036
+      "elasticnet": 0.2695452986927036,
+      "randomforest": 0.3324912485942989
     },
     "kl_divergence_scores": {
       "ridge": 0.058745751325378626,
-      "elasticnet": 0.5899324762455822
+      "elasticnet": 0.5899324762455822,
+      "randomforest": 0.3735984086528036
     },
     "js_divergence_scores": {
       "ridge": 0.3026116981386444,
-      "elasticnet": 0.4367045235371013
+      "elasticnet": 0.4367045235371013,
+      "randomforest": 0.47990674627241836
     },
     "BM25": {
       "ridge": -0.11233587965184566,
-      "elasticnet": 0.5540731152131507
+      "elasticnet": 0.5540731152131507,
+      "randomforest": 0.38762473202753234
     }
   },
   "9": {
     "covered_query_term_number": {
       "ridge": 0.8069704116280311,
-      "elasticnet": 0.897092329791709
+      "elasticnet": 0.897092329791709,
+      "randomforest": 0.5872438728279326
     },
     "covered_query_term_ratio": {
       "ridge": 0.8464579671289025,
-      "elasticnet": -0.0018210225098933552
+      "elasticnet": -0.0018210225098933552,
+      "randomforest": 0.6591410156844713
     },
     "stream_length": {
       "ridge": 0.9021373730689983,
-      "elasticnet": 0.9392528278335834
+      "elasticnet": 0.9392528278335834,
+      "randomforest": 0.6968944753400309
     },
     "sum_of_term_frequency": {
       "ridge": 0.9021373730689983,
-      "elasticnet": 0.9392528278335834
+      "elasticnet": 0.9392528278335834,
+      "randomforest": 0.6968944753400309
     },
     "max_of_term_frequency": {
       "ridge": 0.4077692193074576,
-      "elasticnet": 0.742271257099021
+      "elasticnet": 0.742271257099021,
+      "randomforest": 0.54471423275509
     },
     "mean_of_term_frequency": {
       "ridge": 0.8438624292996029,
-      "elasticnet": 0.5877055115691682
+      "elasticnet": 0.5877055115691682,
+      "randomforest": 0.6973029067680886
     },
     "variance_of_term_frequency": {
       "ridge": 0.7360443430795869,
-      "elasticnet": 0.7524847785782298
+      "elasticnet": 0.7524847785782298,
+      "randomforest": 0.7147214809366133
     },
     "sum_of_stream_length_normalized_tf": {
       "ridge": -2.7418181818181817,
-      "elasticnet": 0.0
+      "elasticnet": 0.0,
+      "randomforest": 0.0
     },
     "max_of_stream_length_normalized_tf": {
       "ridge": 0.00702182634584847,
-      "elasticnet": 0.1789612881165219
+      "elasticnet": 0.1789612881165219,
+      "randomforest": 0.32724513503562525
     },
     "mean_of_stream_length_normalized_tf": {
       "ridge": 0.8223277768587214,
-      "elasticnet": -0.001262549861270168
+      "elasticnet": -0.001262549861270168,
+      "randomforest": 0.6354499889128773
     },
     "variance_of_stream_length_normalized_tf": {
       "ridge": 0.6195048207788649,
-      "elasticnet": -9.300590046312784e-05
+      "elasticnet": -9.300590046312784e-05,
+      "randomforest": 0.5438813174081685
     },
     "sum_of_tf_idf": {
       "ridge": 0.7047692933012193,
-      "elasticnet": 0.8480655189518184
+      "elasticnet": 0.8480655189518184,
+      "randomforest": 0.5121927709744172
     },
     "max_of_tf_idf": {
       "ridge": -0.6420811657999732,
-      "elasticnet": 0.3142279414824042
+      "elasticnet": 0.3142279414824042,
+      "randomforest": 0.291902516714001
     },
     "mean_of_tf_idf": {
       "ridge": 0.6965707575693241,
-      "elasticnet": -0.00020546374258678668
+      "elasticnet": -0.00020546374258678668,
+      "randomforest": 0.5433306674402952
     },
     "variance_of_tf_idf": {
       "ridge": 0.8274066159231068,
-      "elasticnet": -0.001341608280618578
+      "elasticnet": -0.001341608280618578,
+      "randomforest": 0.6440442408531837
     },
     "tfidf_cosine_scores": {
       "ridge": 0.10140353793966161,
-      "elasticnet": 0.2871707238150175
+      "elasticnet": 0.2871707238150175,
+      "randomforest": 0.3564705497204649
     },
     "kl_divergence_scores": {
       "ridge": 0.09800852445839758,
-      "elasticnet": 0.6045029908103378
+      "elasticnet": 0.6045029908103378,
+      "randomforest": 0.3672001929547726
     },
     "js_divergence_scores": {
       "ridge": 0.3912533479652236,
-      "elasticnet": 0.4434839178350152
+      "elasticnet": 0.4434839178350152,
+      "randomforest": 0.4650969159182029
     },
     "BM25": {
       "ridge": 0.08621755890284022,
-      "elasticnet": 0.5943080285902553
+      "elasticnet": 0.5943080285902553,
+      "randomforest": 0.4157559985416911
     }
   },
   "10": {
     "covered_query_term_number": {
       "ridge": 0.8080901081558635,
-      "elasticnet": 0.8939554558198901
+      "elasticnet": 0.8939554558198901,
+      "randomforest": 0.5693785150770029
     },
     "covered_query_term_ratio": {
       "ridge": 0.8355220430189478,
-      "elasticnet": -0.0018210225098933552
+      "elasticnet": -0.0018210225098933552,
+      "randomforest": 0.669825165200229
     },
     "stream_length": {
       "ridge": 0.8992658170311904,
-      "elasticnet": 0.9420240942579512
+      "elasticnet": 0.9420240942579512,
+      "randomforest": 0.7526709361974633
     },
     "sum_of_term_frequency": {
       "ridge": 0.8992658170311904,
-      "elasticnet": 0.9420240942579512
+      "elasticnet": 0.9420240942579512,
+      "randomforest": 0.7526709361974633
     },
     "max_of_term_frequency": {
       "ridge": 0.4068495700282707,
-      "elasticnet": 0.7417691014387016
+      "elasticnet": 0.7417691014387016,
+      "randomforest": 0.563041366219474
     },
     "mean_of_term_frequency": {
       "ridge": 0.8359637152768825,
-      "elasticnet": 0.6364200545317862
+      "elasticnet": 0.6364200545317862,
+      "randomforest": 0.7437832781956866
     },
     "variance_of_term_frequency": {
       "ridge": 0.7151578890152317,
-      "elasticnet": 0.7539438468943946
+      "elasticnet": 0.7539438468943946,
+      "randomforest": 0.7260756297858036
     },
     "sum_of_stream_length_normalized_tf": {
       "ridge": -3.1781818181818178,
-      "elasticnet": 0.0
+      "elasticnet": 0.0,
+      "randomforest": 0.0
     },
     "max_of_stream_length_normalized_tf": {
       "ridge": -0.041186594708410684,
-      "elasticnet": 0.14031161128865888
+      "elasticnet": 0.14031161128865888,
+      "randomforest": 0.29362386710449007
     },
     "mean_of_stream_length_normalized_tf": {
       "ridge": 0.7790866014074523,
-      "elasticnet": -0.001262549861270168
+      "elasticnet": -0.001262549861270168,
+      "randomforest": 0.6353525575747381
     },
     "variance_of_stream_length_normalized_tf": {
       "ridge": 0.592984990760721,
-      "elasticnet": -9.300590046312784e-05
+      "elasticnet": -9.300590046312784e-05,
+      "randomforest": 0.49693966747707663
     },
     "sum_of_tf_idf": {
       "ridge": 0.685359024416837,
-      "elasticnet": 0.8470580594074291
+      "elasticnet": 0.8470580594074291,
+      "randomforest": 0.542939343693903
     },
     "max_of_tf_idf": {
       "ridge": -0.6517739501859441,
-      "elasticnet": 0.3062537618891338
+      "elasticnet": 0.3062537618891338,
+      "randomforest": 0.2692953649010065
     },
     "mean_of_tf_idf": {
       "ridge": 0.6514093423460966,
-      "elasticnet": -0.00020546374258678668
+      "elasticnet": -0.00020546374258678668,
+      "randomforest": 0.5501787006856431
     },
     "variance_of_tf_idf": {
       "ridge": 0.7868716630725943,
-      "elasticnet": -0.001341608280618578
+      "elasticnet": -0.001341608280618578,
+      "randomforest": 0.6358717484772702
     },
     "tfidf_cosine_scores": {
       "ridge": 0.0055916276836379675,
-      "elasticnet": 0.2706753050712003
+      "elasticnet": 0.2706753050712003,
+      "randomforest": 0.34235640248746024
     },
     "kl_divergence_scores": {
       "ridge": 0.12417145104088845,
-      "elasticnet": 0.5849772731405928
+      "elasticnet": 0.5849772731405928,
+      "randomforest": 0.3899857097754491
     },
     "js_divergence_scores": {
       "ridge": 0.3519391557726137,
-      "elasticnet": 0.4419068243474027
+      "elasticnet": 0.4419068243474027,
+      "randomforest": 0.483018717715872
     },
     "BM25": {
       "ridge": 0.11104314922765779,
-      "elasticnet": 0.5855326254762492
+      "elasticnet": 0.5855326254762492,
+      "randomforest": 0.39496332528354317
     }
   },
   "11": {
     "covered_query_term_number": {
       "ridge": 0.8418719845644814,
-      "elasticnet": 0.897135850956902
+      "elasticnet": 0.897135850956902,
+      "randomforest": 0.5674854502588371
     },
     "covered_query_term_ratio": {
       "ridge": 0.8723102136210998,
-      "elasticnet": -0.0018210225098933552
+      "elasticnet": -0.0018210225098933552,
+      "randomforest": 0.6456880908588308
     },
     "stream_length": {
       "ridge": 0.9038157672534912,
-      "elasticnet": 0.9433227183985062
+      "elasticnet": 0.9433227183985062,
+      "randomforest": 0.6585117517189565
     },
     "sum_of_term_frequency": {
       "ridge": 0.9038157672534912,
-      "elasticnet": 0.9433227183985062
+      "elasticnet": 0.9433227183985062,
+      "randomforest": 0.6585117517189565
     },
     "max_of_term_frequency": {
       "ridge": 0.39274494196898213,
-      "elasticnet": 0.7222193712752022
+      "elasticnet": 0.7222193712752022,
+      "randomforest": 0.5048534731930632
     },
     "mean_of_term_frequency": {
       "ridge": 0.855744550560692,
-      "elasticnet": 0.5828312212212622
+      "elasticnet": 0.5828312212212622,
+      "randomforest": 0.6781930403516777
     },
     "variance_of_term_frequency": {
       "ridge": 0.7163462994363776,
-      "elasticnet": 0.7429305552585571
+      "elasticnet": 0.7429305552585571,
+      "randomforest": 0.6652212262741692
     },
     "sum_of_stream_length_normalized_tf": {
       "ridge": -2.3963636363636365,
-      "elasticnet": 0.0
+      "elasticnet": 0.0,
+      "randomforest": 0.0
     },
     "max_of_stream_length_normalized_tf": {
       "ridge": -0.016784083965788232,
-      "elasticnet": 0.10489546070569844
+      "elasticnet": 0.10489546070569844,
+      "randomforest": 0.28513800905315945
     },
     "mean_of_stream_length_normalized_tf": {
       "ridge": 0.8275246177642522,
-      "elasticnet": -0.001262549861270168
+      "elasticnet": -0.001262549861270168,
+      "randomforest": 0.6380193792317903
     },
     "variance_of_stream_length_normalized_tf": {
       "ridge": 0.56579309717279,
-      "elasticnet": -9.300590046312784e-05
+      "elasticnet": -9.300590046312784e-05,
+      "randomforest": 0.49203674357283866
     },
     "sum_of_tf_idf": {
       "ridge": 0.6782663351148004,
-      "elasticnet": 0.8353863706661563
+      "elasticnet": 0.8353863706661563,
+      "randomforest": 0.47670721129169646
     },
     "max_of_tf_idf": {
       "ridge": -0.6562877370901774,
-      "elasticnet": 0.289381069148294
+      "elasticnet": 0.289381069148294,
+      "randomforest": 0.2650528528374897
     },
     "mean_of_tf_idf": {
       "ridge": 0.6718418741560136,
-      "elasticnet": -0.00020546374258678668
+      "elasticnet": -0.00020546374258678668,
+      "randomforest": 0.5626953592483909
     },
     "variance_of_tf_idf": {
       "ridge": 0.8323883422090308,
-      "elasticnet": -0.001341608280618578
+      "elasticnet": -0.001341608280618578,
+      "randomforest": 0.6308363159216979
     },
     "tfidf_cosine_scores": {
       "ridge": -0.005365368382197477,
-      "elasticnet": 0.2631813867109021
+      "elasticnet": 0.2631813867109021,
+      "randomforest": 0.3335974801883027
     },
     "kl_divergence_scores": {
       "ridge": 0.2418667133303637,
-      "elasticnet": 0.6331234981073641
+      "elasticnet": 0.6331234981073641,
+      "randomforest": 0.38801119382225124
     },
     "js_divergence_scores": {
       "ridge": 0.3470471722676306,
-      "elasticnet": 0.42135164771996514
+      "elasticnet": 0.42135164771996514,
+      "randomforest": 0.4829393344425489
     },
     "BM25": {
       "ridge": 0.09433727911921508,
-      "elasticnet": 0.5852816983965611
+      "elasticnet": 0.5852816983965611,
+      "randomforest": 0.40639469577518994
     }
   },
   "12": {
     "covered_query_term_number": {
       "ridge": 0.8504265493666449,
-      "elasticnet": 0.9156677874149259
+      "elasticnet": 0.9156677874149259,
+      "randomforest": 0.6151205711637966
     },
     "covered_query_term_ratio": {
       "ridge": 0.8691908681145617,
-      "elasticnet": -0.0018210225098933552
+      "elasticnet": -0.0018210225098933552,
+      "randomforest": 0.6620942235236837
     },
     "stream_length": {
       "ridge": 0.8811385268961582,
-      "elasticnet": 0.9269817312670185
+      "elasticnet": 0.9269817312670185,
+      "randomforest": 0.6394435441426567
     },
     "sum_of_term_frequency": {
       "ridge": 0.8811385268961582,
-      "elasticnet": 0.9269817312670185
+      "elasticnet": 0.9269817312670185,
+      "randomforest": 0.6394435441426567
     },
     "max_of_term_frequency": {
       "ridge": 0.39285115354089395,
-      "elasticnet": 0.7257867335862656
+      "elasticnet": 0.7257867335862656,
+      "randomforest": 0.5172239241382803
     },
     "mean_of_term_frequency": {
       "ridge": 0.8387424968482564,
-      "elasticnet": 0.5215713139911758
+      "elasticnet": 0.5215713139911758,
+      "randomforest": 0.6183351277331522
     },
     "variance_of_term_frequency": {
       "ridge": 0.6899463623296009,
-      "elasticnet": 0.7133062929193376
+      "elasticnet": 0.7133062929193376,
+      "randomforest": 0.6208861350707533
     },
     "sum_of_stream_length_normalized_tf": {
       "ridge": -2.8581818181818184,
-      "elasticnet": 0.0
+      "elasticnet": 0.0,
+      "randomforest": 0.0
     },
     "max_of_stream_length_normalized_tf": {
       "ridge": -0.04226998749565114,
-      "elasticnet": 0.08470876228384683
+      "elasticnet": 0.08470876228384683,
+      "randomforest": 0.27090110651017507
     },
     "mean_of_stream_length_normalized_tf": {
       "ridge": 0.8309004687370705,
-      "elasticnet": -0.001262549861270168
+      "elasticnet": -0.001262549861270168,
+      "randomforest": 0.6547282735772759
     },
     "variance_of_stream_length_normalized_tf": {
       "ridge": 0.5627258566134485,
-      "elasticnet": -9.300590046312784e-05
+      "elasticnet": -9.300590046312784e-05,
+      "randomforest": 0.47719952769437735
     },
     "sum_of_tf_idf": {
       "ridge": 0.6847163236733684,
-      "elasticnet": 0.8261796296203356
+      "elasticnet": 0.8261796296203356,
+      "randomforest": 0.45762739038199707
     },
     "max_of_tf_idf": {
       "ridge": -0.6356124403582168,
-      "elasticnet": 0.29054341694171915
+      "elasticnet": 0.29054341694171915,
+      "randomforest": 0.25760753246833645
     },
     "mean_of_tf_idf": {
       "ridge": 0.6914858124742804,
-      "elasticnet": -0.00020546374258678668
+      "elasticnet": -0.00020546374258678668,
+      "randomforest": 0.5310887711387076
     },
     "variance_of_tf_idf": {
       "ridge": 0.833671384957219,
-      "elasticnet": -0.001341608280618578
+      "elasticnet": -0.001341608280618578,
+      "randomforest": 0.6384221407671031
     },
     "tfidf_cosine_scores": {
       "ridge": 0.024239935371634047,
-      "elasticnet": 0.27829326987066194
+      "elasticnet": 0.27829326987066194,
+      "randomforest": 0.3694642416786309
     },
     "kl_divergence_scores": {
       "ridge": 0.28726332215892125,
-      "elasticnet": 0.6530799864434271
+      "elasticnet": 0.6530799864434271,
+      "randomforest": 0.446159525134047
     },
     "js_divergence_scores": {
       "ridge": 0.3730080459796289,
-      "elasticnet": 0.43486987878273753
+      "elasticnet": 0.43486987878273753,
+      "randomforest": 0.48360471846615927
     },
     "BM25": {
       "ridge": 0.168183442494233,
-      "elasticnet": 0.6129681712173043
+      "elasticnet": 0.6129681712173043,
+      "randomforest": 0.44293392226098827
     }
   },
   "13": {
     "covered_query_term_number": {
       "ridge": 0.8693983929072002,
-      "elasticnet": 0.9112108872897777
+      "elasticnet": 0.9112108872897777,
+      "randomforest": 0.6539930113706822
     },
     "covered_query_term_ratio": {
       "ridge": 0.8856478679954993,
-      "elasticnet": -0.0018210225098933552
+      "elasticnet": -0.0018210225098933552,
+      "randomforest": 0.6847200536777052
     },
     "stream_length": {
       "ridge": 0.900001313731828,
-      "elasticnet": 0.9408970935796509
+      "elasticnet": 0.9408970935796509,
+      "randomforest": 0.7440583434664844
     },
     "sum_of_term_frequency": {
       "ridge": 0.900001313731828,
-      "elasticnet": 0.9408970935796509
+      "elasticnet": 0.9408970935796509,
+      "randomforest": 0.7440583434664844
     },
     "max_of_term_frequency": {
       "ridge": 0.29483317720371305,
-      "elasticnet": 0.7138786997201207
+      "elasticnet": 0.7138786997201207,
+      "randomforest": 0.5358345242093171
     },
     "mean_of_term_frequency": {
       "ridge": 0.8561235111405001,
-      "elasticnet": 0.6297265883486542
+      "elasticnet": 0.6297265883486542,
+      "randomforest": 0.7389949228601602
     },
     "variance_of_term_frequency": {
       "ridge": 0.6665235226291917,
-      "elasticnet": 0.7353254449747293
+      "elasticnet": 0.7353254449747293,
+      "randomforest": 0.6836971766084483
     },
     "sum_of_stream_length_normalized_tf": {
       "ridge": -2.247272727272727,
-      "elasticnet": 0.0
+      "elasticnet": 0.0,
+      "randomforest": 0.0
     },
     "max_of_stream_length_normalized_tf": {
       "ridge": -0.17345394680705062,
-      "elasticnet": 0.09538956789403974
+      "elasticnet": 0.09538956789403974,
+      "randomforest": 0.27194566978365875
     },
     "mean_of_stream_length_normalized_tf": {
       "ridge": 0.8548390268256926,
-      "elasticnet": -0.001262549861270168
+      "elasticnet": -0.001262549861270168,
+      "randomforest": 0.6589369004172397
     },
     "variance_of_stream_length_normalized_tf": {
       "ridge": 0.5171392557223716,
-      "elasticnet": -9.300590046312784e-05
+      "elasticnet": -9.300590046312784e-05,
+      "randomforest": 0.4657500522792837
     },
     "sum_of_tf_idf": {
       "ridge": 0.6548501414023611,
-      "elasticnet": 0.8258464816893012
+      "elasticnet": 0.8258464816893012,
+      "randomforest": 0.44334874353417064
     },
     "max_of_tf_idf": {
       "ridge": -0.8736004206269123,
-      "elasticnet": 0.27263419912347797
+      "elasticnet": 0.27263419912347797,
+      "randomforest": 0.2278046208313833
     },
     "mean_of_tf_idf": {
       "ridge": 0.7036647067282799,
-      "elasticnet": -0.00020546374258678668
+      "elasticnet": -0.00020546374258678668,
+      "randomforest": 0.5529305836064065
     },
     "variance_of_tf_idf": {
       "ridge": 0.8535184015985253,
-      "elasticnet": -0.001341608280618578
+      "elasticnet": -0.001341608280618578,
+      "randomforest": 0.6457509077925907
     },
     "tfidf_cosine_scores": {
       "ridge": 0.08747113356202596,
-      "elasticnet": 0.29464984333470257
+      "elasticnet": 0.29464984333470257,
+      "randomforest": 0.36667666183230685
     },
     "kl_divergence_scores": {
       "ridge": 0.22321093045239526,
-      "elasticnet": 0.6431767772802313
+      "elasticnet": 0.6431767772802313,
+      "randomforest": 0.4697408237772346
     },
     "js_divergence_scores": {
       "ridge": 0.3292209853231505,
-      "elasticnet": 0.434975528236091
+      "elasticnet": 0.434975528236091,
+      "randomforest": 0.4895694383904444
     },
     "BM25": {
       "ridge": 0.10791718606539069,
-      "elasticnet": 0.5847912016738878
+      "elasticnet": 0.5847912016738878,
+      "randomforest": 0.4167354392860242
     }
   },
   "14": {
     "covered_query_term_number": {
       "ridge": 0.8413147041938938,
-      "elasticnet": 0.9123638685915609
+      "elasticnet": 0.9123638685915609,
+      "randomforest": 0.6307840416518
     },
     "covered_query_term_ratio": {
       "ridge": 0.8661937930108359,
-      "elasticnet": -0.0018210225098933552
+      "elasticnet": -0.0018210225098933552,
+      "randomforest": 0.6948871618178709
     },
     "stream_length": {
       "ridge": 0.8590264880913803,
-      "elasticnet": 0.9116510151859739
+      "elasticnet": 0.9116510151859739,
+      "randomforest": 0.6741635210218682
     },
     "sum_of_term_frequency": {
       "ridge": 0.8590264880913803,
-      "elasticnet": 0.9116510151859739
+      "elasticnet": 0.9116510151859739,
+      "randomforest": 0.6741635210218682
     },
     "max_of_term_frequency": {
       "ridge": 0.368715420038625,
-      "elasticnet": 0.729613531250127
+      "elasticnet": 0.729613531250127,
+      "randomforest": 0.49147558588176
     },
     "mean_of_term_frequency": {
       "ridge": 0.8272621817719351,
-      "elasticnet": 0.5616486183090063
+      "elasticnet": 0.5616486183090063,
+      "randomforest": 0.67374346841424
     },
     "variance_of_term_frequency": {
       "ridge": 0.6538647620961832,
-      "elasticnet": 0.7205943278164857
+      "elasticnet": 0.7205943278164857,
+      "randomforest": 0.6597835182793745
     },
     "sum_of_stream_length_normalized_tf": {
       "ridge": -2.890909090909091,
-      "elasticnet": 0.0
+      "elasticnet": 0.0,
+      "randomforest": 0.0
     },
     "max_of_stream_length_normalized_tf": {
       "ridge": -0.051222364580486346,
-      "elasticnet": 0.08121132175761736
+      "elasticnet": 0.08121132175761736,
+      "randomforest": 0.25956367395783086
     },
     "mean_of_stream_length_normalized_tf": {
       "ridge": 0.8473001348666842,
-      "elasticnet": -0.001262549861270168
+      "elasticnet": -0.001262549861270168,
+      "randomforest": 0.6591297927981659
     },
     "variance_of_stream_length_normalized_tf": {
       "ridge": 0.5010409608415376,
-      "elasticnet": -9.300590046312784e-05
+      "elasticnet": -9.300590046312784e-05,
+      "randomforest": 0.4318284414072523
     },
     "sum_of_tf_idf": {
       "ridge": 0.6314810581861,
-      "elasticnet": 0.8177495591738946
+      "elasticnet": 0.8177495591738946,
+      "randomforest": 0.41809916097468813
     },
     "max_of_tf_idf": {
       "ridge": -0.8114532307216087,
-      "elasticnet": 0.2558095037170155
+      "elasticnet": 0.2558095037170155,
+      "randomforest": 0.23719580780075522
     },
     "mean_of_tf_idf": {
       "ridge": 0.6700741476931822,
-      "elasticnet": -0.00020546374258678668
+      "elasticnet": -0.00020546374258678668,
+      "randomforest": 0.5287755420880629
     },
     "variance_of_tf_idf": {
       "ridge": 0.8503842815573912,
-      "elasticnet": -0.001341608280618578
+      "elasticnet": -0.001341608280618578,
+      "randomforest": 0.6396115303597407
     },
     "tfidf_cosine_scores": {
       "ridge": 0.011072992311974339,
-      "elasticnet": 0.27120140953825844
+      "elasticnet": 0.27120140953825844,
+      "randomforest": 0.3566434187433809
     },
     "kl_divergence_scores": {
       "ridge": 0.24424749308525284,
-      "elasticnet": 0.628713254947362
+      "elasticnet": 0.628713254947362,
+      "randomforest": 0.4530915165581413
     },
     "js_divergence_scores": {
       "ridge": 0.3932837778997864,
-      "elasticnet": 0.42472445491259203
+      "elasticnet": 0.42472445491259203,
+      "randomforest": 0.4645622369747556
     },
     "BM25": {
       "ridge": 0.1433269688472385,
-      "elasticnet": 0.6049671565646673
+      "elasticnet": 0.6049671565646673,
+      "randomforest": 0.40393702671495224
     }
   },
   "15": {
     "covered_query_term_number": {
       "ridge": 0.843898924689687,
-      "elasticnet": 0.9142429269734648
+      "elasticnet": 0.9142429269734648,
+      "randomforest": 0.6434430929964132
     },
     "covered_query_term_ratio": {
       "ridge": 0.8742870780858031,
-      "elasticnet": -0.0018210225098933552
+      "elasticnet": -0.0018210225098933552,
+      "randomforest": 0.6751946645493813
     },
     "stream_length": {
       "ridge": 0.8810691298497529,
-      "elasticnet": 0.9287001142849424
+      "elasticnet": 0.9287001142849424,
+      "randomforest": 0.7000794435405281
     },
     "sum_of_term_frequency": {
       "ridge": 0.8810691298497529,
-      "elasticnet": 0.9287001142849424
+      "elasticnet": 0.9287001142849424,
+      "randomforest": 0.7000794435405281
     },
     "max_of_term_frequency": {
       "ridge": 0.3706179613719661,
-      "elasticnet": 0.733723788621737
+      "elasticnet": 0.733723788621737,
+      "randomforest": 0.5114567914771441
     },
     "mean_of_term_frequency": {
       "ridge": 0.8440291187023263,
-      "elasticnet": 0.5955525386938922
+      "elasticnet": 0.5955525386938922,
+      "randomforest": 0.7040631676470417
     },
     "variance_of_term_frequency": {
       "ridge": 0.6563112509371833,
-      "elasticnet": 0.7261555299502597
+      "elasticnet": 0.7261555299502597,
+      "randomforest": 0.6791180607176353
     },
     "sum_of_stream_length_normalized_tf": {
       "ridge": -2.44,
-      "elasticnet": 0.0
+      "elasticnet": 0.0,
+      "randomforest": 0.0
     },
     "max_of_stream_length_normalized_tf": {
       "ridge": -0.020675852611901524,
-      "elasticnet": 0.0983751416786588
+      "elasticnet": 0.0983751416786588,
+      "randomforest": 0.2912821348103013
     },
     "mean_of_stream_length_normalized_tf": {
       "ridge": 0.8556570979769963,
-      "elasticnet": -0.001262549861270168
+      "elasticnet": -0.001262549861270168,
+      "randomforest": 0.6539293566682813
     },
     "variance_of_stream_length_normalized_tf": {
       "ridge": 0.565587319624095,
-      "elasticnet": -9.300590046312784e-05
+      "elasticnet": -9.300590046312784e-05,
+      "randomforest": 0.46004941032687674
     },
     "sum_of_tf_idf": {
       "ridge": 0.6013535992001187,
-      "elasticnet": 0.798085141928723
+      "elasticnet": 0.798085141928723,
+      "randomforest": 0.44561704684424
     },
     "max_of_tf_idf": {
       "ridge": -0.8112218349572433,
-      "elasticnet": 0.2252569341558226
+      "elasticnet": 0.2252569341558226,
+      "randomforest": 0.18794369477198158
     },
     "mean_of_tf_idf": {
       "ridge": 0.653729850761966,
-      "elasticnet": -0.00020546374258678668
+      "elasticnet": -0.00020546374258678668,
+      "randomforest": 0.5279476325823586
     },
     "variance_of_tf_idf": {
       "ridge": 0.8583520208155265,
-      "elasticnet": -0.001341608280618578
+      "elasticnet": -0.001341608280618578,
+      "randomforest": 0.6614877557380092
     },
     "tfidf_cosine_scores": {
       "ridge": 0.03832292426619599,
-      "elasticnet": 0.28872110043714283
+      "elasticnet": 0.28872110043714283,
+      "randomforest": 0.35780533405429016
     },
     "kl_divergence_scores": {
       "ridge": 0.25068318256231026,
-      "elasticnet": 0.6497246430174148
+      "elasticnet": 0.6497246430174148,
+      "randomforest": 0.5018992630269602
     },
     "js_divergence_scores": {
       "ridge": 0.36293106882166537,
-      "elasticnet": 0.4162143792082508
+      "elasticnet": 0.4162143792082508,
+      "randomforest": 0.4800829860826413
     },
     "BM25": {
       "ridge": 0.18836100545739143,
-      "elasticnet": 0.5904299423124677
+      "elasticnet": 0.5904299423124677,
+      "randomforest": 0.411815522032581
     }
   },
   "16": {
     "covered_query_term_number": {
       "ridge": 0.8813002217477544,
-      "elasticnet": 0.9295004479971326
+      "elasticnet": 0.9295004479971326,
+      "randomforest": 0.680273204112331
     },
     "covered_query_term_ratio": {
       "ridge": 0.9053310952186742,
-      "elasticnet": -0.0018210225098933552
+      "elasticnet": -0.0018210225098933552,
+      "randomforest": 0.7632351588288364
     },
     "stream_length": {
       "ridge": 0.8649391017118041,
-      "elasticnet": 0.9240443436502422
+      "elasticnet": 0.9240443436502422,
+      "randomforest": 0.7428892840791619
     },
     "sum_of_term_frequency": {
       "ridge": 0.8649391017118041,
-      "elasticnet": 0.9240443436502422
+      "elasticnet": 0.9240443436502422,
+      "randomforest": 0.7428892840791619
     },
     "max_of_term_frequency": {
       "ridge": 0.3570932903684616,
-      "elasticnet": 0.7287899397405515
+      "elasticnet": 0.7287899397405515,
+      "randomforest": 0.5275976969065889
     },
     "mean_of_term_frequency": {
       "ridge": 0.8319513826423828,
-      "elasticnet": 0.5909199969164061
+      "elasticnet": 0.5909199969164061,
+      "randomforest": 0.7435930716247598
     },
     "variance_of_term_frequency": {
       "ridge": 0.6450507362356157,
-      "elasticnet": 0.7242260776241585
+      "elasticnet": 0.7242260776241585,
+      "randomforest": 0.6859876958274207
     },
     "sum_of_stream_length_normalized_tf": {
       "ridge": -2.4545454545454546,
-      "elasticnet": 0.0
+      "elasticnet": 0.0,
+      "randomforest": 0.0
     },
     "max_of_stream_length_normalized_tf": {
       "ridge": -0.06290518448054283,
-      "elasticnet": 0.08798607860970242
+      "elasticnet": 0.08798607860970242,
+      "randomforest": 0.28278580484892324
     },
     "mean_of_stream_length_normalized_tf": {
       "ridge": 0.876926384117423,
-      "elasticnet": -0.001262549861270168
+      "elasticnet": -0.001262549861270168,
+      "randomforest": 0.7362606179226506
     },
     "variance_of_stream_length_normalized_tf": {
       "ridge": 0.546684593799467,
-      "elasticnet": -9.300590046312784e-05
+      "elasticnet": -9.300590046312784e-05,
+      "randomforest": 0.4803215743441275
     },
     "sum_of_tf_idf": {
       "ridge": 0.6038151703215524,
-      "elasticnet": 0.8248701499227199
+      "elasticnet": 0.8248701499227199,
+      "randomforest": 0.5011016669267183
     },
     "max_of_tf_idf": {
       "ridge": -0.8339726004354913,
-      "elasticnet": 0.22258565297357535
+      "elasticnet": 0.22258565297357535,
+      "randomforest": 0.20764961737841225
     },
     "mean_of_tf_idf": {
       "ridge": 0.695444391583131,
-      "elasticnet": -0.00020546374258678668
+      "elasticnet": -0.00020546374258678668,
+      "randomforest": 0.5798891275274127
     },
     "variance_of_tf_idf": {
       "ridge": 0.8754458955681421,
-      "elasticnet": -0.001341608280618578
+      "elasticnet": -0.001341608280618578,
+      "randomforest": 0.7242413252283483
     },
     "tfidf_cosine_scores": {
       "ridge": 0.07589429990203089,
-      "elasticnet": 0.28200231009584154
+      "elasticnet": 0.28200231009584154,
+      "randomforest": 0.38548114126063604
     },
     "kl_divergence_scores": {
       "ridge": 0.2861606804265615,
-      "elasticnet": 0.6563650050605718
+      "elasticnet": 0.6563650050605718,
+      "randomforest": 0.4955376432997316
     },
     "js_divergence_scores": {
       "ridge": 0.3606725604563411,
-      "elasticnet": 0.4293979155923152
+      "elasticnet": 0.4293979155923152,
+      "randomforest": 0.5135492199964174
     },
     "BM25": {
       "ridge": 0.17464712932426119,
-      "elasticnet": 0.6324922946375688
+      "elasticnet": 0.6324922946375688,
+      "randomforest": 0.4266922517608931
     }
   },
   "17": {
     "covered_query_term_number": {
       "ridge": 0.8825590294489984,
-      "elasticnet": 0.9352521144082739
+      "elasticnet": 0.9352521144082739,
+      "randomforest": 0.7137580296878606
     },
     "covered_query_term_ratio": {
       "ridge": 0.8989389356292008,
-      "elasticnet": -0.0018210225098933552
+      "elasticnet": -0.0018210225098933552,
+      "randomforest": 0.7622878967309192
     },
     "stream_length": {
       "ridge": 0.8489529702082994,
-      "elasticnet": 0.9055260574736804
+      "elasticnet": 0.9055260574736804,
+      "randomforest": 0.6524478267757186
     },
     "sum_of_term_frequency": {
       "ridge": 0.8489529702082994,
-      "elasticnet": 0.9055260574736804
+      "elasticnet": 0.9055260574736804,
+      "randomforest": 0.6524478267757186
     },
     "max_of_term_frequency": {
       "ridge": 0.37733935128138063,
-      "elasticnet": 0.72913153681663
+      "elasticnet": 0.72913153681663,
+      "randomforest": 0.4992013880818399
     },
     "mean_of_term_frequency": {
       "ridge": 0.8179239175700956,
-      "elasticnet": 0.5275491077648593
+      "elasticnet": 0.5275491077648593,
+      "randomforest": 0.6893995957274517
     },
     "variance_of_term_frequency": {
       "ridge": 0.6186271780015327,
-      "elasticnet": 0.699209422036843
+      "elasticnet": 0.699209422036843,
+      "randomforest": 0.6386008515606589
     },
     "sum_of_stream_length_normalized_tf": {
       "ridge": -2.5054545454545454,
-      "elasticnet": 0.0
+      "elasticnet": 0.0,
+      "randomforest": 0.0
     },
     "max_of_stream_length_normalized_tf": {
       "ridge": -0.099448458672307,
-      "elasticnet": 0.04826391915999373
+      "elasticnet": 0.04826391915999373,
+      "randomforest": 0.2757166774768556
     },
     "mean_of_stream_length_normalized_tf": {
       "ridge": 0.8968807228758762,
-      "elasticnet": -0.001262549861270168
+      "elasticnet": -0.001262549861270168,
+      "randomforest": 0.7572968997184276
     },
     "variance_of_stream_length_normalized_tf": {
       "ridge": 0.45045641073204556,
-      "elasticnet": -9.300590046312784e-05
+      "elasticnet": -9.300590046312784e-05,
+      "randomforest": 0.44199659596272234
     },
     "sum_of_tf_idf": {
       "ridge": 0.56509330035863,
-      "elasticnet": 0.7756464467626821
+      "elasticnet": 0.7756464467626821,
+      "randomforest": 0.38324657631441283
     },
     "max_of_tf_idf": {
       "ridge": -0.9070318381636016,
-      "elasticnet": 0.20655643275620228
+      "elasticnet": 0.20655643275620228,
+      "randomforest": 0.19568999731056858
     },
     "mean_of_tf_idf": {
       "ridge": 0.6599514163260685,
-      "elasticnet": -0.00020546374258678668
+      "elasticnet": -0.00020546374258678668,
+      "randomforest": 0.5395330837024981
     },
     "variance_of_tf_idf": {
       "ridge": 0.8961957189411451,
-      "elasticnet": -0.001341608280618578
+      "elasticnet": -0.001341608280618578,
+      "randomforest": 0.7438656241715098
     },
     "tfidf_cosine_scores": {
       "ridge": 0.13827194192627845,
-      "elasticnet": 0.2675368808253843
+      "elasticnet": 0.2675368808253843,
+      "randomforest": 0.3755320036214277
     },
     "kl_divergence_scores": {
       "ridge": 0.2586944869266846,
-      "elasticnet": 0.64358868145556
+      "elasticnet": 0.64358868145556,
+      "randomforest": 0.5129592129741829
     },
     "js_divergence_scores": {
       "ridge": 0.3980899504472982,
-      "elasticnet": 0.3952924547165776
+      "elasticnet": 0.3952924547165776,
+      "randomforest": 0.49085885172758514
     },
     "BM25": {
       "ridge": 0.1726601718268811,
-      "elasticnet": 0.6161218437682054
+      "elasticnet": 0.6161218437682054,
+      "randomforest": 0.4419288971220978
     }
   },
   "18": {
     "covered_query_term_number": {
       "ridge": 0.8752218728642633,
-      "elasticnet": 0.9298589602471089
+      "elasticnet": 0.9298589602471089,
+      "randomforest": 0.7071208348032327
     },
     "covered_query_term_ratio": {
       "ridge": 0.898301696194276,
-      "elasticnet": -0.0018210225098933552
+      "elasticnet": -0.0018210225098933552,
+      "randomforest": 0.7719682288200018
     },
     "stream_length": {
       "ridge": 0.838601791692575,
-      "elasticnet": 0.905161872346916
+      "elasticnet": 0.905161872346916,
+      "randomforest": 0.6801373782647148
     },
     "sum_of_term_frequency": {
       "ridge": 0.838601791692575,
-      "elasticnet": 0.905161872346916
+      "elasticnet": 0.905161872346916,
+      "randomforest": 0.6801373782647148
     },
     "max_of_term_frequency": {
       "ridge": 0.33567816522222815,
-      "elasticnet": 0.7158281541041425
+      "elasticnet": 0.7158281541041425,
+      "randomforest": 0.5076559317815499
     },
     "mean_of_term_frequency": {
       "ridge": 0.8300016504705247,
-      "elasticnet": 0.5862824174732434
+      "elasticnet": 0.5862824174732434,
+      "randomforest": 0.7038930511601311
     },
     "variance_of_term_frequency": {
       "ridge": 0.6342940506727479,
-      "elasticnet": 0.6982593191008182
+      "elasticnet": 0.6982593191008182,
+      "randomforest": 0.6533372980659974
     },
     "sum_of_stream_length_normalized_tf": {
       "ridge": -2.330909090909091,
-      "elasticnet": 0.0
+      "elasticnet": 0.0,
+      "randomforest": 0.0
     },
     "max_of_stream_length_normalized_tf": {
       "ridge": -0.12770956493484875,
-      "elasticnet": 0.06785424591218381
+      "elasticnet": 0.06785424591218381,
+      "randomforest": 0.29420405630336044
     },
     "mean_of_stream_length_normalized_tf": {
       "ridge": 0.9007473916348577,
-      "elasticnet": -0.001262549861270168
+      "elasticnet": -0.001262549861270168,
+      "randomforest": 0.7635048527324897
     },
     "variance_of_stream_length_normalized_tf": {
       "ridge": 0.45848140173419616,
-      "elasticnet": -9.300590046312784e-05
+      "elasticnet": -9.300590046312784e-05,
+      "randomforest": 0.4798402744945237
     },
     "sum_of_tf_idf": {
       "ridge": 0.562335146492025,
-      "elasticnet": 0.7641033869798655
+      "elasticnet": 0.7641033869798655,
+      "randomforest": 0.3942497269748475
     },
     "max_of_tf_idf": {
       "ridge": -0.8984418404861723,
-      "elasticnet": 0.20520733793809998
+      "elasticnet": 0.20520733793809998,
+      "randomforest": 0.1756190534346258
     },
     "mean_of_tf_idf": {
       "ridge": 0.6729252804059231,
-      "elasticnet": -0.00020546374258678668
+      "elasticnet": -0.00020546374258678668,
+      "randomforest": 0.5461583185503884
     },
     "variance_of_tf_idf": {
       "ridge": 0.9018992145396332,
-      "elasticnet": -0.001341608280618578
+      "elasticnet": -0.001341608280618578,
+      "randomforest": 0.7642301892158041
     },
     "tfidf_cosine_scores": {
       "ridge": 0.039759499175683444,
-      "elasticnet": 0.2606366019501193
+      "elasticnet": 0.2606366019501193,
+      "randomforest": 0.3573519607557254
     },
     "kl_divergence_scores": {
       "ridge": 0.3013546776793051,
-      "elasticnet": 0.6678995666859928
+      "elasticnet": 0.6678995666859928,
+      "randomforest": 0.528640166279732
     },
     "js_divergence_scores": {
       "ridge": 0.3997249069783594,
-      "elasticnet": 0.40938401304572913
+      "elasticnet": 0.40938401304572913,
+      "randomforest": 0.4976613431500839
     },
     "BM25": {
       "ridge": 0.24843779026641033,
-      "elasticnet": 0.615005697689143
+      "elasticnet": 0.615005697689143,
+      "randomforest": 0.45866548988737443
     }
   },
   "19": {
     "covered_query_term_number": {
       "ridge": 0.8963068776267331,
-      "elasticnet": 0.9376336511574385
+      "elasticnet": 0.9376336511574385,
+      "randomforest": 0.7121860856810871
     },
     "covered_query_term_ratio": {
       "ridge": 0.9155494577244034,
-      "elasticnet": -0.0018210225098933552
+      "elasticnet": -0.0018210225098933552,
+      "randomforest": 0.7540628030699025
     },
     "stream_length": {
       "ridge": 0.8467390425642376,
-      "elasticnet": 0.9061429618052579
+      "elasticnet": 0.9061429618052579,
+      "randomforest": 0.7084287395701117
     },
     "sum_of_term_frequency": {
       "ridge": 0.8467390425642376,
-      "elasticnet": 0.9061429618052579
+      "elasticnet": 0.9061429618052579,
+      "randomforest": 0.7084287395701117
     },
     "max_of_term_frequency": {
       "ridge": 0.29253378382655926,
-      "elasticnet": 0.7078335386837986
+      "elasticnet": 0.7078335386837986,
+      "randomforest": 0.5141761801053333
     },
     "mean_of_term_frequency": {
       "ridge": 0.8308468793605909,
-      "elasticnet": 0.5732855733407485
+      "elasticnet": 0.5732855733407485,
+      "randomforest": 0.7240698832929486
     },
     "variance_of_term_frequency": {
       "ridge": 0.6199662129615893,
-      "elasticnet": 0.6850076252706808
+      "elasticnet": 0.6850076252706808,
+      "randomforest": 0.6487091218508163
     },
     "sum_of_stream_length_normalized_tf": {
       "ridge": -2.5272727272727273,
-      "elasticnet": 0.0
+      "elasticnet": 0.0,
+      "randomforest": 0.0
     },
     "max_of_stream_length_normalized_tf": {
       "ridge": -0.15459837382609387,
-      "elasticnet": 0.07613428475336825
+      "elasticnet": 0.07613428475336825,
+      "randomforest": 0.293092455634259
     },
     "mean_of_stream_length_normalized_tf": {
       "ridge": 0.8986591559140811,
-      "elasticnet": -0.001262549861270168
+      "elasticnet": -0.001262549861270168,
+      "randomforest": 0.7622162270962338
     },
     "variance_of_stream_length_normalized_tf": {
       "ridge": 0.47099369113160994,
-      "elasticnet": -9.300590046312784e-05
+      "elasticnet": -9.300590046312784e-05,
+      "randomforest": 0.4762513422441256
     },
     "sum_of_tf_idf": {
       "ridge": 0.5513203664446065,
-      "elasticnet": 0.7910457006783891
+      "elasticnet": 0.7910457006783891,
+      "randomforest": 0.4667407169702794
     },
     "max_of_tf_idf": {
       "ridge": -0.8259563218717896,
-      "elasticnet": 0.20116607893719796
+      "elasticnet": 0.20116607893719796,
+      "randomforest": 0.17970692598085125
     },
     "mean_of_tf_idf": {
       "ridge": 0.6830248701354145,
-      "elasticnet": -0.00020546374258678668
+      "elasticnet": -0.00020546374258678668,
+      "randomforest": 0.5787374215184828
     },
     "variance_of_tf_idf": {
       "ridge": 0.896177892558019,
-      "elasticnet": -0.001341608280618578
+      "elasticnet": -0.001341608280618578,
+      "randomforest": 0.7538630153290902
     },
     "tfidf_cosine_scores": {
       "ridge": -0.02664125834014075,
-      "elasticnet": 0.26698378853375937
+      "elasticnet": 0.26698378853375937,
+      "randomforest": 0.3923932522820974
     },
     "kl_divergence_scores": {
       "ridge": 0.2502539419976375,
-      "elasticnet": 0.6733837995284295
+      "elasticnet": 0.6733837995284295,
+      "randomforest": 0.5444702098452845
     },
     "js_divergence_scores": {
       "ridge": 0.347880452664887,
-      "elasticnet": 0.39992487517896824
+      "elasticnet": 0.39992487517896824,
+      "randomforest": 0.5038391478412217
     },
     "BM25": {
       "ridge": 0.18883287325973996,
-      "elasticnet": 0.6103009624535178
+      "elasticnet": 0.6103009624535178,
+      "randomforest": 0.4515388316581226
     }
   },
   "20": {
     "covered_query_term_number": {
       "ridge": 0.8952137334710795,
-      "elasticnet": 0.9358001404711117
+      "elasticnet": 0.9358001404711117,
+      "randomforest": 0.743200018638259
     },
     "covered_query_term_ratio": {
       "ridge": 0.920357341511934,
-      "elasticnet": -0.0018210225098933552
+      "elasticnet": -0.0018210225098933552,
+      "randomforest": 0.8039604181289653
     },
     "stream_length": {
       "ridge": 0.8162020752734053,
-      "elasticnet": 0.8882083010927676
+      "elasticnet": 0.8882083010927676,
+      "randomforest": 0.6282987575360299
     },
     "sum_of_term_frequency": {
       "ridge": 0.8162020752734053,
-      "elasticnet": 0.8882083010927676
+      "elasticnet": 0.8882083010927676,
+      "randomforest": 0.6282987575360299
     },
     "max_of_term_frequency": {
       "ridge": 0.30889571699197027,
-      "elasticnet": 0.7202469074504196
+      "elasticnet": 0.7202469074504196,
+      "randomforest": 0.482274018685115
     },
     "mean_of_term_frequency": {
       "ridge": 0.8055701472077952,
-      "elasticnet": 0.507803410511023
+      "elasticnet": 0.507803410511023,
+      "randomforest": 0.658731082289387
     },
     "variance_of_term_frequency": {
       "ridge": 0.5738793869686756,
-      "elasticnet": 0.6772676274823739
+      "elasticnet": 0.6772676274823739,
+      "randomforest": 0.5951207443184046
     },
     "sum_of_stream_length_normalized_tf": {
       "ridge": -2.5127272727272727,
-      "elasticnet": 0.0
+      "elasticnet": 0.0,
+      "randomforest": 0.0
     },
     "max_of_stream_length_normalized_tf": {
       "ridge": -0.09594236404969592,
-      "elasticnet": 0.09066931473287687
+      "elasticnet": 0.09066931473287687,
+      "randomforest": 0.26255621551731323
     },
     "mean_of_stream_length_normalized_tf": {
       "ridge": 0.9032691666806679,
-      "elasticnet": -0.001262549861270168
+      "elasticnet": -0.001262549861270168,
+      "randomforest": 0.8140559167718809
     },
     "variance_of_stream_length_normalized_tf": {
       "ridge": 0.44968595928859556,
-      "elasticnet": -9.300590046312784e-05
+      "elasticnet": -9.300590046312784e-05,
+      "randomforest": 0.4058660016480581
     },
     "sum_of_tf_idf": {
       "ridge": 0.5025803825019709,
-      "elasticnet": 0.7356129247026362
+      "elasticnet": 0.7356129247026362,
+      "randomforest": 0.3580977201602652
     },
     "max_of_tf_idf": {
       "ridge": -0.9824950534263193,
-      "elasticnet": 0.17410128753383491
+      "elasticnet": 0.17410128753383491,
+      "randomforest": 0.18246063653157407
     },
     "mean_of_tf_idf": {
       "ridge": 0.6605656821899759,
-      "elasticnet": -0.00020546374258678668
+      "elasticnet": -0.00020546374258678668,
+      "randomforest": 0.5530543504165004
     },
     "variance_of_tf_idf": {
       "ridge": 0.9006930941468356,
-      "elasticnet": -0.001341608280618578
+      "elasticnet": -0.001341608280618578,
+      "randomforest": 0.8056307491830781
     },
     "tfidf_cosine_scores": {
       "ridge": -0.03637273513842021,
-      "elasticnet": 0.25172946735413504
+      "elasticnet": 0.25172946735413504,
+      "randomforest": 0.37510897356430817
     },
     "kl_divergence_scores": {
       "ridge": 0.26679491252450693,
-      "elasticnet": 0.6534721844574478
+      "elasticnet": 0.6534721844574478,
+      "randomforest": 0.5395582366370915
     },
     "js_divergence_scores": {
       "ridge": 0.35605954452945054,
-      "elasticnet": 0.3931336297976652
+      "elasticnet": 0.3931336297976652,
+      "randomforest": 0.527425194234447
     },
     "BM25": {
       "ridge": 0.23092867331243083,
-      "elasticnet": 0.60055140017512
+      "elasticnet": 0.60055140017512,
+      "randomforest": 0.4784584389649681
     }
   },
   "21": {
     "covered_query_term_number": {
       "ridge": 0.9152854568353378,
-      "elasticnet": 0.9413052251306538
+      "elasticnet": 0.9413052251306538,
+      "randomforest": 0.7454290767413707
     },
     "covered_query_term_ratio": {
       "ridge": 0.9280145592863634,
-      "elasticnet": -0.0018210225098933552
+      "elasticnet": -0.0018210225098933552,
+      "randomforest": 0.7867935769086881
     },
     "stream_length": {
       "ridge": 0.8366606193099074,
-      "elasticnet": 0.8953697571166024
+      "elasticnet": 0.8953697571166024,
+      "randomforest": 0.6885501325538871
     },
     "sum_of_term_frequency": {
       "ridge": 0.8366606193099074,
-      "elasticnet": 0.8953697571166024
+      "elasticnet": 0.8953697571166024,
+      "randomforest": 0.6885501325538871
     },
     "max_of_term_frequency": {
       "ridge": 0.3218745804658162,
-      "elasticnet": 0.7158572143618012
+      "elasticnet": 0.7158572143618012,
+      "randomforest": 0.48987465271846864
     },
     "mean_of_term_frequency": {
       "ridge": 0.835697863081873,
-      "elasticnet": 0.5462884393804313
+      "elasticnet": 0.5462884393804313,
+      "randomforest": 0.7092042427107139
     },
     "variance_of_term_frequency": {
       "ridge": 0.5992647705638173,
-      "elasticnet": 0.6802307137324859
+      "elasticnet": 0.6802307137324859,
+      "randomforest": 0.6452724926254068
     },
     "sum_of_stream_length_normalized_tf": {
       "ridge": -1.9672727272727273,
-      "elasticnet": 0.0
+      "elasticnet": 0.0,
+      "randomforest": 0.0
     },
     "max_of_stream_length_normalized_tf": {
       "ridge": -0.11952588194694891,
-      "elasticnet": 0.08247698912526946
+      "elasticnet": 0.08247698912526946,
+      "randomforest": 0.2536505963538547
     },
     "mean_of_stream_length_normalized_tf": {
       "ridge": 0.9173068000073549,
-      "elasticnet": -0.001262549861270168
+      "elasticnet": -0.001262549861270168,
+      "randomforest": 0.804707831771574
     },
     "variance_of_stream_length_normalized_tf": {
       "ridge": 0.4971041222598842,
-      "elasticnet": -9.300590046312784e-05
+      "elasticnet": -9.300590046312784e-05,
+      "randomforest": 0.4732539013168493
     },
     "sum_of_tf_idf": {
       "ridge": 0.5956234005413561,
-      "elasticnet": 0.7466664874285078
+      "elasticnet": 0.7466664874285078,
+      "randomforest": 0.4077526901415828
     },
     "max_of_tf_idf": {
       "ridge": -0.9721468545704464,
-      "elasticnet": 0.17527203572286942
+      "elasticnet": 0.17527203572286942,
+      "randomforest": 0.17962398207293317
     },
     "mean_of_tf_idf": {
       "ridge": 0.7066609308243585,
-      "elasticnet": -0.00020546374258678668
+      "elasticnet": -0.00020546374258678668,
+      "randomforest": 0.5760630087409274
     },
     "variance_of_tf_idf": {
       "ridge": 0.9165246623570992,
-      "elasticnet": -0.001341608280618578
+      "elasticnet": -0.001341608280618578,
+      "randomforest": 0.7981012656438531
     },
     "tfidf_cosine_scores": {
       "ridge": 0.06371411526111626,
-      "elasticnet": 0.2462276828654596
+      "elasticnet": 0.2462276828654596,
+      "randomforest": 0.3868408744337597
     },
     "kl_divergence_scores": {
       "ridge": 0.31315253446827696,
-      "elasticnet": 0.6785844606206288
+      "elasticnet": 0.6785844606206288,
+      "randomforest": 0.5212134006203151
     },
     "js_divergence_scores": {
       "ridge": 0.3522873878454248,
-      "elasticnet": 0.4242157554476035
+      "elasticnet": 0.4242157554476035,
+      "randomforest": 0.5340177691013345
     },
     "BM25": {
       "ridge": 0.2041352865214483,
-      "elasticnet": 0.612814707672238
+      "elasticnet": 0.612814707672238,
+      "randomforest": 0.4795069266651718
     }
   },
   "22": {
     "covered_query_term_number": {
       "ridge": 0.923196474876705,
-      "elasticnet": 0.945791870098289
+      "elasticnet": 0.945791870098289,
+      "randomforest": 0.7661677334105971
     },
     "covered_query_term_ratio": {
       "ridge": 0.929233254884345,
-      "elasticnet": -0.0018210225098933552
+      "elasticnet": -0.0018210225098933552,
+      "randomforest": 0.8146844815996965
     },
     "stream_length": {
       "ridge": 0.8277941194991921,
-      "elasticnet": 0.8930245864936436
+      "elasticnet": 0.8930245864936436,
+      "randomforest": 0.6715261101750241
     },
     "sum_of_term_frequency": {
       "ridge": 0.8277941194991921,
-      "elasticnet": 0.8930245864936436
+      "elasticnet": 0.8930245864936436,
+      "randomforest": 0.6715261101750241
     },
     "max_of_term_frequency": {
       "ridge": 0.3212497425232721,
-      "elasticnet": 0.7124514341552775
+      "elasticnet": 0.7124514341552775,
+      "randomforest": 0.4826824871839792
     },
     "mean_of_term_frequency": {
       "ridge": 0.8208190994503921,
-      "elasticnet": 0.5546265620840807
+      "elasticnet": 0.5546265620840807,
+      "randomforest": 0.7000484553264981
     },
     "variance_of_term_frequency": {
       "ridge": 0.6046179972807944,
-      "elasticnet": 0.6548392702844026
+      "elasticnet": 0.6548392702844026,
+      "randomforest": 0.6212915921217723
     },
     "sum_of_stream_length_normalized_tf": {
       "ridge": -2.058181818181818,
-      "elasticnet": 0.0
+      "elasticnet": 0.0,
+      "randomforest": 0.0
     },
     "max_of_stream_length_normalized_tf": {
       "ridge": -0.1510512113785294,
-      "elasticnet": 0.05764231596128566
+      "elasticnet": 0.05764231596128566,
+      "randomforest": 0.272608387408631
     },
     "mean_of_stream_length_normalized_tf": {
       "ridge": 0.9258982113576104,
-      "elasticnet": -0.001262549861270168
+      "elasticnet": -0.001262549861270168,
+      "randomforest": 0.8082576641110101
     },
     "variance_of_stream_length_normalized_tf": {
       "ridge": 0.46814901202185133,
-      "elasticnet": -9.300590046312784e-05
+      "elasticnet": -9.300590046312784e-05,
+      "randomforest": 0.4220742155245376
     },
     "sum_of_tf_idf": {
       "ridge": 0.4967663223427843,
-      "elasticnet": 0.7350856701623552
+      "elasticnet": 0.7350856701623552,
+      "randomforest": 0.4009968533391519
     },
     "max_of_tf_idf": {
       "ridge": -1.0544435121166145,
-      "elasticnet": 0.1690896944255884
+      "elasticnet": 0.1690896944255884,
+      "randomforest": 0.16556937411917017
     },
     "mean_of_tf_idf": {
       "ridge": 0.6617015494252159,
-      "elasticnet": -0.00020546374258678668
+      "elasticnet": -0.00020546374258678668,
+      "randomforest": 0.5661438758550836
     },
     "variance_of_tf_idf": {
       "ridge": 0.924786094815402,
-      "elasticnet": -0.001341608280618578
+      "elasticnet": -0.001341608280618578,
+      "randomforest": 0.7984619663314662
     },
     "tfidf_cosine_scores": {
       "ridge": 0.0019536882776506337,
-      "elasticnet": 0.2410151839605772
+      "elasticnet": 0.2410151839605772,
+      "randomforest": 0.3615615087591614
     },
     "kl_divergence_scores": {
       "ridge": 0.31399689560637345,
-      "elasticnet": 0.6777406952342484
+      "elasticnet": 0.6777406952342484,
+      "randomforest": 0.5397147113670877
     },
     "js_divergence_scores": {
       "ridge": 0.33270127946133377,
-      "elasticnet": 0.38248092357300656
+      "elasticnet": 0.38248092357300656,
+      "randomforest": 0.5223406730666729
     },
     "BM25": {
       "ridge": 0.1751102271726639,
-      "elasticnet": 0.6273610328312647
+      "elasticnet": 0.6273610328312647,
+      "randomforest": 0.46038194450754555
     }
   },
   "23": {
     "covered_query_term_number": {
       "ridge": 0.9212272073602348,
-      "elasticnet": 0.9476944556136179
+      "elasticnet": 0.9476944556136179,
+      "randomforest": 0.7710849708817779
     },
     "covered_query_term_ratio": {
       "ridge": 0.930390895308783,
-      "elasticnet": -0.0018210225098933552
+      "elasticnet": -0.0018210225098933552,
+      "randomforest": 0.799269347210111
     },
     "stream_length": {
       "ridge": 0.8239229173606517,
-      "elasticnet": 0.8848530957622697
+      "elasticnet": 0.8848530957622697,
+      "randomforest": 0.6837140054259461
     },
     "sum_of_term_frequency": {
       "ridge": 0.8239229173606517,
-      "elasticnet": 0.8848530957622697
+      "elasticnet": 0.8848530957622697,
+      "randomforest": 0.6837140054259461
     },
     "max_of_term_frequency": {
       "ridge": 0.39571739037997844,
-      "elasticnet": 0.7142628746311446
+      "elasticnet": 0.7142628746311446,
+      "randomforest": 0.48786818585755454
     },
     "mean_of_term_frequency": {
       "ridge": 0.8214675439001626,
-      "elasticnet": 0.5517635199185623
+      "elasticnet": 0.5517635199185623,
+      "randomforest": 0.7039592430415823
     },
     "variance_of_term_frequency": {
       "ridge": 0.6019946729495163,
-      "elasticnet": 0.6624189479647141
+      "elasticnet": 0.6624189479647141,
+      "randomforest": 0.6165277134077357
     },
     "sum_of_stream_length_normalized_tf": {
       "ridge": -2.1963636363636363,
-      "elasticnet": 0.0
+      "elasticnet": 0.0,
+      "randomforest": 0.0
     },
     "max_of_stream_length_normalized_tf": {
       "ridge": 0.021992130479873695,
-      "elasticnet": 0.042764136429626065
+      "elasticnet": 0.042764136429626065,
+      "randomforest": 0.24361386167700783
     },
     "mean_of_stream_length_normalized_tf": {
       "ridge": 0.9278707736049576,
-      "elasticnet": -0.001262549861270168
+      "elasticnet": -0.001262549861270168,
+      "randomforest": 0.7953153377939782
     },
     "variance_of_stream_length_normalized_tf": {
       "ridge": 0.4789655572048681,
-      "elasticnet": -9.300590046312784e-05
+      "elasticnet": -9.300590046312784e-05,
+      "randomforest": 0.42003757169872824
     },
     "sum_of_tf_idf": {
       "ridge": 0.5009657789455233,
-      "elasticnet": 0.7269885821151258
+      "elasticnet": 0.7269885821151258,
+      "randomforest": 0.38999273413079727
     },
     "max_of_tf_idf": {
       "ridge": -0.9031582452993583,
-      "elasticnet": 0.17291022658612765
+      "elasticnet": 0.17291022658612765,
+      "randomforest": 0.15720035644711394
     },
     "mean_of_tf_idf": {
       "ridge": 0.6445939693719931,
-      "elasticnet": -0.00020546374258678668
+      "elasticnet": -0.00020546374258678668,
+      "randomforest": 0.5732435834714226
     },
     "variance_of_tf_idf": {
       "ridge": 0.926376616457804,
-      "elasticnet": -0.001341608280618578
+      "elasticnet": -0.001341608280618578,
+      "randomforest": 0.7756800926228906
     },
     "tfidf_cosine_scores": {
       "ridge": 0.06423208805789371,
-      "elasticnet": 0.2567361811300104
+      "elasticnet": 0.2567361811300104,
+      "randomforest": 0.36929113801998104
     },
     "kl_divergence_scores": {
       "ridge": 0.30302746059827124,
-      "elasticnet": 0.6620106809721447
+      "elasticnet": 0.6620106809721447,
+      "randomforest": 0.5324422293102342
     },
     "js_divergence_scores": {
       "ridge": 0.36642965271491046,
-      "elasticnet": 0.39509483536304635
+      "elasticnet": 0.39509483536304635,
+      "randomforest": 0.5177295833122622
     },
     "BM25": {
       "ridge": 0.15461275812448017,
-      "elasticnet": 0.6153344895151125
+      "elasticnet": 0.6153344895151125,
+      "randomforest": 0.4737409306619591
     }
   },
   "24": {
     "covered_query_term_number": {
       "ridge": 0.9407037639643668,
-      "elasticnet": 0.9548680680034306
+      "elasticnet": 0.9548680680034306,
+      "randomforest": 0.7896456420509019
     },
     "covered_query_term_ratio": {
       "ridge": 0.948146312914998,
-      "elasticnet": -0.0018210225098933552
+      "elasticnet": -0.0018210225098933552,
+      "randomforest": 0.8299899794053712
     },
     "stream_length": {
       "ridge": 0.8250764060382021,
-      "elasticnet": 0.8924801707727325
+      "elasticnet": 0.8924801707727325,
+      "randomforest": 0.6608154797564458
     },
     "sum_of_term_frequency": {
       "ridge": 0.8250764060382021,
-      "elasticnet": 0.8924801707727325
+      "elasticnet": 0.8924801707727325,
+      "randomforest": 0.6608154797564458
     },
     "max_of_term_frequency": {
       "ridge": 0.3461506139136118,
-      "elasticnet": 0.6931930995860678
+      "elasticnet": 0.6931930995860678,
+      "randomforest": 0.4806840160917739
     },
     "mean_of_term_frequency": {
       "ridge": 0.8222861866022602,
-      "elasticnet": 0.5422321201470583
+      "elasticnet": 0.5422321201470583,
+      "randomforest": 0.6986229753349216
     },
     "variance_of_term_frequency": {
       "ridge": 0.6029625329804689,
-      "elasticnet": 0.6545023279853542
+      "elasticnet": 0.6545023279853542,
+      "randomforest": 0.6231319224307792
     },
     "sum_of_stream_length_normalized_tf": {
       "ridge": -2.2436363636363637,
-      "elasticnet": 0.0
+      "elasticnet": 0.0,
+      "randomforest": 0.0
     },
     "max_of_stream_length_normalized_tf": {
       "ridge": -0.10520437313248876,
-      "elasticnet": 0.07579784584151683
+      "elasticnet": 0.07579784584151683,
+      "randomforest": 0.2705784645665643
     },
     "mean_of_stream_length_normalized_tf": {
       "ridge": 0.9403983190092927,
-      "elasticnet": -0.001262549861270168
+      "elasticnet": -0.001262549861270168,
+      "randomforest": 0.8218319087865202
     },
     "variance_of_stream_length_normalized_tf": {
       "ridge": 0.4721841451748242,
-      "elasticnet": -9.300590046312784e-05
+      "elasticnet": -9.300590046312784e-05,
+      "randomforest": 0.45771484861812506
     },
     "sum_of_tf_idf": {
       "ridge": 0.42986329914786403,
-      "elasticnet": 0.740471719845055
+      "elasticnet": 0.740471719845055,
+      "randomforest": 0.39015531548641724
     },
     "max_of_tf_idf": {
       "ridge": -0.9745359733406813,
-      "elasticnet": 0.17155150042830802
+      "elasticnet": 0.17155150042830802,
+      "randomforest": 0.18326063810501558
     },
     "mean_of_tf_idf": {
       "ridge": 0.6167432476188749,
-      "elasticnet": -0.00020546374258678668
+      "elasticnet": -0.00020546374258678668,
+      "randomforest": 0.5750746172640246
     },
     "variance_of_tf_idf": {
       "ridge": 0.9394529299810201,
-      "elasticnet": -0.001341608280618578
+      "elasticnet": -0.001341608280618578,
+      "randomforest": 0.8178725178871135
     },
     "tfidf_cosine_scores": {
       "ridge": -0.029178751244802292,
-      "elasticnet": 0.25139581054623505
+      "elasticnet": 0.25139581054623505,
+      "randomforest": 0.37050462750601043
     },
     "kl_divergence_scores": {
       "ridge": 0.30069177587623774,
-      "elasticnet": 0.6521688328913517
+      "elasticnet": 0.6521688328913517,
+      "randomforest": 0.5361231689290116
     },
     "js_divergence_scores": {
       "ridge": 0.308568209943879,
-      "elasticnet": 0.42582114871206556
+      "elasticnet": 0.42582114871206556,
+      "randomforest": 0.5290117118809912
     },
     "BM25": {
       "ridge": 0.19782182944484017,
-      "elasticnet": 0.5956533796425111
+      "elasticnet": 0.5956533796425111,
+      "randomforest": 0.4889526113958239
     }
   },
   "25": {
     "covered_query_term_number": {
       "ridge": 0.9400814138698227,
-      "elasticnet": 0.9572900981815761
+      "elasticnet": 0.9572900981815761,
+      "randomforest": 0.823148572378339
     },
     "covered_query_term_ratio": {
       "ridge": 0.9466387934312381,
-      "elasticnet": -0.0018210225098933552
+      "elasticnet": -0.0018210225098933552,
+      "randomforest": 0.844247881057572
     },
     "stream_length": {
       "ridge": 0.8201065059468022,
-      "elasticnet": 0.8920863430950606
+      "elasticnet": 0.8920863430950606,
+      "randomforest": 0.676214279991064
     },
     "sum_of_term_frequency": {
       "ridge": 0.8201065059468022,
-      "elasticnet": 0.8920863430950606
+      "elasticnet": 0.8920863430950606,
+      "randomforest": 0.676214279991064
     },
     "max_of_term_frequency": {
       "ridge": 0.32251720474748236,
-      "elasticnet": 0.7036861317560975
+      "elasticnet": 0.7036861317560975,
+      "randomforest": 0.5274763714749234
     },
     "mean_of_term_frequency": {
       "ridge": 0.8172957187724135,
-      "elasticnet": 0.5427869809267339
+      "elasticnet": 0.5427869809267339,
+      "randomforest": 0.7008944699607691
     },
     "variance_of_term_frequency": {
       "ridge": 0.5790342158756348,
-      "elasticnet": 0.6848719319092204
+      "elasticnet": 0.6848719319092204,
+      "randomforest": 0.6714809426625784
     },
     "sum_of_stream_length_normalized_tf": {
       "ridge": -2.2836363636363637,
-      "elasticnet": 0.0
+      "elasticnet": 0.0,
+      "randomforest": 0.0
     },
     "max_of_stream_length_normalized_tf": {
       "ridge": -0.048507729031005864,
-      "elasticnet": 0.0593798637695242
+      "elasticnet": 0.0593798637695242,
+      "randomforest": 0.2729492195442663
     },
     "mean_of_stream_length_normalized_tf": {
       "ridge": 0.939263563558902,
-      "elasticnet": -0.001262549861270168
+      "elasticnet": -0.001262549861270168,
+      "randomforest": 0.8195417825136533
     },
     "variance_of_stream_length_normalized_tf": {
       "ridge": 0.4919395765184955,
-      "elasticnet": -9.300590046312784e-05
+      "elasticnet": -9.300590046312784e-05,
+      "randomforest": 0.4431759716532673
     },
     "sum_of_tf_idf": {
       "ridge": 0.511991707715522,
-      "elasticnet": 0.742532452837205
+      "elasticnet": 0.742532452837205,
+      "randomforest": 0.39324346094909934
     },
     "max_of_tf_idf": {
       "ridge": -0.9793095648618324,
-      "elasticnet": 0.1795788047812048
+      "elasticnet": 0.1795788047812048,
+      "randomforest": 0.17610356315665532
     },
     "mean_of_tf_idf": {
       "ridge": 0.6544454722621855,
-      "elasticnet": -0.00020546374258678668
+      "elasticnet": -0.00020546374258678668,
+      "randomforest": 0.5887899905304349
     },
     "variance_of_tf_idf": {
       "ridge": 0.9385068766356265,
-      "elasticnet": -0.001341608280618578
+      "elasticnet": -0.001341608280618578,
+      "randomforest": 0.8161241834938362
     },
     "tfidf_cosine_scores": {
       "ridge": -0.11072261345061185,
-      "elasticnet": 0.2652473230457598
+      "elasticnet": 0.2652473230457598,
+      "randomforest": 0.3975256295152636
     },
     "kl_divergence_scores": {
       "ridge": 0.36835064498147485,
-      "elasticnet": 0.691980419629352
+      "elasticnet": 0.691980419629352,
+      "randomforest": 0.5573899283602632
     },
     "js_divergence_scores": {
       "ridge": 0.4036774124702476,
-      "elasticnet": 0.4160547117086102
+      "elasticnet": 0.4160547117086102,
+      "randomforest": 0.5382037556613599
     },
     "BM25": {
       "ridge": 0.26261037909693996,
-      "elasticnet": 0.6085382069945573
+      "elasticnet": 0.6085382069945573,
+      "randomforest": 0.4905870678217318
     }
   },
   "26": {
     "covered_query_term_number": {
       "ridge": 0.9493708924227969,
-      "elasticnet": 0.9598691223715556
+      "elasticnet": 0.9598691223715556,
+      "randomforest": 0.8189562400251915
     },
     "covered_query_term_ratio": {
       "ridge": 0.9542258323606811,
-      "elasticnet": -0.0018210225098933552
+      "elasticnet": -0.0018210225098933552,
+      "randomforest": 0.8517193776119283
     },
     "stream_length": {
       "ridge": 0.83823560335917,
-      "elasticnet": 0.9003051665786753
+      "elasticnet": 0.9003051665786753,
+      "randomforest": 0.6715300823333096
     },
     "sum_of_term_frequency": {
       "ridge": 0.83823560335917,
-      "elasticnet": 0.9003051665786753
+      "elasticnet": 0.9003051665786753,
+      "randomforest": 0.6715300823333096
     },
     "max_of_term_frequency": {
       "ridge": 0.3871427304720274,
-      "elasticnet": 0.7090439722196571
+      "elasticnet": 0.7090439722196571,
+      "randomforest": 0.4745282303468731
     },
     "mean_of_term_frequency": {
       "ridge": 0.8341484086174304,
-      "elasticnet": 0.5602027131350821
+      "elasticnet": 0.5602027131350821,
+      "randomforest": 0.7004144724389767
     },
     "variance_of_term_frequency": {
       "ridge": 0.6433840942572336,
-      "elasticnet": 0.6570278132368956
+      "elasticnet": 0.6570278132368956,
+      "randomforest": 0.6050489197274099
     },
     "sum_of_stream_length_normalized_tf": {
       "ridge": -2.0036363636363634,
-      "elasticnet": 0.0
+      "elasticnet": 0.0,
+      "randomforest": 0.0
     },
     "max_of_stream_length_normalized_tf": {
       "ridge": -0.05413810226966276,
-      "elasticnet": 0.03173808307580461
+      "elasticnet": 0.03173808307580461,
+      "randomforest": 0.22306819695308622
     },
     "mean_of_stream_length_normalized_tf": {
       "ridge": 0.9516973264398882,
-      "elasticnet": -0.001262549861270168
+      "elasticnet": -0.001262549861270168,
+      "randomforest": 0.8348038077162953
     },
     "variance_of_stream_length_normalized_tf": {
       "ridge": 0.4945355955316608,
-      "elasticnet": -9.300590046312784e-05
+      "elasticnet": -9.300590046312784e-05,
+      "randomforest": 0.42120519506657517
     },
     "sum_of_tf_idf": {
       "ridge": 0.5077333894119943,
-      "elasticnet": 0.7361957073604242
+      "elasticnet": 0.7361957073604242,
+      "randomforest": 0.3936514679893248
     },
     "max_of_tf_idf": {
       "ridge": -0.842028923259015,
-      "elasticnet": 0.15198803951336715
+      "elasticnet": 0.15198803951336715,
+      "randomforest": 0.1585442976935626
     },
     "mean_of_tf_idf": {
       "ridge": 0.6638626544485031,
-      "elasticnet": -0.00020546374258678668
+      "elasticnet": -0.00020546374258678668,
+      "randomforest": 0.5800746441403737
     },
     "variance_of_tf_idf": {
       "ridge": 0.949248571435602,
-      "elasticnet": -0.001341608280618578
+      "elasticnet": -0.001341608280618578,
+      "randomforest": 0.8254772850800017
     },
     "tfidf_cosine_scores": {
       "ridge": 0.047717530367945904,
-      "elasticnet": 0.22727303008306254
+      "elasticnet": 0.22727303008306254,
+      "randomforest": 0.36885864070877283
     },
     "kl_divergence_scores": {
       "ridge": 0.3822873938020891,
-      "elasticnet": 0.6929921899621898
+      "elasticnet": 0.6929921899621898,
+      "randomforest": 0.567412190853724
     },
     "js_divergence_scores": {
       "ridge": 0.3971282578345271,
-      "elasticnet": 0.3723159104840974
+      "elasticnet": 0.3723159104840974,
+      "randomforest": 0.5281318006276992
     },
     "BM25": {
       "ridge": 0.2467156684953814,
-      "elasticnet": 0.6054962763857887
+      "elasticnet": 0.6054962763857887,
+      "randomforest": 0.46769656773444546
     }
   },
   "27": {
     "covered_query_term_number": {
       "ridge": 0.9569018612972671,
-      "elasticnet": 0.9609917013893184
+      "elasticnet": 0.9609917013893184,
+      "randomforest": 0.8154786090719166
     },
     "covered_query_term_ratio": {
       "ridge": 0.9603273922956467,
-      "elasticnet": -0.0018210225098933552
+      "elasticnet": -0.0018210225098933552,
+      "randomforest": 0.8335875812334146
     },
     "stream_length": {
       "ridge": 0.8526053534605704,
-      "elasticnet": 0.9081665633446281
+      "elasticnet": 0.9081665633446281,
+      "randomforest": 0.7073015534670919
     },
     "sum_of_term_frequency": {
       "ridge": 0.8526053534605704,
-      "elasticnet": 0.9081665633446281
+      "elasticnet": 0.9081665633446281,
+      "randomforest": 0.7073015534670919
     },
     "max_of_term_frequency": {
       "ridge": 0.3960110008438815,
-      "elasticnet": 0.7061881082275661
+      "elasticnet": 0.7061881082275661,
+      "randomforest": 0.4890355670428226
     },
     "mean_of_term_frequency": {
       "ridge": 0.849636322155036,
-      "elasticnet": 0.5835327588607093
+      "elasticnet": 0.5835327588607093,
+      "randomforest": 0.7284007619125286
     },
     "variance_of_term_frequency": {
       "ridge": 0.6605985962727844,
-      "elasticnet": 0.6780486558387528
+      "elasticnet": 0.6780486558387528,
+      "randomforest": 0.6324422935268619
     },
     "sum_of_stream_length_normalized_tf": {
       "ridge": -1.9018181818181819,
-      "elasticnet": 0.0
+      "elasticnet": 0.0,
+      "randomforest": 0.0
     },
     "max_of_stream_length_normalized_tf": {
       "ridge": -0.02780886956017392,
-      "elasticnet": 0.03594098355785902
+      "elasticnet": 0.03594098355785902,
+      "randomforest": 0.2509282365716412
     },
     "mean_of_stream_length_normalized_tf": {
       "ridge": 0.954777272409192,
-      "elasticnet": -0.001262549861270168
+      "elasticnet": -0.001262549861270168,
+      "randomforest": 0.8304441734958249
     },
     "variance_of_stream_length_normalized_tf": {
       "ridge": 0.5060869002757464,
-      "elasticnet": -9.300590046312784e-05
+      "elasticnet": -9.300590046312784e-05,
+      "randomforest": 0.4482081016403171
     },
     "sum_of_tf_idf": {
       "ridge": 0.5024293889041627,
-      "elasticnet": 0.7404611869912965
+      "elasticnet": 0.7404611869912965,
+      "randomforest": 0.4056591740111193
     },
     "max_of_tf_idf": {
       "ridge": -0.8458517459091359,
-      "elasticnet": 0.17098093049619312
+      "elasticnet": 0.17098093049619312,
+      "randomforest": 0.16645441308969233
     },
     "mean_of_tf_idf": {
       "ridge": 0.6871222188398832,
-      "elasticnet": -0.00020546374258678668
+      "elasticnet": -0.00020546374258678668,
+      "randomforest": 0.6026185994247795
     },
     "variance_of_tf_idf": {
       "ridge": 0.9509184695554355,
-      "elasticnet": -0.001341608280618578
+      "elasticnet": -0.001341608280618578,
+      "randomforest": 0.8293657237543179
     },
     "tfidf_cosine_scores": {
       "ridge": 0.019071148636092605,
-      "elasticnet": 0.2390918040716683
+      "elasticnet": 0.2390918040716683,
+      "randomforest": 0.39452995352411746
     },
     "kl_divergence_scores": {
       "ridge": 0.40991837795242014,
-      "elasticnet": 0.6745665082969885
+      "elasticnet": 0.6745665082969885,
+      "randomforest": 0.5489786419132819
     },
     "js_divergence_scores": {
       "ridge": 0.4144917898660886,
-      "elasticnet": 0.3900563104969088
+      "elasticnet": 0.3900563104969088,
+      "randomforest": 0.5233976049921576
     },
     "BM25": {
       "ridge": 0.2922182866568155,
-      "elasticnet": 0.6027296055978868
+      "elasticnet": 0.6027296055978868,
+      "randomforest": 0.4913370104487983
     }
   },
   "28": {
     "covered_query_term_number": {
       "ridge": 0.9577377633075845,
-      "elasticnet": 0.960320865404622
+      "elasticnet": 0.960320865404622,
+      "randomforest": 0.7915906393686458
     },
     "covered_query_term_ratio": {
       "ridge": 0.9618408655743308,
-      "elasticnet": -0.0018210225098933552
+      "elasticnet": -0.0018210225098933552,
+      "randomforest": 0.8301916229284663
     },
     "stream_length": {
       "ridge": 0.8738292559699037,
-      "elasticnet": 0.9152083836612696
+      "elasticnet": 0.9152083836612696,
+      "randomforest": 0.7366092025999115
     },
     "sum_of_term_frequency": {
       "ridge": 0.8738292559699037,
-      "elasticnet": 0.9152083836612696
+      "elasticnet": 0.9152083836612696,
+      "randomforest": 0.7366092025999115
     },
     "max_of_term_frequency": {
       "ridge": 0.44011974759881356,
-      "elasticnet": 0.7154957652011993
+      "elasticnet": 0.7154957652011993,
+      "randomforest": 0.4966604535466741
     },
     "mean_of_term_frequency": {
       "ridge": 0.8757936853387795,
-      "elasticnet": 0.5801119538037094
+      "elasticnet": 0.5801119538037094,
+      "randomforest": 0.7408175044924872
     },
     "variance_of_term_frequency": {
       "ridge": 0.7010228590805228,
-      "elasticnet": 0.6625269096855357
+      "elasticnet": 0.6625269096855357,
+      "randomforest": 0.6381599967387228
     },
     "sum_of_stream_length_normalized_tf": {
       "ridge": -1.7999999999999998,
-      "elasticnet": 0.0
+      "elasticnet": 0.0,
+      "randomforest": 0.0
     },
     "max_of_stream_length_normalized_tf": {
       "ridge": 0.12547815284910613,
-      "elasticnet": 0.035063689427947464
+      "elasticnet": 0.035063689427947464,
+      "randomforest": 0.24970717249760466
     },
     "mean_of_stream_length_normalized_tf": {
       "ridge": 0.9608215457428183,
-      "elasticnet": -0.001262549861270168
+      "elasticnet": -0.001262549861270168,
+      "randomforest": 0.8047903447264013
     },
     "variance_of_stream_length_normalized_tf": {
       "ridge": 0.5621772465923643,
-      "elasticnet": -9.300590046312784e-05
+      "elasticnet": -9.300590046312784e-05,
+      "randomforest": 0.4433169130236859
     },
     "sum_of_tf_idf": {
       "ridge": 0.6146367376615911,
-      "elasticnet": 0.7358642853038543
+      "elasticnet": 0.7358642853038543,
+      "randomforest": 0.4087590332612432
     },
     "max_of_tf_idf": {
       "ridge": -0.5283197131977317,
-      "elasticnet": 0.1638801184365617
+      "elasticnet": 0.1638801184365617,
+      "randomforest": 0.1578189531370897
     },
     "mean_of_tf_idf": {
       "ridge": 0.741045899631612,
-      "elasticnet": -0.00020546374258678668
+      "elasticnet": -0.00020546374258678668,
+      "randomforest": 0.6017911415190611
     },
     "variance_of_tf_idf": {
       "ridge": 0.9596821075498579,
-      "elasticnet": -0.001341608280618578
+      "elasticnet": -0.001341608280618578,
+      "randomforest": 0.7830970315893975
     },
     "tfidf_cosine_scores": {
       "ridge": 0.21089428744919858,
-      "elasticnet": 0.23793515112600383
+      "elasticnet": 0.23793515112600383,
+      "randomforest": 0.37389534061574525
     },
     "kl_divergence_scores": {
       "ridge": 0.5208800394184858,
-      "elasticnet": 0.7121383568567587
+      "elasticnet": 0.7121383568567587,
+      "randomforest": 0.5621058967515153
     },
     "js_divergence_scores": {
       "ridge": 0.4961129294339339,
-      "elasticnet": 0.380938486510878
+      "elasticnet": 0.380938486510878,
+      "randomforest": 0.5337108032066437
     },
     "BM25": {
       "ridge": 0.3940445164397436,
-      "elasticnet": 0.6253567758448193
+      "elasticnet": 0.6253567758448193,
+      "randomforest": 0.47915837048065324
     }
   },
   "29": {
     "covered_query_term_number": {
       "ridge": 0.9657313878156661,
-      "elasticnet": 0.9633432208196795
+      "elasticnet": 0.9633432208196795,
+      "randomforest": 0.7988890820443357
     },
     "covered_query_term_ratio": {
       "ridge": 0.9700551350831428,
-      "elasticnet": -0.0018210225098933552
+      "elasticnet": -0.0018210225098933552,
+      "randomforest": 0.8048994661991868
     },
     "stream_length": {
       "ridge": 0.8925343933432568,
-      "elasticnet": 0.921329694807393
+      "elasticnet": 0.921329694807393,
+      "randomforest": 0.8747602140398077
     },
     "sum_of_term_frequency": {
       "ridge": 0.8925343933432568,
-      "elasticnet": 0.921329694807393
+      "elasticnet": 0.921329694807393,
+      "randomforest": 0.8747602140398077
     },
     "max_of_term_frequency": {
       "ridge": 0.534243775614597,
-      "elasticnet": 0.7158247324507073
+      "elasticnet": 0.7158247324507073,
+      "randomforest": 0.5461913892411683
     },
     "mean_of_term_frequency": {
       "ridge": 0.8934638850234546,
-      "elasticnet": 0.6776753484584805
+      "elasticnet": 0.6776753484584805,
+      "randomforest": 0.846159529693986
     },
     "variance_of_term_frequency": {
       "ridge": 0.7288357965831668,
-      "elasticnet": 0.6726893353957181
+      "elasticnet": 0.6726893353957181,
+      "randomforest": 0.7422661716942053
     },
     "sum_of_stream_length_normalized_tf": {
       "ridge": -1.3236363636363637,
-      "elasticnet": 0.0
+      "elasticnet": 0.0,
+      "randomforest": 0.0
     },
     "max_of_stream_length_normalized_tf": {
       "ridge": 0.19644352823778433,
-      "elasticnet": 0.07210765825318433
+      "elasticnet": 0.07210765825318433,
+      "randomforest": 0.26106796818974365
     },
     "mean_of_stream_length_normalized_tf": {
       "ridge": 0.9646481510956458,
-      "elasticnet": -0.001262549861270168
+      "elasticnet": -0.001262549861270168,
+      "randomforest": 0.8125845483593269
     },
     "variance_of_stream_length_normalized_tf": {
       "ridge": 0.6179500554553996,
-      "elasticnet": -9.300590046312784e-05
+      "elasticnet": -9.300590046312784e-05,
+      "randomforest": 0.5326297356637746
     },
     "sum_of_tf_idf": {
       "ridge": 0.6567978812912502,
-      "elasticnet": 0.7636372170751005
+      "elasticnet": 0.7636372170751005,
+      "randomforest": 0.5522287478377281
     },
     "max_of_tf_idf": {
       "ridge": -0.3858417029178802,
-      "elasticnet": 0.19247412688361354
+      "elasticnet": 0.19247412688361354,
+      "randomforest": 0.17127807974135834
     },
     "mean_of_tf_idf": {
       "ridge": 0.7615992111588806,
-      "elasticnet": -0.00020546374258678668
+      "elasticnet": -0.00020546374258678668,
+      "randomforest": 0.6372216047693364
     },
     "variance_of_tf_idf": {
       "ridge": 0.9643970812369894,
-      "elasticnet": -0.001341608280618578
+      "elasticnet": -0.001341608280618578,
+      "randomforest": 0.8067924017599581
     },
     "tfidf_cosine_scores": {
       "ridge": 0.292027263154244,
-      "elasticnet": 0.24166262969882468
+      "elasticnet": 0.24166262969882468,
+      "randomforest": 0.3998985010335181
     },
     "kl_divergence_scores": {
       "ridge": 0.5228673412780962,
-      "elasticnet": 0.7036684320571988
+      "elasticnet": 0.7036684320571988,
+      "randomforest": 0.5542833009853032
     },
     "js_divergence_scores": {
       "ridge": 0.5471482456577994,
-      "elasticnet": 0.4312081879949409
+      "elasticnet": 0.4312081879949409,
+      "randomforest": 0.5352710354147214
     },
     "BM25": {
       "ridge": 0.43053911586559535,
-      "elasticnet": 0.617943574357976
+      "elasticnet": 0.617943574357976,
+      "randomforest": 0.4811615459156825
     }
   },
   "30": {
     "covered_query_term_number": {
       "ridge": 0.972201740574162,
-      "elasticnet": 0.9554344399554439
+      "elasticnet": 0.9554344399554439,
+      "randomforest": 0.8062391053388442
     },
     "covered_query_term_ratio": {
       "ridge": 0.9750346342819107,
-      "elasticnet": -0.0018210225098933552
+      "elasticnet": -0.0018210225098933552,
+      "randomforest": 0.8226382908997076
     },
     "stream_length": {
       "ridge": 0.9110993846878369,
-      "elasticnet": 0.9290877612544218
+      "elasticnet": 0.9290877612544218,
+      "randomforest": 0.9216261030487531
     },
     "sum_of_term_frequency": {
       "ridge": 0.9110993846878369,
-      "elasticnet": 0.9290877612544218
+      "elasticnet": 0.9290877612544218,
+      "randomforest": 0.9216261030487531
     },
     "max_of_term_frequency": {
       "ridge": 0.5655351925849932,
-      "elasticnet": 0.7131011405301091
+      "elasticnet": 0.7131011405301091,
+      "randomforest": 0.551157919660139
     },
     "mean_of_term_frequency": {
       "ridge": 0.907751054877525,
-      "elasticnet": 0.6675348664483166
+      "elasticnet": 0.6675348664483166,
+      "randomforest": 0.8812574452317542
     },
     "variance_of_term_frequency": {
       "ridge": 0.7584617844621677,
-      "elasticnet": 0.670877555525607
+      "elasticnet": 0.670877555525607,
+      "randomforest": 0.7518242010337625
     },
     "sum_of_stream_length_normalized_tf": {
       "ridge": -0.7527272727272727,
-      "elasticnet": 0.0
+      "elasticnet": 0.0,
+      "randomforest": 0.0
     },
     "max_of_stream_length_normalized_tf": {
       "ridge": 0.2677448889356351,
-      "elasticnet": 0.06400274444209852
+      "elasticnet": 0.06400274444209852,
+      "randomforest": 0.25293747047583537
     },
     "mean_of_stream_length_normalized_tf": {
       "ridge": 0.9706199095619273,
-      "elasticnet": -0.001262549861270168
+      "elasticnet": -0.001262549861270168,
+      "randomforest": 0.8127074345732859
     },
     "variance_of_stream_length_normalized_tf": {
       "ridge": 0.6203966597027757,
-      "elasticnet": -9.300590046312784e-05
+      "elasticnet": -9.300590046312784e-05,
+      "randomforest": 0.5342737372159202
     },
     "sum_of_tf_idf": {
       "ridge": 0.704003733783646,
-      "elasticnet": 0.751395899099192
+      "elasticnet": 0.751395899099192,
+      "randomforest": 0.5567945282914517
     },
     "max_of_tf_idf": {
       "ridge": -0.21352869536631047,
-      "elasticnet": 0.16822838362598724
+      "elasticnet": 0.16822838362598724,
+      "randomforest": 0.1590840308792728
     },
     "mean_of_tf_idf": {
       "ridge": 0.8023274444833648,
-      "elasticnet": -0.00020546374258678668
+      "elasticnet": -0.00020546374258678668,
+      "randomforest": 0.6498060223908481
     },
     "variance_of_tf_idf": {
       "ridge": 0.9687566074216888,
-      "elasticnet": -0.001341608280618578
+      "elasticnet": -0.001341608280618578,
+      "randomforest": 0.8088714006467831
     },
     "tfidf_cosine_scores": {
       "ridge": 0.3421556333152018,
-      "elasticnet": 0.2465049207525568
+      "elasticnet": 0.2465049207525568,
+      "randomforest": 0.39897552943549863
     },
     "kl_divergence_scores": {
       "ridge": 0.5937237657888043,
-      "elasticnet": 0.7083221648562223
+      "elasticnet": 0.7083221648562223,
+      "randomforest": 0.5549550513192485
     },
     "js_divergence_scores": {
       "ridge": 0.5352878579620872,
-      "elasticnet": 0.40259681987530305
+      "elasticnet": 0.40259681987530305,
+      "randomforest": 0.5457979363358808
     },
     "BM25": {
       "ridge": 0.4559651169852931,
-      "elasticnet": 0.6048358605864391
+      "elasticnet": 0.6048358605864391,
+      "randomforest": 0.48475701960391726
     }
   },
   "31": {
     "covered_query_term_number": {
       "ridge": 0.9742870657225624,
-      "elasticnet": 0.9302416238289556
+      "elasticnet": 0.9302416238289556,
+      "randomforest": 0.7669943460380789
     },
     "covered_query_term_ratio": {
       "ridge": 0.9759312749590197,
-      "elasticnet": -0.0018210225098933552
+      "elasticnet": -0.0018210225098933552,
+      "randomforest": 0.8184144057827081
     },
     "stream_length": {
       "ridge": 0.9270112063658758,
-      "elasticnet": 0.9205775613997382
+      "elasticnet": 0.9205775613997382,
+      "randomforest": 0.7049176618660535
     },
     "sum_of_term_frequency": {
       "ridge": 0.9270112063658758,
-      "elasticnet": 0.9205775613997382
+      "elasticnet": 0.9205775613997382,
+      "randomforest": 0.7049176618660535
     },
     "max_of_term_frequency": {
       "ridge": 0.7070080512292877,
-      "elasticnet": 0.6958596489533553
+      "elasticnet": 0.6958596489533553,
+      "randomforest": 0.4791953422893246
     },
     "mean_of_term_frequency": {
       "ridge": 0.9254822748067079,
-      "elasticnet": 0.500301416166884
+      "elasticnet": 0.500301416166884,
+      "randomforest": 0.7235848957171629
     },
     "variance_of_term_frequency": {
       "ridge": 0.8210231574572715,
-      "elasticnet": 0.5879062461480449
+      "elasticnet": 0.5879062461480449,
+      "randomforest": 0.6349004344765175
     },
     "sum_of_stream_length_normalized_tf": {
       "ridge": -0.09818181818181815,
-      "elasticnet": 0.0
+      "elasticnet": 0.0,
+      "randomforest": 0.0
     },
     "max_of_stream_length_normalized_tf": {
       "ridge": 0.4897873233187706,
-      "elasticnet": 0.058322028718092334
+      "elasticnet": 0.058322028718092334,
+      "randomforest": 0.26338454897299335
     },
     "mean_of_stream_length_normalized_tf": {
       "ridge": 0.9741200152953563,
-      "elasticnet": -0.001262549861270168
+      "elasticnet": -0.001262549861270168,
+      "randomforest": 0.8016794054191818
     },
     "variance_of_stream_length_normalized_tf": {
       "ridge": 0.7453448094870034,
-      "elasticnet": -9.300590046312784e-05
+      "elasticnet": -9.300590046312784e-05,
+      "randomforest": 0.448269389364334
     },
     "sum_of_tf_idf": {
       "ridge": 0.7823146439166162,
-      "elasticnet": 0.6801134026967302
+      "elasticnet": 0.6801134026967302,
+      "randomforest": 0.3925723036826291
     },
     "max_of_tf_idf": {
       "ridge": 0.20516427388440295,
-      "elasticnet": 0.13853189326653315
+      "elasticnet": 0.13853189326653315,
+      "randomforest": 0.1463072187281711
     },
     "mean_of_tf_idf": {
       "ridge": 0.8502390039884218,
-      "elasticnet": -0.00020546374258678668
+      "elasticnet": -0.00020546374258678668,
+      "randomforest": 0.57413467537909
     },
     "variance_of_tf_idf": {
       "ridge": 0.9731017057378999,
-      "elasticnet": -0.001341608280618578
+      "elasticnet": -0.001341608280618578,
+      "randomforest": 0.7925411402180471
     },
     "tfidf_cosine_scores": {
       "ridge": 0.5054707135629107,
-      "elasticnet": 0.18994523607745628
+      "elasticnet": 0.18994523607745628,
+      "randomforest": 0.36610224951236137
     },
     "kl_divergence_scores": {
       "ridge": 0.7095927603390213,
-      "elasticnet": 0.6772389472454401
+      "elasticnet": 0.6772389472454401,
+      "randomforest": 0.5291464019722161
     },
     "js_divergence_scores": {
       "ridge": 0.6904291604263373,
-      "elasticnet": 0.3234248944303505
+      "elasticnet": 0.3234248944303505,
+      "randomforest": 0.5351363950139482
     },
     "BM25": {
       "ridge": 0.6267651824276039,
-      "elasticnet": 0.5389248756958742
+      "elasticnet": 0.5389248756958742,
+      "randomforest": 0.47246456380934343
     }
   }
 }

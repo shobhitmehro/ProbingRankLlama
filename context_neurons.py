@@ -36,7 +36,7 @@ r2_cache = load_cache(cache_path)
 query_set = load_ms_marco_data(n_queries, n_docs)
 feature_set = compute_metrics(query_set)
 feature_names = get_feature_names(feature_set, excluded_features)
-models = get_models()
+models = get_models(input_dim=n_dim)
 
 context_neurons = []
 r2_scores_by_layer = {
@@ -118,32 +118,16 @@ print(f"\nGenerating plots...")
 
 layers = list(range(n_layers))
 
-plot_all_features_for_model(
-    r2_scores_by_layer,
-    feature_names,
-    layers,
-    'ridge',
-    'new_plots/all_features_ridge.png',
-)
-print('    Saved: new_plots/all_features_ridge.png')
-
-plot_all_features_for_model(
-    r2_scores_by_layer,
-    feature_names,
-    layers,
-    'elasticnet',
-    'new_plots/all_features_elasticnet.png',
-)
-print('    Saved: new_plots/all_features_elasticnet.png')
-
-plot_all_features_for_model(
-    r2_scores_by_layer,
-    feature_names,
-    layers,
-    'randomforest',
-    'new_plots/all_features_randomforest.png',
-)
-print('    Saved: new_plots/all_features_randomforest.png')
+for model_name in models:
+    output_path = f'new_plots/all_features_{model_name}.png'
+    plot_all_features_for_model(
+        r2_scores_by_layer,
+        feature_names,
+        layers,
+        model_name,
+        output_path,
+    )
+    print(f'    Saved: {output_path}')
 
 plot_average_model_comparison(
     r2_scores_by_layer,
