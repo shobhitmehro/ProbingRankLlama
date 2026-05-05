@@ -3,10 +3,12 @@ from transformers import AutoModelForSequenceClassification, AutoTokenizer
 from peft import PeftModel, PeftConfig
 import os
 from huggingface_hub import login
+from dotenv import load_dotenv
 from sequences import load_ms_marco_data, load_MIND_data
 import sequences
 from tqdm import tqdm
 
+load_dotenv()
 
 
 
@@ -17,7 +19,7 @@ model_name = "castorini/rankllama-v1-7b-lora-passage"
 output_dir = "relevant/rankllama7b/activations" 
 nqueries = 100
 ndocs = 91
-token_id = "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"
+token_id = os.getenv("HUGGING_FACE")
 
 activations = {}
 handle = []
