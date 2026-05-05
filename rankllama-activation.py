@@ -3,7 +3,8 @@ from transformers import AutoModelForSequenceClassification, AutoTokenizer
 from peft import PeftModel, PeftConfig
 import os
 from huggingface_hub import login
-from sequences import load_ms_marco_data, load_MIND_data, IDContext, load_relevance_data
+from sequences import load_ms_marco_data, load_MIND_data
+import sequences
 from tqdm import tqdm
 
 
@@ -11,12 +12,12 @@ from tqdm import tqdm
 
 n_layers = 32
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu") 
-tokenizer_name =  'meta-llama/Llama-2-7b' 
+tokenizer_name =  'meta-llama/Llama-2-7b-hf' 
 model_name = "castorini/rankllama-v1-7b-lora-passage" 
 output_dir = "relevant/rankllama7b/activations" 
 nqueries = 100
 ndocs = 91
-token_id = "use appropriate token id"
+token_id = "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"
 
 activations = {}
 handle = []
@@ -46,7 +47,7 @@ def get_model(peft_model_name):
 def get_activation(name):
     def hook(model, input, output):
         # print('LAYER_OUTPUT_SHAPE',output.shape)
-        qid, doc_id = IDContext.get()
+        qid, doc_id = sequences.IDContext.get()
         activations[name] = output[0].detach().cpu().to(torch.float16)
         output_path = f'{output_dir}/q{qid}/d{doc_id}{name}.pt'
         os.makedirs(os.path.dirname(output_path), exist_ok=True)
@@ -74,7 +75,7 @@ print(f"Done loading relevance data total queries: {len(query_dict)}")
 
 for i, (query, docs) in enumerate(tqdm(query_dict.items())):
     for j, doc in enumerate(docs):
-        IDContext.set(i, j)
+        sequences.IDContext.set(i, j)
         inputs = tokenizer(f'query: {query}', f'document: {doc}', return_tensors='pt').to(device)
         outputs = model(**inputs)
 

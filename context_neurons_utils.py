@@ -34,9 +34,13 @@ class SparseAutoencoderRegressor:
     def _build_model(self):
         self.model = nn.Sequential(
             nn.Linear(self.input_dim, self.hidden_dim),
-            nn.Sigmoid(),
+            nn.ReLU(),
             nn.Linear(self.hidden_dim, 1),
         ).to(self.device)
+        for layer in self.model:
+            if isinstance(layer, nn.Linear):
+                nn.init.xavier_uniform_(layer.weight)
+                nn.init.zeros_(layer.bias)
 
     def fit(self, X, y):
         self._build_model()
@@ -44,7 +48,7 @@ class SparseAutoencoderRegressor:
         X_tensor = torch.tensor(X, dtype=torch.float32, device=self.device)
         y_tensor = torch.tensor(y.reshape(-1, 1), dtype=torch.float32, device=self.device)
 
-        optimizer = torch.optim.Adam(self.model.parameters(), lr=self.lr)
+        optimizer = torch.optim.Adam(self.model.parameters(), lr=self.lr, weight_decay=1e-5)
         loss_fn = nn.MSELoss()
 
         dataset = torch.utils.data.TensorDataset(X_tensor, y_tensor)
@@ -52,18 +56,17 @@ class SparseAutoencoderRegressor:
 
         self.model.train()
         for epoch in range(self.epochs):
-            epoch_loss = 0.0
             for xb, yb in loader:
                 optimizer.zero_grad()
                 hidden = self.model[0](xb)
                 hidden_act = self.model[1](hidden)
                 out = self.model[2](hidden_act)
                 mse = loss_fn(out, yb)
-                sparsity = hidden_act.abs().mean()
+                sparsity = (hidden_act > 0).float().mean()
                 loss = mse + self.sparsity_lambda * sparsity
                 loss.backward()
+                torch.nn.utils.clip_grad_norm_(self.model.parameters(), max_norm=1.0)
                 optimizer.step()
-                epoch_loss += loss.item() * xb.shape[0]
 
         return self
 
@@ -104,7 +107,7 @@ def get_feature_names(feature_set, excluded_features):
     ]
 
 
-def load_layer_activations(layer, n_queries, n_docs, n_dim, activation_dir='91activations'):
+def load_layer_activations(layer, n_queries, n_docs, n_dim, activation_dir='/home/shobhitmehro_umass_edu/ondemand/ProbingRankLlama/relevant/rankllama7b/activations'):
     n_samples = n_queries * n_docs
     activations = np.zeros((n_samples, n_dim), dtype=float)
 
@@ -180,8 +183,27 @@ def evaluate_model(X_train, X_test, y_train, y_test, model):
     model = clone_model(model)
     model.fit(X_train, y_train)
     y_pred = model.predict(X_test)
+    
+    y_pred = np.asarray(y_pred, dtype=np.float64)
+    y_test = np.asarray(y_test, dtype=np.float64)
+    
+    if np.any(~np.isfinite(y_pred)) or np.any(~np.isfinite(y_test)):
+        print(f"        Warning: NaN/Inf detected in predictions or labels. Clipping values.")
+        y_pred = np.clip(y_pred, -1e6, 1e6)
+        y_pred = np.nan_to_num(y_pred, nan=0.0, posinf=1e6, neginf=-1e6)
+    
+    try:
+        r2 = r2_score(y_test, y_pred)
+        if not np.isfinite(r2):
+            r2 = -1.0
+        elif r2 < -1e6:
+            r2 = -1.0
+    except Exception as e:
+        print(f"        Error calculating R²: {e}")
+        r2 = -1.0
+    
     return {
-        'r2': r2_score(y_test, y_pred),
+        'r2': r2,
         'mse': mean_squared_error(y_test, y_pred),
         'coef': getattr(model, 'coef_', None),
     }

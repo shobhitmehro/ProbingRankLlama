@@ -78,7 +78,8 @@ def load_ms_marco_data(n_queries,n_docs,file_path='dataset/top1000.dev'):
 
 
 def load_MIND_data(n_queries,n_docs):
-    login("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")
+    # Use an already-authenticated HuggingFace session instead of hardcoding a token.
+    # login() should be called once externally if needed, not inside this data loader.
     
     # Load the MindSmallReranking dataset
     query_dict = load_dataset("BeIR/scidocs", "queries")
